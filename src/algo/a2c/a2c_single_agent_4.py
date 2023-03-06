@@ -1,5 +1,5 @@
 import ray
-from ray.rllib.algorithms.a3c import A3CConfig
+from ray.rllib.algorithms.a2c import A2CConfig
 from ray.rllib.env.wrappers.unity3d_env import Unity3DEnv
 from ray import tune
 import wandb
@@ -7,11 +7,18 @@ import wandb
 wandb.init(
   # set the wandb project where this run will be logged
   project="just-tinkering",
-  name="a3c-unity-football-sa-8-batch4k",
+  name="a2c-unity-football-sa-8-4",
   # track hyperparameters and run metadata
   config={
     "environment": "Unity-SoccerTwos",
     "epochs": 100,
+    "config_lambda": 0.95,
+    "config_gamma": 0.99,
+    "config_lr": 0.0001,
+    "config_entropy_coeff": 0.001,
+    "config_train_batch_size": 5000,
+    "vf_share_layers": False,
+    "training_model": "fcnets_hidden_256_256_tanh_lstm_prev_ar_true_seql_13"
   }
 )
 
@@ -26,23 +33,30 @@ tune.register_env(
 ),)
 
 config = (
-    A3CConfig()
+    A2CConfig()
     .environment("SoccerTwos",
             env_config={
                 "file_name": "D:/MAI/TFM/codebases/unity-football-cm3/src/assets/single-agent/UnityEnvironment.exe",
                 "episode_horizon": 3000,
             },
             disable_env_checking=True)
-    .rollouts(num_rollout_workers=1)
     .framework("tf2")
-    .training(model={"fcnet_hiddens": [512, 512]})
+    .training(model={
+        "fcnet_hiddens": [256, 256],
+        "fcnet_activation": "tanh",
+        "lstm_use_prev_action": True,
+        "lstm_use_prev_reward": True,
+        "max_seq_len": 13,
+        "use_lstm": True,
+        "vf_share_layers": False
+    })
     .multi_agent(policies=policies, policy_mapping_fn=policy_mapping_fn)
-    .evaluation(evaluation_num_workers=1)
 )
 config.lambda_ = 0.95
 config.gamma = 0.99
-config.lr = 0.001
-config.train_batch_size = 4000
+config.lr = 0.0001
+config.entropy_coeff = 0.001
+config.train_batch_size = 5000
 
 print("Building")
 algo = config.build()
@@ -55,12 +69,12 @@ for i in range(100):
     wandb.log({"episode_reward_mean": result['episode_reward_mean'],
                "episode_reward_max": result['episode_reward_max'],
                "episode_reward_min": result['episode_reward_min'],
-               "policy_reward_min": result['policy_reward_min']['SoccerPlayer'] if result[
-                   'policy_reward_min'] else None,
-               "policy_reward_max": result['policy_reward_max']['SoccerPlayer'] if result[
-                   'policy_reward_max'] else None,
-               "policy_reward_mean": result['policy_reward_mean']['SoccerPlayer'] if result[
-                   'policy_reward_mean'] else None
+               "policy_loss": result['info']['learner']['SoccerPlayer']['learner_stats']['policy_loss'],
+               "policy_entropy": result['info']['learner']['SoccerPlayer']['learner_stats']['policy_entropy'],
+               "vf_loss": result['info']['learner']['SoccerPlayer']['learner_stats']['vf_loss'],
+               "policy_reward_min": result['policy_reward_min']['SoccerPlayer'] if result['policy_reward_min'] else None,
+               "policy_reward_max": result['policy_reward_max']['SoccerPlayer'] if result['policy_reward_min'] else None,
+               "policy_reward_mean": result['policy_reward_mean']['SoccerPlayer'] if result['policy_reward_min'] else None
                })
     if i % 10 == 0:
         checkpoint_dir = algo.save()

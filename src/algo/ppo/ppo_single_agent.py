@@ -20,7 +20,7 @@ policies, policy_mapping_fn = Unity3DEnv.get_policy_configs_for_game("SoccerPlay
 tune.register_env(
         "SoccerTwos",
         lambda c: Unity3DEnv(
-            file_name="/src/assets/single-agent/UnityEnvironment.exe",
+            file_name="D:/MAI/TFM/codebases/unity-football-cm3/src/assets/single-agent/UnityEnvironment.exe",
             episode_horizon=3000,
             no_graphics=True,
 ),)
