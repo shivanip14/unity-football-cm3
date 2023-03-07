@@ -49,7 +49,7 @@ def train_sweep(config=None):
         algo = algo_config.build()
         print("Build complete")
 
-        for i in range(1):
+        for i in range(100):
             print("Train loop " + str(i))
             result = algo.train()
             print(result)
