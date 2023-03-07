@@ -151,4 +151,4 @@ sweep_config = {
 }
 sweep_id = wandb.sweep(sweep_config, project="just-tinkering-spam")
 print('Starting sweep ' + str(sweep_id))
-wandb.agent(sweep_id=sweep_id, function=train_sweep, count=3)
+wandb.agent(sweep_id=sweep_id, function=train_sweep, count=20)
