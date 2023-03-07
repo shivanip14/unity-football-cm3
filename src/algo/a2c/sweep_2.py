@@ -78,10 +78,6 @@ def train_sweep(config=None):
 
 sweep_config = {
     'method': 'random',
-    'metric': {
-        'name': 'policy_entropy',
-        'goal': 'minimize'
-    },
     'parameters': {
         'fcnet_activation': {
             'values': ['relu', 'tanh']
@@ -130,7 +126,7 @@ sweep_config = {
             'values': [10, 50, 100]
         },
         'use_critic': {
-            'values': [True, False]
+            'value': True
         },
         'use_gae': {
             'values': [True, False]
@@ -149,6 +145,6 @@ sweep_config = {
         }
     }
 }
-sweep_id = wandb.sweep(sweep_config, project="just-tinkering-spam")
-print('Starting sweep ' + str(sweep_id))
-wandb.agent(sweep_id=sweep_id, function=train_sweep, count=20)
+# sweep_id = wandb.sweep(sweep_config, project="just-tinkering-spam")
+# print('Starting sweep ' + str(sweep_id))
+wandb.agent(sweep_id="dzkm7loo", project="just-tinkering-spam", function=train_sweep, count=1)
