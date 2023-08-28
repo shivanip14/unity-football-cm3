@@ -1,0 +1,14 @@
+{
+  "fcnet_hiddens": [512, 512],
+  "lambda": 0.95,
+  "gamma": 0.99,
+  "lr": 0.0003,
+  "mixer": "qmix",
+  "double_q": "True",
+  "train_batch_size": 4000,
+  "simple_optimizer": "True",
+  "max_seq_len": 4128,
+  "horizon": 4127,
+  "sgd_minibatch_size": 8256,
+  "run_iter_count": 3000
+}
