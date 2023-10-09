@@ -183,12 +183,12 @@ class Unity3DEnv(MultiAgentEnv):
         if self.episode_timesteps > self.episode_horizon:
             return (
                 obs,
-                1,
+                rewards,
                 dict({"__all__": True}, **{agent_id: True for agent_id in all_agents}),
                 infos,
             )
 
-        return obs, 1, dones, infos # TODO track using this to see why episode rewards are all 0 in stage 2
+        return obs, rewards, dones, infos
 
     def reset(self) -> MultiAgentDict:
         """Resets the entire Unity3D scene (a single multi-agent episode)."""
@@ -311,6 +311,36 @@ class Unity3DEnv(MultiAgentEnv):
 
             def policy_mapping_fn(agent_id, episode, worker, **kwargs):
                 return "BluePlayer"
+
+        elif env_name == "SoccerTwosRR-Play":
+            policies = {
+                "BluePlayer": PolicySpec(
+                    observation_space=obs_spaces["SoccerTwosRR"],
+                    action_space=action_spaces["SoccerTwos"],
+                ),
+                "PurplePlayer": PolicySpec(
+                    observation_space=obs_spaces["SoccerTwosRR"],
+                    action_space=action_spaces["SoccerTwos"],
+                ),
+            }
+
+            def policy_mapping_fn(agent_id, episode, worker, **kwargs):
+                return "BluePlayer" if "1_" in agent_id else "PurplePlayer"
+
+        elif env_name == "SoccerTwosRR-Baseline-Play":
+            policies = {
+                "BluePlayer": PolicySpec(
+                    observation_space=obs_spaces["SoccerTwosRR"],
+                    action_space=action_spaces["SoccerTwos"],
+                ),
+                "PurplePlayer": PolicySpec(
+                    observation_space=obs_spaces["SoccerTwos"],
+                    action_space=action_spaces["SoccerTwos"],
+                ),
+            }
+
+            def policy_mapping_fn(agent_id, episode, worker, **kwargs):
+                return "BluePlayer" if "1_" in agent_id else "PurplePlayer"
 
         else:
             raise Exception("Policy configs not found for env_name [" + env_name + "]")

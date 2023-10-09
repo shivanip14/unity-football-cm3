@@ -1,0 +1,263 @@
+2023-10-04 01:52:09,011 INFO     Building assets from: soccertwos-stage2
+2023-10-04 01:52:09,182 DEBUG    Popen(['git', 'rev-parse', '--show-toplevel'], cwd=D:\MAI\TFM\codebases\gatech-unity-football-cm3, universal_newlines=False, shell=None, istream=None)
+2023-10-04 01:52:13,873 DEBUG    Starting new HTTPS connection (1): api.wandb.ai:443
+2023-10-04 01:52:14,170 DEBUG    https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-10-04 01:52:14,186 DEBUG    Starting new HTTPS connection (1): api.wandb.ai:443
+2023-10-04 01:52:14,396 DEBUG    https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-10-04 01:52:14,673 DEBUG    Popen(['git', 'cat-file', '--batch-check'], cwd=D:\MAI\TFM\codebases\gatech-unity-football-cm3, universal_newlines=False, shell=None, istream=<valid stream>)
+2023-10-04 01:52:16,539 INFO     Tracking wincounts in a2c_comparison_486850_win_counts_history.txt
+2023-10-04 01:52:16,539 INFO     CustomSideChannel initialized
+2023-10-04 01:52:16,539 INFO     Extracting policies for env_name: SoccerTwosRR
+2023-10-04 01:53:14,678 DEBUG    Starting new HTTPS connection (1): o151352.ingest.sentry.io:443
+2023-10-04 01:53:14,823 DEBUG    https://o151352.ingest.sentry.io:443 "POST /api/5288891/envelope/ HTTP/1.1" 200 2
+2023-10-04 01:53:35,653 INFO     Training iteration 1
+2023-10-04 01:55:52,002 INFO     Iteration 1 finished in 136.34659004211426s, # of env_steps trained 4000
+2023-10-04 01:55:52,005 INFO     Training iteration 2
+2023-10-04 01:58:05,750 INFO     Iteration 2 finished in 133.74451637268066s, # of env_steps trained 8000
+2023-10-04 01:58:05,761 INFO     Training iteration 3
+2023-10-04 02:00:19,778 INFO     Iteration 3 finished in 134.01599740982056s, # of env_steps trained 12000
+2023-10-04 02:00:19,788 INFO     Training iteration 4
+2023-10-04 02:02:34,447 INFO     Iteration 4 finished in 134.65800023078918s, # of env_steps trained 16000
+2023-10-04 02:02:34,456 INFO     Training iteration 5
+2023-10-04 02:04:48,544 INFO     Iteration 5 finished in 134.08599948883057s, # of env_steps trained 20000
+2023-10-04 02:04:48,552 INFO     Training iteration 6
+2023-10-04 02:07:02,568 INFO     Iteration 6 finished in 134.01351618766785s, # of env_steps trained 24000
+2023-10-04 02:07:02,577 INFO     Training iteration 7
+2023-10-04 02:09:16,824 INFO     Iteration 7 finished in 134.24598908424377s, # of env_steps trained 28000
+2023-10-04 02:09:16,834 INFO     Training iteration 8
+2023-10-04 02:11:31,105 INFO     Iteration 8 finished in 134.27056622505188s, # of env_steps trained 32000
+2023-10-04 02:11:31,118 INFO     Training iteration 9
+2023-10-04 02:13:46,110 INFO     Iteration 9 finished in 134.99105191230774s, # of env_steps trained 36000
+2023-10-04 02:13:46,124 INFO     Training iteration 10
+2023-10-04 02:16:00,170 INFO     Iteration 10 finished in 134.0440056324005s, # of env_steps trained 40000
+2023-10-04 02:16:00,179 INFO     Training iteration 11
+2023-10-04 02:18:13,963 INFO     Iteration 11 finished in 133.78077578544617s, # of env_steps trained 44000
+2023-10-04 02:18:13,974 INFO     Training iteration 12
+2023-10-04 02:20:27,991 INFO     Iteration 12 finished in 134.01452136039734s, # of env_steps trained 48000
+2023-10-04 02:20:28,001 INFO     Training iteration 13
+2023-10-04 02:22:42,426 INFO     Iteration 13 finished in 134.42452001571655s, # of env_steps trained 52000
+2023-10-04 02:22:42,436 INFO     Training iteration 14
+2023-10-04 02:24:56,423 INFO     Iteration 14 finished in 133.985999584198s, # of env_steps trained 56000
+2023-10-04 02:24:56,433 INFO     Training iteration 15
+2023-10-04 02:27:10,461 INFO     Iteration 15 finished in 134.0259997844696s, # of env_steps trained 60000
+2023-10-04 02:27:10,470 INFO     Training iteration 16
+2023-10-04 02:29:25,008 INFO     Iteration 16 finished in 134.53499722480774s, # of env_steps trained 64000
+2023-10-04 02:29:25,018 INFO     Training iteration 17
+2023-10-04 02:31:39,131 INFO     Iteration 17 finished in 134.1110429763794s, # of env_steps trained 68000
+2023-10-04 02:31:39,142 INFO     Training iteration 18
+2023-10-04 02:33:54,105 INFO     Iteration 18 finished in 134.95658659934998s, # of env_steps trained 72000
+2023-10-04 02:33:54,117 INFO     Training iteration 19
+2023-10-04 02:36:08,169 INFO     Iteration 19 finished in 134.0499973297119s, # of env_steps trained 76000
+2023-10-04 02:36:08,180 INFO     Training iteration 20
+2023-10-04 02:38:22,248 INFO     Iteration 20 finished in 134.06704330444336s, # of env_steps trained 80000
+2023-10-04 02:38:22,259 INFO     Training iteration 21
+2023-10-04 02:40:36,300 INFO     Iteration 21 finished in 134.03852438926697s, # of env_steps trained 84000
+2023-10-04 02:40:36,310 INFO     Training iteration 22
+2023-10-04 02:42:50,691 INFO     Iteration 22 finished in 134.3805193901062s, # of env_steps trained 88000
+2023-10-04 02:42:50,702 INFO     Training iteration 23
+2023-10-04 02:45:04,363 INFO     Iteration 23 finished in 133.65952348709106s, # of env_steps trained 92000
+2023-10-04 02:45:04,375 INFO     Training iteration 24
+2023-10-04 02:47:18,777 INFO     Iteration 24 finished in 134.39999675750732s, # of env_steps trained 96000
+2023-10-04 02:47:18,789 INFO     Training iteration 25
+2023-10-04 02:49:33,192 INFO     Iteration 25 finished in 134.4009976387024s, # of env_steps trained 100000
+2023-10-04 02:49:33,204 INFO     Training iteration 26
+2023-10-04 02:51:47,550 INFO     Iteration 26 finished in 134.34325337409973s, # of env_steps trained 104000
+2023-10-04 02:51:47,561 INFO     Training iteration 27
+2023-10-04 02:54:02,221 INFO     Iteration 27 finished in 134.6550109386444s, # of env_steps trained 108000
+2023-10-04 02:54:02,236 INFO     Training iteration 28
+2023-10-04 02:56:16,503 INFO     Iteration 28 finished in 134.26604962348938s, # of env_steps trained 112000
+2023-10-04 02:56:16,516 INFO     Training iteration 29
+2023-10-04 02:58:30,867 INFO     Iteration 29 finished in 134.34800124168396s, # of env_steps trained 116000
+2023-10-04 02:58:30,879 INFO     Training iteration 30
+2023-10-04 03:00:44,886 INFO     Iteration 30 finished in 134.00481009483337s, # of env_steps trained 120000
+2023-10-04 03:00:44,899 INFO     Training iteration 31
+2023-10-04 03:02:58,886 INFO     Iteration 31 finished in 133.98552179336548s, # of env_steps trained 124000
+2023-10-04 03:02:58,899 INFO     Training iteration 32
+2023-10-04 03:05:12,844 INFO     Iteration 32 finished in 133.9430022239685s, # of env_steps trained 128000
+2023-10-04 03:05:12,857 INFO     Training iteration 33
+2023-10-04 03:07:26,812 INFO     Iteration 33 finished in 133.95356798171997s, # of env_steps trained 132000
+2023-10-04 03:07:26,825 INFO     Training iteration 34
+2023-10-04 03:09:41,008 INFO     Iteration 34 finished in 134.18198609352112s, # of env_steps trained 136000
+2023-10-04 03:09:41,021 INFO     Training iteration 35
+2023-10-04 03:11:55,917 INFO     Iteration 35 finished in 134.89412879943848s, # of env_steps trained 140000
+2023-10-04 03:11:55,934 INFO     Training iteration 36
+2023-10-04 03:14:10,196 INFO     Iteration 36 finished in 134.2600452899933s, # of env_steps trained 144000
+2023-10-04 03:14:10,209 INFO     Training iteration 37
+2023-10-04 03:16:24,139 INFO     Iteration 37 finished in 133.928368806839s, # of env_steps trained 148000
+2023-10-04 03:16:24,149 INFO     Training iteration 38
+2023-10-04 03:18:38,651 INFO     Iteration 38 finished in 134.4995241165161s, # of env_steps trained 152000
+2023-10-04 03:18:38,661 INFO     Training iteration 39
+2023-10-04 03:20:52,214 INFO     Iteration 39 finished in 133.55151796340942s, # of env_steps trained 156000
+2023-10-04 03:20:52,223 INFO     Training iteration 40
+2023-10-04 03:23:06,388 INFO     Iteration 40 finished in 134.1620020866394s, # of env_steps trained 160000
+2023-10-04 03:23:06,399 INFO     Training iteration 41
+2023-10-04 03:25:20,360 INFO     Iteration 41 finished in 133.95851635932922s, # of env_steps trained 164000
+2023-10-04 03:25:20,370 INFO     Training iteration 42
+2023-10-04 03:27:34,632 INFO     Iteration 42 finished in 134.260999917984s, # of env_steps trained 168000
+2023-10-04 03:27:34,641 INFO     Training iteration 43
+2023-10-04 03:29:48,667 INFO     Iteration 43 finished in 134.02420139312744s, # of env_steps trained 172000
+2023-10-04 03:29:48,679 INFO     Training iteration 44
+2023-10-04 03:32:03,642 INFO     Iteration 44 finished in 134.9613139629364s, # of env_steps trained 176000
+2023-10-04 03:32:03,661 INFO     Training iteration 45
+2023-10-04 03:34:17,911 INFO     Iteration 45 finished in 134.24657440185547s, # of env_steps trained 180000
+2023-10-04 03:34:17,924 INFO     Training iteration 46
+2023-10-04 03:36:31,870 INFO     Iteration 46 finished in 133.94505786895752s, # of env_steps trained 184000
+2023-10-04 03:36:31,882 INFO     Training iteration 47
+2023-10-04 03:38:46,103 INFO     Iteration 47 finished in 134.21736073493958s, # of env_steps trained 188000
+2023-10-04 03:38:46,115 INFO     Training iteration 48
+2023-10-04 03:40:59,848 INFO     Iteration 48 finished in 133.73200011253357s, # of env_steps trained 192000
+2023-10-04 03:40:59,860 INFO     Training iteration 49
+2023-10-04 03:43:13,837 INFO     Iteration 49 finished in 133.97651720046997s, # of env_steps trained 196000
+2023-10-04 03:43:13,852 INFO     Training iteration 50
+2023-10-04 03:45:27,887 INFO     Iteration 50 finished in 134.03358721733093s, # of env_steps trained 200000
+2023-10-04 03:45:27,900 INFO     Training iteration 51
+2023-10-04 03:47:41,625 INFO     Iteration 51 finished in 133.723051071167s, # of env_steps trained 204000
+2023-10-04 03:47:41,636 INFO     Training iteration 52
+2023-10-04 03:49:55,995 INFO     Iteration 52 finished in 134.35604524612427s, # of env_steps trained 208000
+2023-10-04 03:49:56,009 INFO     Training iteration 53
+2023-10-04 03:52:10,200 INFO     Iteration 53 finished in 134.18699765205383s, # of env_steps trained 212000
+2023-10-04 03:52:10,213 INFO     Training iteration 54
+2023-10-04 03:54:24,297 INFO     Iteration 54 finished in 134.08368110656738s, # of env_steps trained 216000
+2023-10-04 03:54:24,311 INFO     Training iteration 55
+2023-10-04 03:56:38,630 INFO     Iteration 55 finished in 134.316997051239s, # of env_steps trained 220000
+2023-10-04 03:56:38,640 INFO     Training iteration 56
+2023-10-04 03:58:52,498 INFO     Iteration 56 finished in 133.8560450077057s, # of env_steps trained 224000
+2023-10-04 03:58:52,512 INFO     Training iteration 57
+2023-10-04 04:01:06,601 INFO     Iteration 57 finished in 134.08599734306335s, # of env_steps trained 228000
+2023-10-04 04:01:06,612 INFO     Training iteration 58
+2023-10-04 04:03:21,032 INFO     Iteration 58 finished in 134.41799783706665s, # of env_steps trained 232000
+2023-10-04 04:03:21,044 INFO     Training iteration 59
+2023-10-04 04:05:35,131 INFO     Iteration 59 finished in 134.08575677871704s, # of env_steps trained 236000
+2023-10-04 04:05:35,144 INFO     Training iteration 60
+2023-10-04 04:07:49,926 INFO     Iteration 60 finished in 134.7800416946411s, # of env_steps trained 240000
+2023-10-04 04:07:49,939 INFO     Training iteration 61
+2023-10-04 04:10:03,606 INFO     Iteration 61 finished in 133.66599893569946s, # of env_steps trained 244000
+2023-10-04 04:10:03,625 INFO     Training iteration 62
+2023-10-04 04:12:17,870 INFO     Iteration 62 finished in 134.2420449256897s, # of env_steps trained 248000
+2023-10-04 04:12:17,882 INFO     Training iteration 63
+2023-10-04 04:14:32,222 INFO     Iteration 63 finished in 134.33799052238464s, # of env_steps trained 252000
+2023-10-04 04:14:32,236 INFO     Training iteration 64
+2023-10-04 04:16:46,338 INFO     Iteration 64 finished in 134.1009967327118s, # of env_steps trained 256000
+2023-10-04 04:16:46,352 INFO     Training iteration 65
+2023-10-04 04:19:00,518 INFO     Iteration 65 finished in 134.1645245552063s, # of env_steps trained 260000
+2023-10-04 04:19:00,532 INFO     Training iteration 66
+2023-10-04 04:21:14,662 INFO     Iteration 66 finished in 134.12699627876282s, # of env_steps trained 264000
+2023-10-04 04:21:14,672 INFO     Training iteration 67
+2023-10-04 04:23:28,818 INFO     Iteration 67 finished in 134.1440465450287s, # of env_steps trained 268000
+2023-10-04 04:23:28,832 INFO     Training iteration 68
+2023-10-04 04:25:42,951 INFO     Iteration 68 finished in 134.11801958084106s, # of env_steps trained 272000
+2023-10-04 04:25:42,962 INFO     Training iteration 69
+2023-10-04 04:27:57,634 INFO     Iteration 69 finished in 134.6709976196289s, # of env_steps trained 276000
+2023-10-04 04:27:57,655 INFO     Training iteration 70
+2023-10-04 04:30:11,783 INFO     Iteration 70 finished in 134.1265206336975s, # of env_steps trained 280000
+2023-10-04 04:30:11,795 INFO     Training iteration 71
+2023-10-04 04:32:26,176 INFO     Iteration 71 finished in 134.3791627883911s, # of env_steps trained 284000
+2023-10-04 04:32:26,188 INFO     Training iteration 72
+2023-10-04 04:34:40,290 INFO     Iteration 72 finished in 134.10100150108337s, # of env_steps trained 288000
+2023-10-04 04:34:40,304 INFO     Training iteration 73
+2023-10-04 04:36:54,660 INFO     Iteration 73 finished in 134.35452938079834s, # of env_steps trained 292000
+2023-10-04 04:36:54,674 INFO     Training iteration 74
+2023-10-04 04:39:08,681 INFO     Iteration 74 finished in 134.0051875114441s, # of env_steps trained 296000
+2023-10-04 04:39:08,693 INFO     Training iteration 75
+2023-10-04 04:41:22,840 INFO     Iteration 75 finished in 134.14499735832214s, # of env_steps trained 300000
+2023-10-04 04:41:22,851 INFO     Training iteration 76
+2023-10-04 04:43:37,126 INFO     Iteration 76 finished in 134.2735242843628s, # of env_steps trained 304000
+2023-10-04 04:43:37,139 INFO     Training iteration 77
+2023-10-04 04:45:51,607 INFO     Iteration 77 finished in 134.46599650382996s, # of env_steps trained 308000
+2023-10-04 04:45:51,622 INFO     Training iteration 78
+2023-10-04 04:48:05,714 INFO     Iteration 78 finished in 134.09099984169006s, # of env_steps trained 312000
+2023-10-04 04:48:05,728 INFO     Training iteration 79
+2023-10-04 04:50:19,668 INFO     Iteration 79 finished in 133.9380476474762s, # of env_steps trained 316000
+2023-10-04 04:50:19,681 INFO     Training iteration 80
+2023-10-04 04:52:33,607 INFO     Iteration 80 finished in 133.9250032901764s, # of env_steps trained 320000
+2023-10-04 04:52:33,620 INFO     Training iteration 81
+2023-10-04 04:54:47,620 INFO     Iteration 81 finished in 133.99805784225464s, # of env_steps trained 324000
+2023-10-04 04:54:47,631 INFO     Training iteration 82
+2023-10-04 04:57:01,942 INFO     Iteration 82 finished in 134.3088276386261s, # of env_steps trained 328000
+2023-10-04 04:57:01,957 INFO     Training iteration 83
+2023-10-04 04:59:15,944 INFO     Iteration 83 finished in 133.98499417304993s, # of env_steps trained 332000
+2023-10-04 04:59:15,957 INFO     Training iteration 84
+2023-10-04 05:01:30,092 INFO     Iteration 84 finished in 134.13304471969604s, # of env_steps trained 336000
+2023-10-04 05:01:30,105 INFO     Training iteration 85
+2023-10-04 05:03:44,491 INFO     Iteration 85 finished in 134.3837788105011s, # of env_steps trained 340000
+2023-10-04 05:03:44,506 INFO     Training iteration 86
+2023-10-04 05:05:58,963 INFO     Iteration 86 finished in 134.45204710960388s, # of env_steps trained 344000
+2023-10-04 05:05:58,986 INFO     Training iteration 87
+2023-10-04 05:08:13,367 INFO     Iteration 87 finished in 134.37904715538025s, # of env_steps trained 348000
+2023-10-04 05:08:13,381 INFO     Training iteration 88
+2023-10-04 05:10:27,285 INFO     Iteration 88 finished in 133.90324068069458s, # of env_steps trained 352000
+2023-10-04 05:10:27,298 INFO     Training iteration 89
+2023-10-04 05:12:41,249 INFO     Iteration 89 finished in 133.94753098487854s, # of env_steps trained 356000
+2023-10-04 05:12:41,262 INFO     Training iteration 90
+2023-10-04 05:14:55,493 INFO     Iteration 90 finished in 134.229998588562s, # of env_steps trained 360000
+2023-10-04 05:14:55,504 INFO     Training iteration 91
+2023-10-04 05:17:09,789 INFO     Iteration 91 finished in 134.28305077552795s, # of env_steps trained 364000
+2023-10-04 05:17:09,805 INFO     Training iteration 92
+2023-10-04 05:19:24,068 INFO     Iteration 92 finished in 134.2610023021698s, # of env_steps trained 368000
+2023-10-04 05:19:24,181 INFO     Training iteration 93
+2023-10-04 05:21:38,248 INFO     Iteration 93 finished in 134.06504106521606s, # of env_steps trained 372000
+2023-10-04 05:21:38,261 INFO     Training iteration 94
+2023-10-04 05:23:52,971 INFO     Iteration 94 finished in 134.70953750610352s, # of env_steps trained 376000
+2023-10-04 05:23:52,994 INFO     Training iteration 95
+2023-10-04 05:26:06,973 INFO     Iteration 95 finished in 133.9769949913025s, # of env_steps trained 380000
+2023-10-04 05:26:06,986 INFO     Training iteration 96
+2023-10-04 05:28:21,155 INFO     Iteration 96 finished in 134.1669991016388s, # of env_steps trained 384000
+2023-10-04 05:28:21,166 INFO     Training iteration 97
+2023-10-04 05:30:35,165 INFO     Iteration 97 finished in 133.99752402305603s, # of env_steps trained 388000
+2023-10-04 05:30:35,178 INFO     Training iteration 98
+2023-10-04 05:32:49,236 INFO     Iteration 98 finished in 134.05599927902222s, # of env_steps trained 392000
+2023-10-04 05:32:49,250 INFO     Training iteration 99
+2023-10-04 05:35:03,620 INFO     Iteration 99 finished in 134.3679962158203s, # of env_steps trained 396000
+2023-10-04 05:35:03,630 INFO     Training iteration 100
+2023-10-04 05:37:17,834 INFO     Iteration 100 finished in 134.20104384422302s, # of env_steps trained 400000
+2023-10-04 05:37:17,846 INFO     Training iteration 101
+2023-10-04 05:39:32,028 INFO     Iteration 101 finished in 134.18052077293396s, # of env_steps trained 404000
+2023-10-04 05:39:32,038 INFO     Training iteration 102
+2023-10-04 05:41:46,141 INFO     Iteration 102 finished in 134.10100102424622s, # of env_steps trained 408000
+2023-10-04 05:41:46,155 INFO     Training iteration 103
+2023-10-04 05:44:00,795 INFO     Iteration 103 finished in 134.6369981765747s, # of env_steps trained 412000
+2023-10-04 05:44:00,811 INFO     Training iteration 104
+2023-10-04 05:46:14,570 INFO     Iteration 104 finished in 133.75779151916504s, # of env_steps trained 416000
+2023-10-04 05:46:14,584 INFO     Training iteration 105
+2023-10-04 05:48:28,710 INFO     Iteration 105 finished in 134.1239972114563s, # of env_steps trained 420000
+2023-10-04 05:48:28,723 INFO     Training iteration 106
+2023-10-04 05:50:42,728 INFO     Iteration 106 finished in 134.0020022392273s, # of env_steps trained 424000
+2023-10-04 05:50:42,741 INFO     Training iteration 107
+2023-10-04 05:52:56,837 INFO     Iteration 107 finished in 134.09504175186157s, # of env_steps trained 428000
+2023-10-04 05:52:56,849 INFO     Training iteration 108
+2023-10-04 05:55:11,038 INFO     Iteration 108 finished in 134.18651843070984s, # of env_steps trained 432000
+2023-10-04 05:55:11,052 INFO     Training iteration 109
+2023-10-04 05:57:25,084 INFO     Iteration 109 finished in 134.0310001373291s, # of env_steps trained 436000
+2023-10-04 05:57:25,097 INFO     Training iteration 110
+2023-10-04 05:59:39,101 INFO     Iteration 110 finished in 134.0030381679535s, # of env_steps trained 440000
+2023-10-04 05:59:39,115 INFO     Training iteration 111
+2023-10-04 06:01:53,630 INFO     Iteration 111 finished in 134.50920486450195s, # of env_steps trained 444000
+2023-10-04 06:01:53,649 INFO     Training iteration 112
+2023-10-04 06:04:07,555 INFO     Iteration 112 finished in 133.90552139282227s, # of env_steps trained 448000
+2023-10-04 06:04:07,568 INFO     Training iteration 113
+2023-10-04 06:06:21,519 INFO     Iteration 113 finished in 133.94854927062988s, # of env_steps trained 452000
+2023-10-04 06:06:21,535 INFO     Training iteration 114
+2023-10-04 06:08:35,745 INFO     Iteration 114 finished in 134.2089967727661s, # of env_steps trained 456000
+2023-10-04 06:08:35,760 INFO     Training iteration 115
+2023-10-04 06:10:49,643 INFO     Iteration 115 finished in 133.88099884986877s, # of env_steps trained 460000
+2023-10-04 06:10:49,655 INFO     Training iteration 116
+2023-10-04 06:13:03,656 INFO     Iteration 116 finished in 134.00052404403687s, # of env_steps trained 464000
+2023-10-04 06:13:03,669 INFO     Training iteration 117
+2023-10-04 06:15:17,792 INFO     Iteration 117 finished in 134.12099695205688s, # of env_steps trained 468000
+2023-10-04 06:15:17,807 INFO     Training iteration 118
+2023-10-04 06:17:32,130 INFO     Iteration 118 finished in 134.32205438613892s, # of env_steps trained 472000
+2023-10-04 06:17:32,144 INFO     Training iteration 119
+2023-10-04 06:19:46,218 INFO     Iteration 119 finished in 134.07103991508484s, # of env_steps trained 476000
+2023-10-04 06:19:46,233 INFO     Training iteration 120
+2023-10-04 06:22:00,380 INFO     Iteration 120 finished in 134.14000177383423s, # of env_steps trained 480000
+2023-10-04 06:22:00,402 INFO     Training iteration 121
+2023-10-04 06:24:14,627 INFO     Iteration 121 finished in 134.22399997711182s, # of env_steps trained 484000
+2023-10-04 06:24:14,641 INFO     Training iteration 122
+2023-10-04 06:26:28,391 INFO     Iteration 122 finished in 133.74951934814453s, # of env_steps trained 488000
+2023-10-04 06:26:28,404 INFO     Training iteration 123
+2023-10-04 06:28:42,004 INFO     Iteration 123 finished in 133.59799814224243s, # of env_steps trained 492000
+2023-10-04 06:28:42,017 INFO     Training iteration 124
+2023-10-04 06:30:55,895 INFO     Iteration 124 finished in 133.87599563598633s, # of env_steps trained 496000
+2023-10-04 06:30:55,909 INFO     Training iteration 125
+2023-10-04 06:33:10,516 INFO     Iteration 125 finished in 134.6045262813568s, # of env_steps trained 500000
+2023-10-04 06:33:10,531 INFO     Shutting down ray

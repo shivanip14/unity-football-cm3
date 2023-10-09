@@ -1,0 +1,2345 @@
+2023-09-23 13:06:59,832 INFO     Building assets from: soccertwos-ppo-baseline-play-w-roledep
+2023-09-23 13:06:59,833 INFO     Tracking wincounts in mappo_baseline_play_845123_win_counts_history.txt
+2023-09-23 13:06:59,833 INFO     CustomSideChannel initialized
+2023-09-23 13:06:59,834 INFO     Extracting policies for env_name: SoccerTwosRR-Baseline-Play
+2023-09-23 13:06:59,955 DEBUG    The true file name is UnityEnvironment
+2023-09-23 13:06:59,957 DEBUG    The launch string is D:\MAI\TFM\codebases\gatech-unity-football-cm3/src/assets/soccertwos-ppo-baseline-play-w-roledep/UnityEnvironment.exe
+2023-09-23 13:06:59,957 DEBUG    Running with args ['-nographics', '-batchmode', '--mlagents-port', '5005']
+2023-09-23 13:07:01,688 INFO     Connected to Unity environment with package version 2.3.0-exp.4 and communication version 1.5.0
+2023-09-23 13:09:20,394 INFO     Updating BluePlayer policy weights from path: D:/MAI/TFM/codebases/gatech-unity-football-cm3/checkpoints/PPO_SoccerTwosRR_2023-09-05_22-23-01iub3bgm8/checkpoint_002000/policies/BluePlayer, and PurplePlayer policy weights from: D:/MAI/TFM/codebases/gatech-unity-football-cm3/checkpoints/PPO_SoccerTwos_2023-09-20_19-20-115d4njnt4/checkpoint_003000/policies/BluePlayer
+2023-09-23 13:09:30,401 INFO     Weights updated for all workers
+2023-09-23 13:09:30,401 INFO     Play episode 1
+2023-09-23 13:09:30,915 INFO     Connected new brain: SoccerTwos?team=1
+2023-09-23 13:09:30,915 INFO     Connected new brain: SoccerTwos?team=0
+2023-09-23 13:14:31,508 INFO     Episode 1 finished in 300.5909996032715s
+2023-09-23 13:14:31,509 INFO     Play episode 2
+2023-09-23 13:16:16,231 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":1,"purple":0}
+2023-09-23 13:19:33,272 INFO     Episode 2 finished in 301.74469923973083s
+2023-09-23 13:19:33,277 INFO     Play episode 3
+2023-09-23 13:23:07,173 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":1,"purple":1}
+2023-09-23 13:24:34,654 INFO     Episode 3 finished in 301.36129236221313s
+2023-09-23 13:24:34,655 INFO     Play episode 4
+2023-09-23 13:28:08,733 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":2,"purple":1}
+2023-09-23 13:29:34,674 INFO     Episode 4 finished in 299.9999716281891s
+2023-09-23 13:29:34,683 INFO     Play episode 5
+2023-09-23 13:29:51,654 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":3,"purple":1}
+2023-09-23 13:34:34,395 INFO     Episode 5 finished in 299.70200276374817s
+2023-09-23 13:34:34,401 INFO     Play episode 6
+2023-09-23 13:39:34,217 INFO     Episode 6 finished in 299.8017020225525s
+2023-09-23 13:39:34,223 INFO     Play episode 7
+2023-09-23 13:44:34,035 INFO     Episode 7 finished in 299.7997853755951s
+2023-09-23 13:44:34,043 INFO     Play episode 8
+2023-09-23 13:49:34,154 INFO     Episode 8 finished in 300.098087310791s
+2023-09-23 13:49:34,160 INFO     Play episode 9
+2023-09-23 13:54:33,974 INFO     Episode 9 finished in 299.8000283241272s
+2023-09-23 13:54:33,981 INFO     Play episode 10
+2023-09-23 13:56:33,313 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":4,"purple":1}
+2023-09-23 13:59:33,696 INFO     Episode 10 finished in 299.7009959220886s
+2023-09-23 13:59:33,702 INFO     Play episode 11
+2023-09-23 14:04:33,814 INFO     Episode 11 finished in 300.09997487068176s
+2023-09-23 14:04:33,820 INFO     Play episode 12
+2023-09-23 14:09:33,636 INFO     Episode 12 finished in 299.8010003566742s
+2023-09-23 14:09:33,642 INFO     Play episode 13
+2023-09-23 14:14:33,456 INFO     Episode 13 finished in 299.8019998073578s
+2023-09-23 14:14:33,462 INFO     Play episode 14
+2023-09-23 14:19:33,275 INFO     Episode 14 finished in 299.8011963367462s
+2023-09-23 14:19:33,276 INFO     Play episode 15
+2023-09-23 14:24:33,095 INFO     Episode 15 finished in 299.7939443588257s
+2023-09-23 14:24:33,096 INFO     Play episode 16
+2023-09-23 14:24:54,753 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":5,"purple":1}
+2023-09-23 14:24:58,574 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":6,"purple":1}
+2023-09-23 14:29:32,815 INFO     Episode 16 finished in 299.6989860534668s
+2023-09-23 14:29:32,821 INFO     Play episode 17
+2023-09-23 14:34:32,636 INFO     Episode 17 finished in 299.7991542816162s
+2023-09-23 14:34:32,645 INFO     Play episode 18
+2023-09-23 14:39:32,455 INFO     Episode 18 finished in 299.7997577190399s
+2023-09-23 14:39:32,456 INFO     Play episode 19
+2023-09-23 14:44:32,576 INFO     Episode 19 finished in 300.09944248199463s
+2023-09-23 14:44:32,576 INFO     Play episode 20
+2023-09-23 14:49:32,396 INFO     Episode 20 finished in 299.79999804496765s
+2023-09-23 14:49:32,397 INFO     Play episode 21
+2023-09-23 14:50:00,874 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":7,"purple":1}
+2023-09-23 14:53:22,386 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":8,"purple":1}
+2023-09-23 14:54:32,016 INFO     Episode 21 finished in 299.6000008583069s
+2023-09-23 14:54:32,016 INFO     Play episode 22
+2023-09-23 14:59:32,135 INFO     Episode 22 finished in 300.09869861602783s
+2023-09-23 14:59:32,144 INFO     Play episode 23
+2023-09-23 15:03:24,262 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":9,"purple":1}
+2023-09-23 15:04:31,955 INFO     Episode 23 finished in 299.800000667572s
+2023-09-23 15:04:31,963 INFO     Play episode 24
+2023-09-23 15:09:31,776 INFO     Episode 24 finished in 299.8000011444092s
+2023-09-23 15:09:31,783 INFO     Play episode 25
+2023-09-23 15:14:31,597 INFO     Episode 25 finished in 299.80167031288147s
+2023-09-23 15:14:31,605 INFO     Play episode 26
+2023-09-23 15:19:33,128 INFO     Episode 26 finished in 301.512001991272s
+2023-09-23 15:19:33,136 INFO     Play episode 27
+2023-09-23 15:24:33,008 INFO     Episode 27 finished in 299.8629982471466s
+2023-09-23 15:24:33,016 INFO     Play episode 28
+2023-09-23 15:25:07,647 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":10,"purple":1}
+2023-09-23 15:29:32,829 INFO     Episode 28 finished in 299.7989993095398s
+2023-09-23 15:29:32,838 INFO     Play episode 29
+2023-09-23 15:34:32,948 INFO     Episode 29 finished in 300.09899830818176s
+2023-09-23 15:34:32,954 INFO     Play episode 30
+2023-09-23 15:39:32,768 INFO     Episode 30 finished in 299.801552772522s
+2023-09-23 15:39:32,776 INFO     Play episode 31
+2023-09-23 15:44:32,610 INFO     Episode 31 finished in 299.82206082344055s
+2023-09-23 15:44:32,620 INFO     Play episode 32
+2023-09-23 15:45:09,831 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":11,"purple":1}
+2023-09-23 15:49:32,630 INFO     Episode 32 finished in 300.0000624656677s
+2023-09-23 15:49:32,639 INFO     Play episode 33
+2023-09-23 15:53:33,468 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":12,"purple":1}
+2023-09-23 15:54:32,350 INFO     Episode 33 finished in 299.69951486587524s
+2023-09-23 15:54:32,357 INFO     Play episode 34
+2023-09-23 15:55:18,072 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":13,"purple":1}
+2023-09-23 15:56:59,871 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":14,"purple":1}
+2023-09-23 15:58:42,791 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":15,"purple":1}
+2023-09-23 15:59:32,011 INFO     Episode 34 finished in 299.6429989337921s
+2023-09-23 15:59:32,020 INFO     Play episode 35
+2023-09-23 16:00:26,092 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":16,"purple":1}
+2023-09-23 16:04:31,734 INFO     Episode 35 finished in 299.7010004520416s
+2023-09-23 16:04:31,741 INFO     Play episode 36
+2023-09-23 16:09:31,554 INFO     Episode 36 finished in 299.8020021915436s
+2023-09-23 16:09:31,562 INFO     Play episode 37
+2023-09-23 16:14:33,091 INFO     Episode 37 finished in 301.5195093154907s
+2023-09-23 16:14:33,100 INFO     Play episode 38
+2023-09-23 16:18:50,590 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":16,"purple":2}
+2023-09-23 16:19:33,111 INFO     Episode 38 finished in 299.9979968070984s
+2023-09-23 16:19:33,118 INFO     Play episode 39
+2023-09-23 16:21:29,310 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":16,"purple":3}
+2023-09-23 16:24:32,931 INFO     Episode 39 finished in 299.7990028858185s
+2023-09-23 16:24:32,938 INFO     Play episode 40
+2023-09-23 16:29:32,752 INFO     Episode 40 finished in 299.80200028419495s
+2023-09-23 16:29:32,760 INFO     Play episode 41
+2023-09-23 16:34:32,572 INFO     Episode 41 finished in 299.80220913887024s
+2023-09-23 16:34:32,581 INFO     Play episode 42
+2023-09-23 16:39:32,391 INFO     Episode 42 finished in 299.799001455307s
+2023-09-23 16:39:32,400 INFO     Play episode 43
+2023-09-23 16:39:50,547 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":17,"purple":3}
+2023-09-23 16:39:50,548 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":18,"purple":3}
+2023-09-23 16:44:34,207 INFO     Episode 43 finished in 301.79712200164795s
+2023-09-23 16:44:34,214 INFO     Play episode 44
+2023-09-23 16:49:34,328 INFO     Episode 44 finished in 300.1000032424927s
+2023-09-23 16:49:34,337 INFO     Play episode 45
+2023-09-23 16:54:34,146 INFO     Episode 45 finished in 299.79923605918884s
+2023-09-23 16:54:34,155 INFO     Play episode 46
+2023-09-23 16:59:33,967 INFO     Episode 46 finished in 299.80099844932556s
+2023-09-23 16:59:33,976 INFO     Play episode 47
+2023-09-23 17:04:33,787 INFO     Episode 47 finished in 299.80200147628784s
+2023-09-23 17:04:33,794 INFO     Play episode 48
+2023-09-23 17:09:33,608 INFO     Episode 48 finished in 299.8010001182556s
+2023-09-23 17:09:33,617 INFO     Play episode 49
+2023-09-23 17:14:33,727 INFO     Episode 49 finished in 300.099002122879s
+2023-09-23 17:14:33,735 INFO     Play episode 50
+2023-09-23 17:19:33,547 INFO     Episode 50 finished in 299.7990005016327s
+2023-09-23 17:19:33,556 INFO     Play episode 51
+2023-09-23 17:19:53,746 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":19,"purple":3}
+2023-09-23 17:24:33,266 INFO     Episode 51 finished in 299.6999976634979s
+2023-09-23 17:24:33,273 INFO     Play episode 52
+2023-09-23 17:29:33,086 INFO     Episode 52 finished in 299.79956126213074s
+2023-09-23 17:29:33,094 INFO     Play episode 53
+2023-09-23 17:34:32,906 INFO     Episode 53 finished in 299.7982335090637s
+2023-09-23 17:34:32,915 INFO     Play episode 54
+2023-09-23 17:39:32,727 INFO     Episode 54 finished in 299.79816818237305s
+2023-09-23 17:39:32,734 INFO     Play episode 55
+2023-09-23 17:44:34,594 INFO     Episode 55 finished in 301.8463578224182s
+2023-09-23 17:44:34,600 INFO     Play episode 56
+2023-09-23 17:49:34,414 INFO     Episode 56 finished in 299.80099606513977s
+2023-09-23 17:49:34,420 INFO     Play episode 57
+2023-09-23 17:54:34,233 INFO     Episode 57 finished in 299.80000162124634s
+2023-09-23 17:54:34,239 INFO     Play episode 58
+2023-09-23 17:54:57,175 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":20,"purple":3}
+2023-09-23 17:59:34,255 INFO     Episode 58 finished in 299.99999809265137s
+2023-09-23 17:59:34,264 INFO     Play episode 59
+2023-09-23 18:03:46,074 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":20,"purple":4}
+2023-09-23 18:04:34,074 INFO     Episode 59 finished in 299.80078506469727s
+2023-09-23 18:04:34,083 INFO     Play episode 60
+2023-09-23 18:09:33,896 INFO     Episode 60 finished in 299.80136346817017s
+2023-09-23 18:09:33,905 INFO     Play episode 61
+2023-09-23 18:10:27,792 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":21,"purple":4}
+2023-09-23 18:14:33,614 INFO     Episode 61 finished in 299.70023107528687s
+2023-09-23 18:14:33,622 INFO     Play episode 62
+2023-09-23 18:19:33,434 INFO     Episode 62 finished in 299.79899859428406s
+2023-09-23 18:19:33,441 INFO     Play episode 63
+2023-09-23 18:24:33,254 INFO     Episode 63 finished in 299.7999987602234s
+2023-09-23 18:24:33,262 INFO     Play episode 64
+2023-09-23 18:29:33,074 INFO     Episode 64 finished in 299.8000018596649s
+2023-09-23 18:29:33,081 INFO     Play episode 65
+2023-09-23 18:31:17,652 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":21,"purple":5}
+2023-09-23 18:34:32,995 INFO     Episode 65 finished in 299.90200185775757s
+2023-09-23 18:34:33,004 INFO     Play episode 66
+2023-09-23 18:39:32,814 INFO     Episode 66 finished in 299.800000667572s
+2023-09-23 18:39:32,821 INFO     Play episode 67
+2023-09-23 18:44:32,633 INFO     Episode 67 finished in 299.79899978637695s
+2023-09-23 18:44:32,642 INFO     Play episode 68
+2023-09-23 18:49:32,754 INFO     Episode 68 finished in 300.0999987125397s
+2023-09-23 18:49:32,761 INFO     Play episode 69
+2023-09-23 18:54:32,573 INFO     Episode 69 finished in 299.7999978065491s
+2023-09-23 18:54:32,579 INFO     Play episode 70
+2023-09-23 18:54:41,952 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":21,"purple":6}
+2023-09-23 18:59:32,294 INFO     Episode 70 finished in 299.7000057697296s
+2023-09-23 18:59:32,301 INFO     Play episode 71
+2023-09-23 19:04:32,114 INFO     Episode 71 finished in 299.80099964141846s
+2023-09-23 19:04:32,122 INFO     Play episode 72
+2023-09-23 19:09:31,934 INFO     Episode 72 finished in 299.80200028419495s
+2023-09-23 19:09:31,943 INFO     Play episode 73
+2023-09-23 19:14:33,798 INFO     Episode 73 finished in 301.8459961414337s
+2023-09-23 19:14:33,805 INFO     Play episode 74
+2023-09-23 19:19:33,618 INFO     Episode 74 finished in 299.80099534988403s
+2023-09-23 19:19:33,628 INFO     Play episode 75
+2023-09-23 19:19:49,541 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":22,"purple":6}
+2023-09-23 19:24:33,639 INFO     Episode 75 finished in 300.00198340415955s
+2023-09-23 19:24:33,646 INFO     Play episode 76
+2023-09-23 19:29:37,026 INFO     Episode 76 finished in 303.3690023422241s
+2023-09-23 19:29:37,035 INFO     Play episode 77
+2023-09-23 19:34:36,846 INFO     Episode 77 finished in 299.7999978065491s
+2023-09-23 19:34:36,855 INFO     Play episode 78
+2023-09-23 19:39:36,667 INFO     Episode 78 finished in 299.80000376701355s
+2023-09-23 19:39:36,674 INFO     Play episode 79
+2023-09-23 19:43:15,705 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":23,"purple":6}
+2023-09-23 19:43:17,459 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":24,"purple":6}
+2023-09-23 19:44:36,639 INFO     Episode 79 finished in 299.95300030708313s
+2023-09-23 19:44:36,646 INFO     Play episode 80
+2023-09-23 19:49:36,759 INFO     Episode 80 finished in 300.1010000705719s
+2023-09-23 19:49:36,766 INFO     Play episode 81
+2023-09-23 19:54:36,579 INFO     Episode 81 finished in 299.8000009059906s
+2023-09-23 19:54:36,585 INFO     Play episode 82
+2023-09-23 19:59:36,398 INFO     Episode 82 finished in 299.79999709129333s
+2023-09-23 19:59:36,414 INFO     Play episode 83
+2023-09-23 20:04:36,218 INFO     Episode 83 finished in 299.79699754714966s
+2023-09-23 20:04:36,224 INFO     Play episode 84
+2023-09-23 20:09:36,039 INFO     Episode 84 finished in 299.79900074005127s
+2023-09-23 20:09:36,046 INFO     Play episode 85
+2023-09-23 20:14:36,158 INFO     Episode 85 finished in 300.0999984741211s
+2023-09-23 20:14:36,166 INFO     Play episode 86
+2023-09-23 20:18:20,938 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":25,"purple":6}
+2023-09-23 20:19:35,879 INFO     Episode 86 finished in 299.7009961605072s
+2023-09-23 20:19:35,886 INFO     Play episode 87
+2023-09-23 20:24:35,699 INFO     Episode 87 finished in 299.7989995479584s
+2023-09-23 20:24:35,706 INFO     Play episode 88
+2023-09-23 20:29:35,518 INFO     Episode 88 finished in 299.7999985218048s
+2023-09-23 20:29:35,524 INFO     Play episode 89
+2023-09-23 20:34:35,640 INFO     Episode 89 finished in 300.1010003089905s
+2023-09-23 20:34:35,649 INFO     Play episode 90
+2023-09-23 20:39:35,459 INFO     Episode 90 finished in 299.7999994754791s
+2023-09-23 20:39:35,466 INFO     Play episode 91
+2023-09-23 20:44:35,280 INFO     Episode 91 finished in 299.8000009059906s
+2023-09-23 20:44:35,287 INFO     Play episode 92
+2023-09-23 20:45:02,417 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":26,"purple":6}
+2023-09-23 20:49:34,999 INFO     Episode 92 finished in 299.7000036239624s
+2023-09-23 20:49:35,008 INFO     Play episode 93
+2023-09-23 20:54:35,119 INFO     Episode 93 finished in 300.100998878479s
+2023-09-23 20:54:35,126 INFO     Play episode 94
+2023-09-23 20:59:34,940 INFO     Episode 94 finished in 299.80199909210205s
+2023-09-23 20:59:34,949 INFO     Play episode 95
+2023-09-23 21:00:05,738 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":27,"purple":6}
+2023-09-23 21:04:34,659 INFO     Episode 95 finished in 299.6999979019165s
+2023-09-23 21:04:34,665 INFO     Play episode 96
+2023-09-23 21:09:34,479 INFO     Episode 96 finished in 299.7989981174469s
+2023-09-23 21:09:34,487 INFO     Play episode 97
+2023-09-23 21:14:34,299 INFO     Episode 97 finished in 299.79899764060974s
+2023-09-23 21:14:34,308 INFO     Play episode 98
+2023-09-23 21:19:34,119 INFO     Episode 98 finished in 299.79899621009827s
+2023-09-23 21:19:34,127 INFO     Play episode 99
+2023-09-23 21:24:34,239 INFO     Episode 99 finished in 300.0990033149719s
+2023-09-23 21:24:34,249 INFO     Play episode 100
+2023-09-23 21:29:34,059 INFO     Episode 100 finished in 299.79999828338623s
+2023-09-23 21:29:34,068 INFO     Play episode 101
+2023-09-23 21:34:33,878 INFO     Episode 101 finished in 299.79999899864197s
+2023-09-23 21:34:33,887 INFO     Play episode 102
+2023-09-23 21:39:33,698 INFO     Episode 102 finished in 299.7989995479584s
+2023-09-23 21:39:33,706 INFO     Play episode 103
+2023-09-23 21:44:33,519 INFO     Episode 103 finished in 299.80100417137146s
+2023-09-23 21:44:33,529 INFO     Play episode 104
+2023-09-23 21:49:33,638 INFO     Episode 104 finished in 300.0999972820282s
+2023-09-23 21:49:33,644 INFO     Play episode 105
+2023-09-23 21:54:33,459 INFO     Episode 105 finished in 299.79999828338623s
+2023-09-23 21:54:33,465 INFO     Play episode 106
+2023-09-23 21:59:33,278 INFO     Episode 106 finished in 299.80000019073486s
+2023-09-23 21:59:33,284 INFO     Play episode 107
+2023-09-23 22:04:33,098 INFO     Episode 107 finished in 299.80000042915344s
+2023-09-23 22:04:33,106 INFO     Play episode 108
+2023-09-23 22:09:32,918 INFO     Episode 108 finished in 299.79899978637695s
+2023-09-23 22:09:32,926 INFO     Play episode 109
+2023-09-23 22:14:34,776 INFO     Episode 109 finished in 301.83800196647644s
+2023-09-23 22:14:34,784 INFO     Play episode 110
+2023-09-23 22:18:32,520 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":28,"purple":6}
+2023-09-23 22:19:36,242 INFO     Episode 110 finished in 301.44599747657776s
+2023-09-23 22:19:36,251 INFO     Play episode 111
+2023-09-23 22:24:36,061 INFO     Episode 111 finished in 299.7999994754791s
+2023-09-23 22:24:36,068 INFO     Play episode 112
+2023-09-23 22:29:35,882 INFO     Episode 112 finished in 299.8000030517578s
+2023-09-23 22:29:35,891 INFO     Play episode 113
+2023-09-23 22:34:35,747 INFO     Episode 113 finished in 299.84700107574463s
+2023-09-23 22:34:35,757 INFO     Play episode 114
+2023-09-23 22:39:35,868 INFO     Episode 114 finished in 300.0999982357025s
+2023-09-23 22:39:35,875 INFO     Play episode 115
+2023-09-23 22:44:35,689 INFO     Episode 115 finished in 299.8010687828064s
+2023-09-23 22:44:35,698 INFO     Play episode 116
+2023-09-23 22:49:35,509 INFO     Episode 116 finished in 299.80099654197693s
+2023-09-23 22:49:35,516 INFO     Play episode 117
+2023-09-23 22:52:02,488 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":29,"purple":6}
+2023-09-23 22:52:04,669 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":30,"purple":6}
+2023-09-23 22:54:35,449 INFO     Episode 117 finished in 299.9220128059387s
+2023-09-23 22:54:35,457 INFO     Play episode 118
+2023-09-23 22:59:35,268 INFO     Episode 118 finished in 299.80046939849854s
+2023-09-23 22:59:35,277 INFO     Play episode 119
+2023-09-23 23:04:35,090 INFO     Episode 119 finished in 299.80167293548584s
+2023-09-23 23:04:35,099 INFO     Play episode 120
+2023-09-23 23:09:34,908 INFO     Episode 120 finished in 299.8000919818878s
+2023-09-23 23:09:34,916 INFO     Play episode 121
+2023-09-23 23:13:24,509 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":31,"purple":6}
+2023-09-23 23:14:34,729 INFO     Episode 121 finished in 299.80016326904297s
+2023-09-23 23:14:34,738 INFO     Play episode 122
+2023-09-23 23:19:34,549 INFO     Episode 122 finished in 299.80099964141846s
+2023-09-23 23:19:34,559 INFO     Play episode 123
+2023-09-23 23:21:46,687 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":32,"purple":6}
+2023-09-23 23:21:49,387 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":33,"purple":6}
+2023-09-23 23:24:34,169 INFO     Episode 123 finished in 299.60000133514404s
+2023-09-23 23:24:34,179 INFO     Play episode 124
+2023-09-23 23:29:34,289 INFO     Episode 124 finished in 300.1010036468506s
+2023-09-23 23:29:34,298 INFO     Play episode 125
+2023-09-23 23:34:34,108 INFO     Episode 125 finished in 299.8010001182556s
+2023-09-23 23:34:34,118 INFO     Play episode 126
+2023-09-23 23:39:35,684 INFO     Episode 126 finished in 301.5550010204315s
+2023-09-23 23:39:35,691 INFO     Play episode 127
+2023-09-23 23:44:35,503 INFO     Episode 127 finished in 299.7989995479584s
+2023-09-23 23:44:35,513 INFO     Play episode 128
+2023-09-23 23:48:33,803 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":34,"purple":6}
+2023-09-23 23:49:35,224 INFO     Episode 128 finished in 299.6999967098236s
+2023-09-23 23:49:35,234 INFO     Play episode 129
+2023-09-23 23:53:34,865 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":35,"purple":6}
+2023-09-23 23:53:36,625 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":36,"purple":6}
+2023-09-23 23:54:34,844 INFO     Episode 129 finished in 299.59899616241455s
+2023-09-23 23:54:34,852 INFO     Play episode 130
+2023-09-23 23:59:34,665 INFO     Episode 130 finished in 299.7999978065491s
+2023-09-23 23:59:34,671 INFO     Play episode 131
+2023-09-24 00:04:34,484 INFO     Episode 131 finished in 299.80100274086s
+2023-09-24 00:04:34,491 INFO     Play episode 132
+2023-09-24 00:09:34,305 INFO     Episode 132 finished in 299.8010005950928s
+2023-09-24 00:09:34,313 INFO     Play episode 133
+2023-09-24 00:14:34,424 INFO     Episode 133 finished in 300.10102677345276s
+2023-09-24 00:14:34,431 INFO     Play episode 134
+2023-09-24 00:19:34,244 INFO     Episode 134 finished in 299.79855513572693s
+2023-09-24 00:19:34,253 INFO     Play episode 135
+2023-09-24 00:24:34,066 INFO     Episode 135 finished in 299.80187153816223s
+2023-09-24 00:24:34,073 INFO     Play episode 136
+2023-09-24 00:26:58,003 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":37,"purple":6}
+2023-09-24 00:26:59,623 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":38,"purple":6}
+2023-09-24 00:28:42,503 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":39,"purple":6}
+2023-09-24 00:29:33,585 INFO     Episode 136 finished in 299.500999212265s
+2023-09-24 00:29:33,594 INFO     Play episode 137
+2023-09-24 00:34:33,704 INFO     Episode 137 finished in 300.09899973869324s
+2023-09-24 00:34:33,713 INFO     Play episode 138
+2023-09-24 00:39:33,525 INFO     Episode 138 finished in 299.8010015487671s
+2023-09-24 00:39:33,534 INFO     Play episode 139
+2023-09-24 00:43:16,323 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":39,"purple":7}
+2023-09-24 00:44:33,345 INFO     Episode 139 finished in 299.799996137619s
+2023-09-24 00:44:33,354 INFO     Play episode 140
+2023-09-24 00:49:33,308 INFO     Episode 140 finished in 299.80000376701355s
+2023-09-24 00:49:33,317 INFO     Play episode 141
+2023-09-24 00:54:32,985 INFO     Episode 141 finished in 299.66100454330444s
+2023-09-24 00:54:32,991 INFO     Play episode 142
+2023-09-24 00:56:39,324 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":40,"purple":7}
+2023-09-24 00:56:42,305 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":41,"purple":7}
+2023-09-24 00:59:32,805 INFO     Episode 142 finished in 299.8010022640228s
+2023-09-24 00:59:32,814 INFO     Play episode 143
+2023-09-24 01:04:32,625 INFO     Episode 143 finished in 299.7999985218048s
+2023-09-24 01:04:32,634 INFO     Play episode 144
+2023-09-24 01:09:32,445 INFO     Episode 144 finished in 299.8010025024414s
+2023-09-24 01:09:32,454 INFO     Play episode 145
+2023-09-24 01:14:32,266 INFO     Episode 145 finished in 299.8019986152649s
+2023-09-24 01:14:32,275 INFO     Play episode 146
+2023-09-24 01:19:32,085 INFO     Episode 146 finished in 299.80099844932556s
+2023-09-24 01:19:32,095 INFO     Play episode 147
+2023-09-24 01:21:54,344 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":42,"purple":7}
+2023-09-24 01:24:32,004 INFO     Episode 147 finished in 299.90099930763245s
+2023-09-24 01:24:32,014 INFO     Play episode 148
+2023-09-24 01:29:31,824 INFO     Episode 148 finished in 299.79999804496765s
+2023-09-24 01:29:31,831 INFO     Play episode 149
+2023-09-24 01:34:31,945 INFO     Episode 149 finished in 300.0999972820282s
+2023-09-24 01:34:31,953 INFO     Play episode 150
+2023-09-24 01:39:31,764 INFO     Episode 150 finished in 299.7989983558655s
+2023-09-24 01:39:31,771 INFO     Play episode 151
+2023-09-24 01:43:35,703 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":43,"purple":7}
+2023-09-24 01:44:31,485 INFO     Episode 151 finished in 299.6989960670471s
+2023-09-24 01:44:31,494 INFO     Play episode 152
+2023-09-24 01:49:31,604 INFO     Episode 152 finished in 300.0989987850189s
+2023-09-24 01:49:31,611 INFO     Play episode 153
+2023-09-24 01:54:31,425 INFO     Episode 153 finished in 299.79999232292175s
+2023-09-24 01:54:31,434 INFO     Play episode 154
+2023-09-24 01:59:31,246 INFO     Episode 154 finished in 299.7999997138977s
+2023-09-24 01:59:31,255 INFO     Play episode 155
+2023-09-24 02:04:31,065 INFO     Episode 155 finished in 299.8000009059906s
+2023-09-24 02:04:31,073 INFO     Play episode 156
+2023-09-24 02:09:30,884 INFO     Episode 156 finished in 299.7940003871918s
+2023-09-24 02:09:30,893 INFO     Play episode 157
+2023-09-24 02:13:26,143 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":43,"purple":8}
+2023-09-24 02:14:30,904 INFO     Episode 157 finished in 300.00100088119507s
+2023-09-24 02:14:30,912 INFO     Play episode 158
+2023-09-24 02:15:09,304 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":44,"purple":8}
+2023-09-24 02:19:30,625 INFO     Episode 158 finished in 299.7009973526001s
+2023-09-24 02:19:30,633 INFO     Play episode 159
+2023-09-24 02:24:30,445 INFO     Episode 159 finished in 299.7980010509491s
+2023-09-24 02:24:30,454 INFO     Play episode 160
+2023-09-24 02:29:30,264 INFO     Episode 160 finished in 299.80000019073486s
+2023-09-24 02:29:30,274 INFO     Play episode 161
+2023-09-24 02:34:30,085 INFO     Episode 161 finished in 299.79900002479553s
+2023-09-24 02:34:30,094 INFO     Play episode 162
+2023-09-24 02:35:12,183 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":45,"purple":8}
+2023-09-24 02:39:29,905 INFO     Episode 162 finished in 299.80100297927856s
+2023-09-24 02:39:29,914 INFO     Play episode 163
+2023-09-24 02:40:24,263 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":45,"purple":9}
+2023-09-24 02:42:05,703 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":46,"purple":9}
+2023-09-24 02:44:29,524 INFO     Episode 163 finished in 299.5999994277954s
+2023-09-24 02:44:29,533 INFO     Play episode 164
+2023-09-24 02:49:29,345 INFO     Episode 164 finished in 299.79999923706055s
+2023-09-24 02:49:29,353 INFO     Play episode 165
+2023-09-24 02:53:47,983 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":47,"purple":9}
+2023-09-24 02:54:29,064 INFO     Episode 165 finished in 299.6994388103485s
+2023-09-24 02:54:29,071 INFO     Play episode 166
+2023-09-24 02:59:29,185 INFO     Episode 166 finished in 300.09993743896484s
+2023-09-24 02:59:29,194 INFO     Play episode 167
+2023-09-24 03:04:29,004 INFO     Episode 167 finished in 299.79898715019226s
+2023-09-24 03:04:29,012 INFO     Play episode 168
+2023-09-24 03:05:32,683 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":48,"purple":9}
+2023-09-24 03:09:28,727 INFO     Episode 168 finished in 299.7029974460602s
+2023-09-24 03:09:28,735 INFO     Play episode 169
+2023-09-24 03:14:28,543 INFO     Episode 169 finished in 299.7990012168884s
+2023-09-24 03:14:28,552 INFO     Play episode 170
+2023-09-24 03:15:34,223 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":49,"purple":9}
+2023-09-24 03:19:28,264 INFO     Episode 170 finished in 299.7009973526001s
+2023-09-24 03:19:28,273 INFO     Play episode 171
+2023-09-24 03:24:28,711 INFO     Episode 171 finished in 300.42551255226135s
+2023-09-24 03:24:28,722 INFO     Play episode 172
+2023-09-24 03:29:28,531 INFO     Episode 172 finished in 299.7999987602234s
+2023-09-24 03:29:28,539 INFO     Play episode 173
+2023-09-24 03:31:00,169 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":50,"purple":9}
+2023-09-24 03:34:28,351 INFO     Episode 173 finished in 299.7989983558655s
+2023-09-24 03:34:28,361 INFO     Play episode 174
+2023-09-24 03:39:28,470 INFO     Episode 174 finished in 300.10063219070435s
+2023-09-24 03:39:28,479 INFO     Play episode 175
+2023-09-24 03:44:16,949 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":51,"purple":9}
+2023-09-24 03:44:28,290 INFO     Episode 175 finished in 299.80000162124634s
+2023-09-24 03:44:28,298 INFO     Play episode 176
+2023-09-24 03:49:28,111 INFO     Episode 176 finished in 299.8005886077881s
+2023-09-24 03:49:28,120 INFO     Play episode 177
+2023-09-24 03:54:29,585 INFO     Episode 177 finished in 301.4545557498932s
+2023-09-24 03:54:29,594 INFO     Play episode 178
+2023-09-24 03:59:21,325 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":51,"purple":10}
+2023-09-24 03:59:29,606 INFO     Episode 178 finished in 300.0005202293396s
+2023-09-24 03:59:29,616 INFO     Play episode 179
+2023-09-24 04:04:29,725 INFO     Episode 179 finished in 300.09899735450745s
+2023-09-24 04:04:29,733 INFO     Play episode 180
+2023-09-24 04:09:29,548 INFO     Episode 180 finished in 299.8009967803955s
+2023-09-24 04:09:29,557 INFO     Play episode 181
+2023-09-24 04:12:44,468 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":52,"purple":10}
+2023-09-24 04:14:29,466 INFO     Episode 181 finished in 299.90099811553955s
+2023-09-24 04:14:29,476 INFO     Play episode 182
+2023-09-24 04:19:29,285 INFO     Episode 182 finished in 299.79900002479553s
+2023-09-24 04:19:29,294 INFO     Play episode 183
+2023-09-24 04:24:29,106 INFO     Episode 183 finished in 299.7979989051819s
+2023-09-24 04:24:29,114 INFO     Play episode 184
+2023-09-24 04:29:28,926 INFO     Episode 184 finished in 299.79999828338623s
+2023-09-24 04:29:28,936 INFO     Play episode 185
+2023-09-24 04:34:28,746 INFO     Episode 185 finished in 299.7990002632141s
+2023-09-24 04:34:28,753 INFO     Play episode 186
+2023-09-24 04:39:28,866 INFO     Episode 186 finished in 300.1009986400604s
+2023-09-24 04:39:28,875 INFO     Play episode 187
+2023-09-24 04:44:28,687 INFO     Episode 187 finished in 299.7999975681305s
+2023-09-24 04:44:28,694 INFO     Play episode 188
+2023-09-24 04:49:28,506 INFO     Episode 188 finished in 299.80070066452026s
+2023-09-24 04:49:28,514 INFO     Play episode 189
+2023-09-24 04:54:28,327 INFO     Episode 189 finished in 299.80201601982117s
+2023-09-24 04:54:28,335 INFO     Play episode 190
+2023-09-24 04:59:28,146 INFO     Episode 190 finished in 299.8003041744232s
+2023-09-24 04:59:28,154 INFO     Play episode 191
+2023-09-24 05:04:28,265 INFO     Episode 191 finished in 300.10100197792053s
+2023-09-24 05:04:28,272 INFO     Play episode 192
+2023-09-24 05:09:28,086 INFO     Episode 192 finished in 299.8006649017334s
+2023-09-24 05:09:28,095 INFO     Play episode 193
+2023-09-24 05:14:27,907 INFO     Episode 193 finished in 299.8020005226135s
+2023-09-24 05:14:27,914 INFO     Play episode 194
+2023-09-24 05:19:27,728 INFO     Episode 194 finished in 299.801997423172s
+2023-09-24 05:19:27,735 INFO     Play episode 195
+2023-09-24 05:24:27,546 INFO     Episode 195 finished in 299.7990002632141s
+2023-09-24 05:24:27,554 INFO     Play episode 196
+2023-09-24 05:29:27,666 INFO     Episode 196 finished in 300.10000348091125s
+2023-09-24 05:29:27,673 INFO     Play episode 197
+2023-09-24 05:34:27,485 INFO     Episode 197 finished in 299.7989983558655s
+2023-09-24 05:34:27,492 INFO     Play episode 198
+2023-09-24 05:39:27,309 INFO     Episode 198 finished in 299.8036377429962s
+2023-09-24 05:39:27,317 INFO     Play episode 199
+2023-09-24 05:44:27,125 INFO     Episode 199 finished in 299.7989971637726s
+2023-09-24 05:44:27,132 INFO     Play episode 200
+2023-09-24 05:49:26,947 INFO     Episode 200 finished in 299.800998210907s
+2023-09-24 05:49:26,955 INFO     Play episode 201
+2023-09-24 05:54:28,811 INFO     Episode 201 finished in 301.8450012207031s
+2023-09-24 05:54:28,818 INFO     Play episode 202
+2023-09-24 05:59:28,630 INFO     Episode 202 finished in 299.80099964141846s
+2023-09-24 05:59:28,638 INFO     Play episode 203
+2023-09-24 06:04:28,450 INFO     Episode 203 finished in 299.79999470710754s
+2023-09-24 06:04:28,460 INFO     Play episode 204
+2023-09-24 06:09:28,272 INFO     Episode 204 finished in 299.8004939556122s
+2023-09-24 06:09:28,278 INFO     Play episode 205
+2023-09-24 06:14:28,090 INFO     Episode 205 finished in 299.800000667572s
+2023-09-24 06:14:28,100 INFO     Play episode 206
+2023-09-24 06:16:08,189 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":53,"purple":10}
+2023-09-24 06:19:28,011 INFO     Episode 206 finished in 299.90200185775757s
+2023-09-24 06:19:28,020 INFO     Play episode 207
+2023-09-24 06:24:27,830 INFO     Episode 207 finished in 299.8009958267212s
+2023-09-24 06:24:27,839 INFO     Play episode 208
+2023-09-24 06:24:45,129 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":54,"purple":10}
+2023-09-24 06:26:27,051 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":55,"purple":10}
+2023-09-24 06:29:27,650 INFO     Episode 208 finished in 299.80057978630066s
+2023-09-24 06:29:27,661 INFO     Play episode 209
+2023-09-24 06:34:27,469 INFO     Episode 209 finished in 299.79900097846985s
+2023-09-24 06:34:27,479 INFO     Play episode 210
+2023-09-24 06:39:27,289 INFO     Episode 210 finished in 299.7989993095398s
+2023-09-24 06:39:27,297 INFO     Play episode 211
+2023-09-24 06:44:27,109 INFO     Episode 211 finished in 299.7980041503906s
+2023-09-24 06:44:27,117 INFO     Play episode 212
+2023-09-24 06:49:26,933 INFO     Episode 212 finished in 299.8029999732971s
+2023-09-24 06:49:26,941 INFO     Play episode 213
+2023-09-24 06:54:27,049 INFO     Episode 213 finished in 300.0994052886963s
+2023-09-24 06:54:27,057 INFO     Play episode 214
+2023-09-24 06:58:08,729 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":56,"purple":10}
+2023-09-24 06:59:26,772 INFO     Episode 214 finished in 299.7007682323456s
+2023-09-24 06:59:26,779 INFO     Play episode 215
+2023-09-24 07:04:26,592 INFO     Episode 215 finished in 299.80100321769714s
+2023-09-24 07:04:26,604 INFO     Play episode 216
+2023-09-24 07:09:26,409 INFO     Episode 216 finished in 299.7999997138977s
+2023-09-24 07:09:26,418 INFO     Play episode 217
+2023-09-24 07:14:26,529 INFO     Episode 217 finished in 300.099999666214s
+2023-09-24 07:14:26,536 INFO     Play episode 218
+2023-09-24 07:19:26,354 INFO     Episode 218 finished in 299.8050003051758s
+2023-09-24 07:19:26,361 INFO     Play episode 219
+2023-09-24 07:24:26,170 INFO     Episode 219 finished in 299.7990012168884s
+2023-09-24 07:24:26,177 INFO     Play episode 220
+2023-09-24 07:24:50,692 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":57,"purple":10}
+2023-09-24 07:29:26,189 INFO     Episode 220 finished in 299.99999809265137s
+2023-09-24 07:29:26,197 INFO     Play episode 221
+2023-09-24 07:34:26,011 INFO     Episode 221 finished in 299.79999804496765s
+2023-09-24 07:34:26,019 INFO     Play episode 222
+2023-09-24 07:39:25,831 INFO     Episode 222 finished in 299.7999973297119s
+2023-09-24 07:39:25,840 INFO     Play episode 223
+2023-09-24 07:44:25,650 INFO     Episode 223 finished in 299.7999999523163s
+2023-09-24 07:44:25,659 INFO     Play episode 224
+2023-09-24 07:49:25,471 INFO     Episode 224 finished in 299.80000281333923s
+2023-09-24 07:49:25,480 INFO     Play episode 225
+2023-09-24 07:54:25,589 INFO     Episode 225 finished in 300.1005334854126s
+2023-09-24 07:54:25,596 INFO     Play episode 226
+2023-09-24 07:59:25,410 INFO     Episode 226 finished in 299.79999828338623s
+2023-09-24 07:59:25,417 INFO     Play episode 227
+2023-09-24 08:01:33,330 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":58,"purple":10}
+2023-09-24 08:04:25,330 INFO     Episode 227 finished in 299.9010000228882s
+2023-09-24 08:04:25,340 INFO     Play episode 228
+2023-09-24 08:06:38,168 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":58,"purple":11}
+2023-09-24 08:08:19,950 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":59,"purple":11}
+2023-09-24 08:09:25,050 INFO     Episode 228 finished in 299.7009994983673s
+2023-09-24 08:09:25,059 INFO     Play episode 229
+2023-09-24 08:14:24,870 INFO     Episode 229 finished in 299.80000472068787s
+2023-09-24 08:14:24,876 INFO     Play episode 230
+2023-09-24 08:16:43,410 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":60,"purple":11}
+2023-09-24 08:19:24,589 INFO     Episode 230 finished in 299.69999718666077s
+2023-09-24 08:19:24,597 INFO     Play episode 231
+2023-09-24 08:24:24,711 INFO     Episode 231 finished in 300.10199642181396s
+2023-09-24 08:24:24,721 INFO     Play episode 232
+2023-09-24 08:29:24,530 INFO     Episode 232 finished in 299.7999997138977s
+2023-09-24 08:29:24,537 INFO     Play episode 233
+2023-09-24 08:30:05,449 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":61,"purple":11}
+2023-09-24 08:34:24,550 INFO     Episode 233 finished in 300.0000047683716s
+2023-09-24 08:34:24,559 INFO     Play episode 234
+2023-09-24 08:39:24,370 INFO     Episode 234 finished in 299.8010015487671s
+2023-09-24 08:39:24,380 INFO     Play episode 235
+2023-09-24 08:43:30,877 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":61,"purple":12}
+2023-09-24 08:44:25,797 INFO     Episode 235 finished in 301.40600061416626s
+2023-09-24 08:44:25,806 INFO     Play episode 236
+2023-09-24 08:49:25,617 INFO     Episode 236 finished in 299.7999997138977s
+2023-09-24 08:49:25,624 INFO     Play episode 237
+2023-09-24 08:50:17,016 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":62,"purple":12}
+2023-09-24 08:50:22,438 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":62,"purple":13}
+2023-09-24 08:52:04,337 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":63,"purple":13}
+2023-09-24 08:54:25,536 INFO     Episode 237 finished in 299.8999984264374s
+2023-09-24 08:54:25,545 INFO     Play episode 238
+2023-09-24 08:59:25,357 INFO     Episode 238 finished in 299.80000019073486s
+2023-09-24 08:59:25,364 INFO     Play episode 239
+2023-09-24 09:04:26,890 INFO     Episode 239 finished in 301.51200318336487s
+2023-09-24 09:04:26,898 INFO     Play episode 240
+2023-09-24 09:08:54,888 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":63,"purple":14}
+2023-09-24 09:08:56,987 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":64,"purple":14}
+2023-09-24 09:09:26,509 INFO     Episode 240 finished in 299.598925113678s
+2023-09-24 09:09:26,516 INFO     Play episode 241
+2023-09-24 09:14:26,329 INFO     Episode 241 finished in 299.7985899448395s
+2023-09-24 09:14:26,338 INFO     Play episode 242
+2023-09-24 09:19:26,150 INFO     Episode 242 finished in 299.79800057411194s
+2023-09-24 09:19:26,157 INFO     Play episode 243
+2023-09-24 09:24:25,969 INFO     Episode 243 finished in 299.7989971637726s
+2023-09-24 09:24:25,979 INFO     Play episode 244
+2023-09-24 09:29:26,089 INFO     Episode 244 finished in 300.1000051498413s
+2023-09-24 09:29:26,098 INFO     Play episode 245
+2023-09-24 09:34:25,910 INFO     Episode 245 finished in 299.79900336265564s
+2023-09-24 09:34:25,919 INFO     Play episode 246
+2023-09-24 09:37:18,630 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":65,"purple":14}
+2023-09-24 09:39:25,829 INFO     Episode 246 finished in 299.8980004787445s
+2023-09-24 09:39:25,839 INFO     Play episode 247
+2023-09-24 09:40:41,389 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":66,"purple":14}
+2023-09-24 09:44:12,650 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":66,"purple":15}
+2023-09-24 09:44:25,550 INFO     Episode 247 finished in 299.69800448417664s
+2023-09-24 09:44:25,558 INFO     Play episode 248
+2023-09-24 09:49:16,349 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":67,"purple":15}
+2023-09-24 09:49:25,270 INFO     Episode 248 finished in 299.70099997520447s
+2023-09-24 09:49:25,280 INFO     Play episode 249
+2023-09-24 09:54:23,428 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":68,"purple":15}
+2023-09-24 09:54:24,990 INFO     Episode 249 finished in 299.6999981403351s
+2023-09-24 09:54:24,999 INFO     Play episode 250
+2023-09-24 09:59:24,810 INFO     Episode 250 finished in 299.80099844932556s
+2023-09-24 09:59:24,817 INFO     Play episode 251
+2023-09-24 10:02:45,189 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":69,"purple":15}
+2023-09-24 10:04:24,831 INFO     Episode 251 finished in 300.000999212265s
+2023-09-24 10:04:24,840 INFO     Play episode 252
+2023-09-24 10:09:24,649 INFO     Episode 252 finished in 299.79999828338623s
+2023-09-24 10:09:24,656 INFO     Play episode 253
+2023-09-24 10:14:24,470 INFO     Episode 253 finished in 299.79299998283386s
+2023-09-24 10:14:24,480 INFO     Play episode 254
+2023-09-24 10:19:24,589 INFO     Episode 254 finished in 300.0999984741211s
+2023-09-24 10:19:24,602 INFO     Play episode 255
+2023-09-24 10:24:24,410 INFO     Episode 255 finished in 299.8000009059906s
+2023-09-24 10:24:24,420 INFO     Play episode 256
+2023-09-24 10:26:08,088 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":70,"purple":15}
+2023-09-24 10:29:24,130 INFO     Episode 256 finished in 299.7011435031891s
+2023-09-24 10:29:24,138 INFO     Play episode 257
+2023-09-24 10:34:23,950 INFO     Episode 257 finished in 299.80003118515015s
+2023-09-24 10:34:23,958 INFO     Play episode 258
+2023-09-24 10:34:29,830 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":71,"purple":15}
+2023-09-24 10:39:23,670 INFO     Episode 258 finished in 299.7000002861023s
+2023-09-24 10:39:23,676 INFO     Play episode 259
+2023-09-24 10:44:23,489 INFO     Episode 259 finished in 299.8000032901764s
+2023-09-24 10:44:23,498 INFO     Play episode 260
+2023-09-24 10:49:23,309 INFO     Episode 260 finished in 299.7999973297119s
+2023-09-24 10:49:23,319 INFO     Play episode 261
+2023-09-24 10:54:23,430 INFO     Episode 261 finished in 300.10100054740906s
+2023-09-24 10:54:23,438 INFO     Play episode 262
+2023-09-24 10:56:11,549 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":72,"purple":15}
+2023-09-24 10:59:23,349 INFO     Episode 262 finished in 299.8990077972412s
+2023-09-24 10:59:23,357 INFO     Play episode 263
+2023-09-24 11:04:23,168 INFO     Episode 263 finished in 299.7994644641876s
+2023-09-24 11:04:23,177 INFO     Play episode 264
+2023-09-24 11:09:22,989 INFO     Episode 264 finished in 299.7989995479584s
+2023-09-24 11:09:22,996 INFO     Play episode 265
+2023-09-24 11:14:22,809 INFO     Episode 265 finished in 299.79899978637695s
+2023-09-24 11:14:22,817 INFO     Play episode 266
+2023-09-24 11:19:24,326 INFO     Episode 266 finished in 301.4969971179962s
+2023-09-24 11:19:24,333 INFO     Play episode 267
+2023-09-24 11:24:24,446 INFO     Episode 267 finished in 300.0985622406006s
+2023-09-24 11:24:24,454 INFO     Play episode 268
+2023-09-24 11:29:24,267 INFO     Episode 268 finished in 299.80099844932556s
+2023-09-24 11:29:24,274 INFO     Play episode 269
+2023-09-24 11:34:24,087 INFO     Episode 269 finished in 299.8000156879425s
+2023-09-24 11:34:24,094 INFO     Play episode 270
+2023-09-24 11:39:23,908 INFO     Episode 270 finished in 299.80100417137146s
+2023-09-24 11:39:23,916 INFO     Play episode 271
+2023-09-24 11:41:15,245 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":73,"purple":15}
+2023-09-24 11:44:23,626 INFO     Episode 271 finished in 299.6989994049072s
+2023-09-24 11:44:23,633 INFO     Play episode 272
+2023-09-24 11:44:45,985 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":73,"purple":16}
+2023-09-24 11:49:23,448 INFO     Episode 272 finished in 299.800000667572s
+2023-09-24 11:49:23,456 INFO     Play episode 273
+2023-09-24 11:54:23,267 INFO     Episode 273 finished in 299.8000020980835s
+2023-09-24 11:54:23,275 INFO     Play episode 274
+2023-09-24 11:59:23,387 INFO     Episode 274 finished in 300.1010000705719s
+2023-09-24 11:59:23,395 INFO     Play episode 275
+2023-09-24 12:04:23,206 INFO     Episode 275 finished in 299.7989993095398s
+2023-09-24 12:04:23,216 INFO     Play episode 276
+2023-09-24 12:08:07,585 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":74,"purple":16}
+2023-09-24 12:09:22,927 INFO     Episode 276 finished in 299.7000024318695s
+2023-09-24 12:09:22,937 INFO     Play episode 277
+2023-09-24 12:14:22,747 INFO     Episode 277 finished in 299.8010060787201s
+2023-09-24 12:14:22,755 INFO     Play episode 278
+2023-09-24 12:16:29,185 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":75,"purple":16}
+2023-09-24 12:16:29,186 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":76,"purple":16}
+2023-09-24 12:19:22,467 INFO     Episode 278 finished in 299.69790530204773s
+2023-09-24 12:19:22,476 INFO     Play episode 279
+2023-09-24 12:23:56,874 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":77,"purple":16}
+2023-09-24 12:24:22,487 INFO     Episode 279 finished in 299.9989995956421s
+2023-09-24 12:24:22,496 INFO     Play episode 280
+2023-09-24 12:29:22,306 INFO     Episode 280 finished in 299.8015675544739s
+2023-09-24 12:29:22,316 INFO     Play episode 281
+2023-09-24 12:34:22,132 INFO     Episode 281 finished in 299.80626797676086s
+2023-09-24 12:34:22,142 INFO     Play episode 282
+2023-09-24 12:38:59,404 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":78,"purple":16}
+2023-09-24 12:39:21,846 INFO     Episode 282 finished in 299.6990041732788s
+2023-09-24 12:39:21,856 INFO     Play episode 283
+2023-09-24 12:44:21,665 INFO     Episode 283 finished in 299.7990026473999s
+2023-09-24 12:44:21,673 INFO     Play episode 284
+2023-09-24 12:49:21,486 INFO     Episode 284 finished in 299.7990012168884s
+2023-09-24 12:49:21,496 INFO     Play episode 285
+2023-09-24 12:54:21,657 INFO     Episode 285 finished in 300.15051674842834s
+2023-09-24 12:54:21,665 INFO     Play episode 286
+2023-09-24 12:57:21,137 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":79,"purple":16}
+2023-09-24 12:59:21,379 INFO     Episode 286 finished in 299.70000410079956s
+2023-09-24 12:59:21,390 INFO     Play episode 287
+2023-09-24 13:04:21,198 INFO     Episode 287 finished in 299.7989408969879s
+2023-09-24 13:04:21,209 INFO     Play episode 288
+2023-09-24 13:09:21,017 INFO     Episode 288 finished in 299.79762721061707s
+2023-09-24 13:09:21,026 INFO     Play episode 289
+2023-09-24 13:14:21,138 INFO     Episode 289 finished in 300.0995182991028s
+2023-09-24 13:14:21,146 INFO     Play episode 290
+2023-09-24 13:19:20,959 INFO     Episode 290 finished in 299.7999997138977s
+2023-09-24 13:19:20,965 INFO     Play episode 291
+2023-09-24 13:24:20,778 INFO     Episode 291 finished in 299.7989990711212s
+2023-09-24 13:24:20,786 INFO     Play episode 292
+2023-09-24 13:29:20,598 INFO     Episode 292 finished in 299.7999951839447s
+2023-09-24 13:29:20,605 INFO     Play episode 293
+2023-09-24 13:34:20,418 INFO     Episode 293 finished in 299.79799818992615s
+2023-09-24 13:34:20,424 INFO     Play episode 294
+2023-09-24 13:39:04,331 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":80,"purple":16}
+2023-09-24 13:39:20,913 INFO     Episode 294 finished in 300.473002910614s
+2023-09-24 13:39:20,928 INFO     Play episode 295
+2023-09-24 13:44:21,032 INFO     Episode 295 finished in 300.0990025997162s
+2023-09-24 13:44:21,041 INFO     Play episode 296
+2023-09-24 13:49:20,852 INFO     Episode 296 finished in 299.80100178718567s
+2023-09-24 13:49:20,862 INFO     Play episode 297
+2023-09-24 13:49:57,552 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":80,"purple":17}
+2023-09-24 13:54:20,673 INFO     Episode 297 finished in 299.800963640213s
+2023-09-24 13:54:20,684 INFO     Play episode 298
+2023-09-24 13:59:20,492 INFO     Episode 298 finished in 299.7983317375183s
+2023-09-24 13:59:20,502 INFO     Play episode 299
+2023-09-24 14:04:20,313 INFO     Episode 299 finished in 299.8005850315094s
+2023-09-24 14:04:20,322 INFO     Play episode 300
+2023-09-24 14:09:20,133 INFO     Episode 300 finished in 299.79989886283875s
+2023-09-24 14:09:20,141 INFO     Play episode 301
+2023-09-24 14:14:20,253 INFO     Episode 301 finished in 300.1009986400604s
+2023-09-24 14:14:20,262 INFO     Play episode 302
+2023-09-24 14:16:39,651 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":81,"purple":17}
+2023-09-24 14:19:19,973 INFO     Episode 302 finished in 299.7015187740326s
+2023-09-24 14:19:19,982 INFO     Play episode 303
+2023-09-24 14:24:19,792 INFO     Episode 303 finished in 299.80100274086s
+2023-09-24 14:24:19,800 INFO     Play episode 304
+2023-09-24 14:29:19,612 INFO     Episode 304 finished in 299.79899740219116s
+2023-09-24 14:29:19,619 INFO     Play episode 305
+2023-09-24 14:34:19,432 INFO     Episode 305 finished in 299.7999997138977s
+2023-09-24 14:34:19,439 INFO     Play episode 306
+2023-09-24 14:39:19,552 INFO     Episode 306 finished in 300.0999963283539s
+2023-09-24 14:39:19,561 INFO     Play episode 307
+2023-09-24 14:40:41,810 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":82,"purple":17}
+2023-09-24 14:44:19,273 INFO     Episode 307 finished in 299.6990337371826s
+2023-09-24 14:44:19,280 INFO     Play episode 308
+2023-09-24 14:49:19,092 INFO     Episode 308 finished in 299.7985665798187s
+2023-09-24 14:49:19,102 INFO     Play episode 309
+2023-09-24 14:54:19,212 INFO     Episode 309 finished in 300.1003632545471s
+2023-09-24 14:54:19,222 INFO     Play episode 310
+2023-09-24 14:59:03,590 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":83,"purple":17}
+2023-09-24 14:59:18,934 INFO     Episode 310 finished in 299.699933052063s
+2023-09-24 14:59:18,944 INFO     Play episode 311
+2023-09-24 15:04:18,752 INFO     Episode 311 finished in 299.80074977874756s
+2023-09-24 15:04:18,761 INFO     Play episode 312
+2023-09-24 15:09:18,571 INFO     Episode 312 finished in 299.79851937294006s
+2023-09-24 15:09:18,580 INFO     Play episode 313
+2023-09-24 15:10:09,430 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":83,"purple":18}
+2023-09-24 15:14:18,391 INFO     Episode 313 finished in 299.7990016937256s
+2023-09-24 15:14:18,398 INFO     Play episode 314
+2023-09-24 15:19:18,212 INFO     Episode 314 finished in 299.8010003566742s
+2023-09-24 15:19:18,221 INFO     Play episode 315
+2023-09-24 15:24:18,331 INFO     Episode 315 finished in 300.09602308273315s
+2023-09-24 15:24:18,340 INFO     Play episode 316
+2023-09-24 15:29:18,151 INFO     Episode 316 finished in 299.7986922264099s
+2023-09-24 15:29:18,162 INFO     Play episode 317
+2023-09-24 15:31:53,193 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":84,"purple":18}
+2023-09-24 15:34:17,872 INFO     Episode 317 finished in 299.7010326385498s
+2023-09-24 15:34:17,883 INFO     Play episode 318
+2023-09-24 15:39:17,991 INFO     Episode 318 finished in 300.0979998111725s
+2023-09-24 15:39:17,998 INFO     Play episode 319
+2023-09-24 15:44:17,812 INFO     Episode 319 finished in 299.80100274086s
+2023-09-24 15:44:17,820 INFO     Play episode 320
+2023-09-24 15:49:17,631 INFO     Episode 320 finished in 299.7989959716797s
+2023-09-24 15:49:17,639 INFO     Play episode 321
+2023-09-24 15:53:34,971 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":85,"purple":18}
+2023-09-24 15:54:17,353 INFO     Episode 321 finished in 299.7005476951599s
+2023-09-24 15:54:17,361 INFO     Play episode 322
+2023-09-24 15:59:17,472 INFO     Episode 322 finished in 300.0999994277954s
+2023-09-24 15:59:17,480 INFO     Play episode 323
+2023-09-24 16:02:45,993 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":85,"purple":19}
+2023-09-24 16:04:17,392 INFO     Episode 323 finished in 299.8979980945587s
+2023-09-24 16:04:17,398 INFO     Play episode 324
+2023-09-24 16:09:18,946 INFO     Episode 324 finished in 301.5321147441864s
+2023-09-24 16:09:18,953 INFO     Play episode 325
+2023-09-24 16:14:18,766 INFO     Episode 325 finished in 299.800998210907s
+2023-09-24 16:14:18,772 INFO     Play episode 326
+2023-09-24 16:19:18,590 INFO     Episode 326 finished in 299.80499482154846s
+2023-09-24 16:19:18,599 INFO     Play episode 327
+2023-09-24 16:24:19,176 INFO     Episode 327 finished in 299.7999954223633s
+2023-09-24 16:24:19,184 INFO     Play episode 328
+2023-09-24 16:29:18,977 INFO     Episode 328 finished in 299.7870032787323s
+2023-09-24 16:29:18,985 INFO     Play episode 329
+2023-09-24 16:34:18,796 INFO     Episode 329 finished in 299.800005197525s
+2023-09-24 16:34:18,805 INFO     Play episode 330
+2023-09-24 16:39:18,616 INFO     Episode 330 finished in 299.80000042915344s
+2023-09-24 16:39:18,623 INFO     Play episode 331
+2023-09-24 16:44:18,435 INFO     Episode 331 finished in 299.80000019073486s
+2023-09-24 16:44:18,443 INFO     Play episode 332
+2023-09-24 16:49:18,255 INFO     Episode 332 finished in 299.80100679397583s
+2023-09-24 16:49:18,264 INFO     Play episode 333
+2023-09-24 16:54:18,375 INFO     Episode 333 finished in 300.10057830810547s
+2023-09-24 16:54:18,385 INFO     Play episode 334
+2023-09-24 16:59:18,195 INFO     Episode 334 finished in 299.80168533325195s
+2023-09-24 16:59:18,205 INFO     Play episode 335
+2023-09-24 17:04:18,016 INFO     Episode 335 finished in 299.8000044822693s
+2023-09-24 17:04:18,026 INFO     Play episode 336
+2023-09-24 17:06:13,894 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":86,"purple":19}
+2023-09-24 17:09:17,735 INFO     Episode 336 finished in 299.7000021934509s
+2023-09-24 17:09:17,745 INFO     Play episode 337
+2023-09-24 17:14:17,555 INFO     Episode 337 finished in 299.7999997138977s
+2023-09-24 17:14:17,566 INFO     Play episode 338
+2023-09-24 17:19:17,375 INFO     Episode 338 finished in 299.79943561553955s
+2023-09-24 17:19:17,384 INFO     Play episode 339
+2023-09-24 17:24:19,303 INFO     Episode 339 finished in 301.90751934051514s
+2023-09-24 17:24:19,310 INFO     Play episode 340
+2023-09-24 17:29:19,122 INFO     Episode 340 finished in 299.79951643943787s
+2023-09-24 17:29:19,131 INFO     Play episode 341
+2023-09-24 17:34:18,942 INFO     Episode 341 finished in 299.7989995479584s
+2023-09-24 17:34:18,951 INFO     Play episode 342
+2023-09-24 17:36:18,180 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":87,"purple":19}
+2023-09-24 17:39:18,662 INFO     Episode 342 finished in 299.70100140571594s
+2023-09-24 17:39:18,672 INFO     Play episode 343
+2023-09-24 17:41:21,383 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":88,"purple":19}
+2023-09-24 17:44:18,781 INFO     Episode 343 finished in 300.1000008583069s
+2023-09-24 17:44:18,791 INFO     Play episode 344
+2023-09-24 17:49:18,603 INFO     Episode 344 finished in 299.80200028419495s
+2023-09-24 17:49:18,620 INFO     Play episode 345
+2023-09-24 17:53:03,623 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":89,"purple":19}
+2023-09-24 17:54:19,342 INFO     Episode 345 finished in 300.7190001010895s
+2023-09-24 17:54:19,353 INFO     Play episode 346
+2023-09-24 17:59:19,162 INFO     Episode 346 finished in 299.7999999523163s
+2023-09-24 17:59:19,173 INFO     Play episode 347
+2023-09-24 17:59:49,420 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":90,"purple":19}
+2023-09-24 18:04:18,882 INFO     Episode 347 finished in 299.69900012016296s
+2023-09-24 18:04:18,891 INFO     Play episode 348
+2023-09-24 18:09:18,702 INFO     Episode 348 finished in 299.80000281333923s
+2023-09-24 18:09:18,711 INFO     Play episode 349
+2023-09-24 18:14:18,822 INFO     Episode 349 finished in 300.09499764442444s
+2023-09-24 18:14:18,831 INFO     Play episode 350
+2023-09-24 18:19:18,642 INFO     Episode 350 finished in 299.8000032901764s
+2023-09-24 18:19:18,652 INFO     Play episode 351
+2023-09-24 18:24:19,529 INFO     Episode 351 finished in 299.7999978065491s
+2023-09-24 18:24:19,537 INFO     Play episode 352
+2023-09-24 18:29:19,028 INFO     Episode 352 finished in 299.48599767684937s
+2023-09-24 18:29:19,035 INFO     Play episode 353
+2023-09-24 18:34:18,849 INFO     Episode 353 finished in 299.79999899864197s
+2023-09-24 18:34:18,857 INFO     Play episode 354
+2023-09-24 18:39:18,968 INFO     Episode 354 finished in 300.0999987125397s
+2023-09-24 18:39:18,981 INFO     Play episode 355
+2023-09-24 18:44:18,788 INFO     Episode 355 finished in 299.7990012168884s
+2023-09-24 18:44:18,797 INFO     Play episode 356
+2023-09-24 18:49:18,608 INFO     Episode 356 finished in 299.7999999523163s
+2023-09-24 18:49:18,616 INFO     Play episode 357
+2023-09-24 18:54:18,428 INFO     Episode 357 finished in 299.8000478744507s
+2023-09-24 18:54:18,439 INFO     Play episode 358
+2023-09-24 18:59:18,250 INFO     Episode 358 finished in 299.8019995689392s
+2023-09-24 18:59:18,260 INFO     Play episode 359
+2023-09-24 19:04:18,369 INFO     Episode 359 finished in 300.10099840164185s
+2023-09-24 19:04:18,376 INFO     Play episode 360
+2023-09-24 19:09:18,195 INFO     Episode 360 finished in 299.80500173568726s
+2023-09-24 19:09:18,206 INFO     Play episode 361
+2023-09-24 19:13:15,748 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":90,"purple":20}
+2023-09-24 19:14:17,917 INFO     Episode 361 finished in 299.70339703559875s
+2023-09-24 19:14:17,926 INFO     Play episode 362
+2023-09-24 19:16:38,107 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":91,"purple":20}
+2023-09-24 19:18:19,668 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":92,"purple":20}
+2023-09-24 19:19:17,531 INFO     Episode 362 finished in 299.6000027656555s
+2023-09-24 19:19:17,542 INFO     Play episode 363
+2023-09-24 19:23:22,988 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":93,"purple":20}
+2023-09-24 19:23:24,329 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":94,"purple":20}
+2023-09-24 19:23:24,330 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":95,"purple":20}
+2023-09-24 19:24:17,150 INFO     Episode 363 finished in 299.6010000705719s
+2023-09-24 19:24:17,157 INFO     Play episode 364
+2023-09-24 19:25:06,188 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":96,"purple":20}
+2023-09-24 19:29:16,869 INFO     Episode 364 finished in 299.697998046875s
+2023-09-24 19:29:16,878 INFO     Play episode 365
+2023-09-24 19:34:16,991 INFO     Episode 365 finished in 300.10010623931885s
+2023-09-24 19:34:17,000 INFO     Play episode 366
+2023-09-24 19:39:16,809 INFO     Episode 366 finished in 299.79999899864197s
+2023-09-24 19:39:16,818 INFO     Play episode 367
+2023-09-24 19:44:16,629 INFO     Episode 367 finished in 299.8000011444092s
+2023-09-24 19:44:16,637 INFO     Play episode 368
+2023-09-24 19:49:16,450 INFO     Episode 368 finished in 299.80099964141846s
+2023-09-24 19:49:16,459 INFO     Play episode 369
+2023-09-24 19:54:16,269 INFO     Episode 369 finished in 299.799001455307s
+2023-09-24 19:54:16,285 INFO     Play episode 370
+2023-09-24 19:56:41,507 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":97,"purple":20}
+2023-09-24 19:59:16,189 INFO     Episode 370 finished in 299.89799976348877s
+2023-09-24 19:59:16,198 INFO     Play episode 371
+2023-09-24 20:04:18,027 INFO     Episode 371 finished in 301.81800293922424s
+2023-09-24 20:04:18,037 INFO     Play episode 372
+2023-09-24 20:08:25,625 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":98,"purple":20}
+2023-09-24 20:09:17,745 INFO     Episode 372 finished in 299.70000290870667s
+2023-09-24 20:09:17,755 INFO     Play episode 373
+2023-09-24 20:14:17,565 INFO     Episode 373 finished in 299.8010025024414s
+2023-09-24 20:14:17,575 INFO     Play episode 374
+2023-09-24 20:19:17,385 INFO     Episode 374 finished in 299.7980012893677s
+2023-09-24 20:19:17,394 INFO     Play episode 375
+2023-09-24 20:24:17,205 INFO     Episode 375 finished in 299.7979989051819s
+2023-09-24 20:24:17,213 INFO     Play episode 376
+2023-09-24 20:25:06,626 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":99,"purple":20}
+2023-09-24 20:29:17,325 INFO     Episode 376 finished in 300.09900093078613s
+2023-09-24 20:29:17,334 INFO     Play episode 377
+2023-09-24 20:34:17,145 INFO     Episode 377 finished in 299.8000385761261s
+2023-09-24 20:34:17,153 INFO     Play episode 378
+2023-09-24 20:39:16,964 INFO     Episode 378 finished in 299.8004868030548s
+2023-09-24 20:39:16,975 INFO     Play episode 379
+2023-09-24 20:44:16,784 INFO     Episode 379 finished in 299.7990026473999s
+2023-09-24 20:44:16,793 INFO     Play episode 380
+2023-09-24 20:49:16,605 INFO     Episode 380 finished in 299.79999136924744s
+2023-09-24 20:49:16,615 INFO     Play episode 381
+2023-09-24 20:50:08,043 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":100,"purple":20}
+2023-09-24 20:54:16,425 INFO     Episode 381 finished in 299.7980008125305s
+2023-09-24 20:54:16,436 INFO     Play episode 382
+2023-09-24 20:59:16,545 INFO     Episode 382 finished in 300.10000562667847s
+2023-09-24 20:59:16,555 INFO     Play episode 383
+2023-09-24 21:03:29,723 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":101,"purple":20}
+2023-09-24 21:04:16,264 INFO     Episode 383 finished in 299.69899439811707s
+2023-09-24 21:04:16,271 INFO     Play episode 384
+2023-09-24 21:09:16,084 INFO     Episode 384 finished in 299.8009991645813s
+2023-09-24 21:09:16,092 INFO     Play episode 385
+2023-09-24 21:14:15,904 INFO     Episode 385 finished in 299.7980012893677s
+2023-09-24 21:14:15,911 INFO     Play episode 386
+2023-09-24 21:16:56,025 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":101,"purple":21}
+2023-09-24 21:18:49,044 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":101,"purple":22}
+2023-09-24 21:19:15,924 INFO     Episode 386 finished in 299.99800062179565s
+2023-09-24 21:19:15,935 INFO     Play episode 387
+2023-09-24 21:24:16,046 INFO     Episode 387 finished in 300.0996778011322s
+2023-09-24 21:24:16,054 INFO     Play episode 388
+2023-09-24 21:29:15,866 INFO     Episode 388 finished in 299.80199933052063s
+2023-09-24 21:29:15,878 INFO     Play episode 389
+2023-09-24 21:30:35,543 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":102,"purple":22}
+2023-09-24 21:33:56,903 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":103,"purple":22}
+2023-09-24 21:34:15,485 INFO     Episode 389 finished in 299.6000075340271s
+2023-09-24 21:34:15,494 INFO     Play episode 390
+2023-09-24 21:39:15,605 INFO     Episode 390 finished in 300.1009976863861s
+2023-09-24 21:39:15,613 INFO     Play episode 391
+2023-09-24 21:44:15,425 INFO     Episode 391 finished in 299.8019998073578s
+2023-09-24 21:44:15,437 INFO     Play episode 392
+2023-09-24 21:47:20,384 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":104,"purple":22}
+2023-09-24 21:49:15,145 INFO     Episode 392 finished in 299.6999990940094s
+2023-09-24 21:49:15,153 INFO     Play episode 393
+2023-09-24 21:54:14,965 INFO     Episode 393 finished in 299.7989993095398s
+2023-09-24 21:54:14,973 INFO     Play episode 394
+2023-09-24 21:57:23,684 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":105,"purple":22}
+2023-09-24 21:59:15,085 INFO     Episode 394 finished in 300.10100197792053s
+2023-09-24 21:59:15,097 INFO     Play episode 395
+2023-09-24 22:04:14,905 INFO     Episode 395 finished in 299.7998082637787s
+2023-09-24 22:04:14,913 INFO     Play episode 396
+2023-09-24 22:07:25,263 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":106,"purple":22}
+2023-09-24 22:09:14,625 INFO     Episode 396 finished in 299.6999967098236s
+2023-09-24 22:09:14,635 INFO     Play episode 397
+2023-09-24 22:14:14,445 INFO     Episode 397 finished in 299.79853320121765s
+2023-09-24 22:14:14,455 INFO     Play episode 398
+2023-09-24 22:19:14,613 INFO     Episode 398 finished in 300.14799785614014s
+2023-09-24 22:19:14,625 INFO     Play episode 399
+2023-09-24 22:20:51,148 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":107,"purple":22}
+2023-09-24 22:24:16,149 INFO     Episode 399 finished in 301.51452016830444s
+2023-09-24 22:24:16,158 INFO     Play episode 400
+2023-09-24 22:29:15,968 INFO     Episode 400 finished in 299.79999923706055s
+2023-09-24 22:29:15,976 INFO     Play episode 401
+2023-09-24 22:32:36,446 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":108,"purple":22}
+2023-09-24 22:34:15,788 INFO     Episode 401 finished in 299.800000667572s
+2023-09-24 22:34:15,796 INFO     Play episode 402
+2023-09-24 22:39:15,608 INFO     Episode 402 finished in 299.8003640174866s
+2023-09-24 22:39:15,623 INFO     Play episode 403
+2023-09-24 22:44:15,429 INFO     Episode 403 finished in 299.8010036945343s
+2023-09-24 22:44:15,437 INFO     Play episode 404
+2023-09-24 22:49:15,548 INFO     Episode 404 finished in 300.1010015010834s
+2023-09-24 22:49:15,558 INFO     Play episode 405
+2023-09-24 22:54:15,367 INFO     Episode 405 finished in 299.799996137619s
+2023-09-24 22:54:15,378 INFO     Play episode 406
+2023-09-24 22:59:15,187 INFO     Episode 406 finished in 299.79903292655945s
+2023-09-24 22:59:15,195 INFO     Play episode 407
+2023-09-24 23:02:12,308 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":108,"purple":23}
+2023-09-24 23:04:15,109 INFO     Episode 407 finished in 299.90127325057983s
+2023-09-24 23:04:15,120 INFO     Play episode 408
+2023-09-24 23:09:14,928 INFO     Episode 408 finished in 299.79900336265564s
+2023-09-24 23:09:14,938 INFO     Play episode 409
+2023-09-24 23:14:14,748 INFO     Episode 409 finished in 299.8000030517578s
+2023-09-24 23:14:14,757 INFO     Play episode 410
+2023-09-24 23:18:55,872 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":109,"purple":23}
+2023-09-24 23:19:16,213 INFO     Episode 410 finished in 301.44500255584717s
+2023-09-24 23:19:16,222 INFO     Play episode 411
+2023-09-24 23:20:37,033 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":110,"purple":23}
+2023-09-24 23:24:16,232 INFO     Episode 411 finished in 299.9990015029907s
+2023-09-24 23:24:16,241 INFO     Play episode 412
+2023-09-24 23:29:16,051 INFO     Episode 412 finished in 299.8006389141083s
+2023-09-24 23:29:16,060 INFO     Play episode 413
+2023-09-24 23:30:38,750 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":111,"purple":23}
+2023-09-24 23:34:15,772 INFO     Episode 413 finished in 299.70099687576294s
+2023-09-24 23:34:15,783 INFO     Play episode 414
+2023-09-24 23:37:20,871 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":112,"purple":23}
+2023-09-24 23:39:15,492 INFO     Episode 414 finished in 299.70029878616333s
+2023-09-24 23:39:15,501 INFO     Play episode 415
+2023-09-24 23:44:15,312 INFO     Episode 415 finished in 299.79999923706055s
+2023-09-24 23:44:15,322 INFO     Play episode 416
+2023-09-24 23:45:44,011 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":113,"purple":23}
+2023-09-24 23:49:15,032 INFO     Episode 416 finished in 299.7000014781952s
+2023-09-24 23:49:15,041 INFO     Play episode 417
+2023-09-24 23:54:14,852 INFO     Episode 417 finished in 299.7970004081726s
+2023-09-24 23:54:14,861 INFO     Play episode 418
+2023-09-24 23:59:14,672 INFO     Episode 418 finished in 299.79900002479553s
+2023-09-24 23:59:14,683 INFO     Play episode 419
+2023-09-25 00:04:14,491 INFO     Episode 419 finished in 299.7989990711212s
+2023-09-25 00:04:14,502 INFO     Play episode 420
+2023-09-25 00:07:25,750 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":114,"purple":23}
+2023-09-25 00:09:14,412 INFO     Episode 420 finished in 299.90051770210266s
+2023-09-25 00:09:14,420 INFO     Play episode 421
+2023-09-25 00:10:47,870 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":115,"purple":23}
+2023-09-25 00:14:14,134 INFO     Episode 421 finished in 299.70300102233887s
+2023-09-25 00:14:14,143 INFO     Play episode 422
+2023-09-25 00:19:13,952 INFO     Episode 422 finished in 299.80100274086s
+2023-09-25 00:19:13,962 INFO     Play episode 423
+2023-09-25 00:24:14,072 INFO     Episode 423 finished in 300.1000008583069s
+2023-09-25 00:24:14,084 INFO     Play episode 424
+2023-09-25 00:25:58,550 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":116,"purple":23}
+2023-09-25 00:29:13,891 INFO     Episode 424 finished in 299.7990036010742s
+2023-09-25 00:29:13,902 INFO     Play episode 425
+2023-09-25 00:34:13,712 INFO     Episode 425 finished in 299.8014283180237s
+2023-09-25 00:34:15,767 INFO     Play episode 426
+2023-09-25 00:39:15,259 INFO     Episode 426 finished in 299.4870011806488s
+2023-09-25 00:39:15,270 INFO     Play episode 427
+2023-09-25 00:44:15,378 INFO     Episode 427 finished in 300.10027980804443s
+2023-09-25 00:44:15,391 INFO     Play episode 428
+2023-09-25 00:49:15,199 INFO     Episode 428 finished in 299.7977104187012s
+2023-09-25 00:49:15,210 INFO     Play episode 429
+2023-09-25 00:49:21,838 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":117,"purple":23}
+2023-09-25 00:54:14,920 INFO     Episode 429 finished in 299.7016897201538s
+2023-09-25 00:54:14,933 INFO     Play episode 430
+2023-09-25 00:59:15,040 INFO     Episode 430 finished in 300.1020038127899s
+2023-09-25 00:59:15,051 INFO     Play episode 431
+2023-09-25 01:04:14,859 INFO     Episode 431 finished in 299.8010025024414s
+2023-09-25 01:04:14,869 INFO     Play episode 432
+2023-09-25 01:09:14,680 INFO     Episode 432 finished in 299.80199813842773s
+2023-09-25 01:09:14,690 INFO     Play episode 433
+2023-09-25 01:09:24,817 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":118,"purple":23}
+2023-09-25 01:13:44,616 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":118,"purple":24}
+2023-09-25 01:14:14,299 INFO     Episode 433 finished in 299.60000228881836s
+2023-09-25 01:14:14,308 INFO     Play episode 434
+2023-09-25 01:19:16,147 INFO     Episode 434 finished in 301.8280026912689s
+2023-09-25 01:19:16,157 INFO     Play episode 435
+2023-09-25 01:22:07,946 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":119,"purple":24}
+2023-09-25 01:24:15,868 INFO     Episode 435 finished in 299.6990029811859s
+2023-09-25 01:24:15,875 INFO     Play episode 436
+2023-09-25 01:29:15,689 INFO     Episode 436 finished in 299.800000667572s
+2023-09-25 01:29:15,698 INFO     Play episode 437
+2023-09-25 01:34:15,508 INFO     Episode 437 finished in 299.8010096549988s
+2023-09-25 01:34:15,517 INFO     Play episode 438
+2023-09-25 01:39:15,328 INFO     Episode 438 finished in 299.7989993095398s
+2023-09-25 01:39:15,340 INFO     Play episode 439
+2023-09-25 01:42:09,988 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":120,"purple":24}
+2023-09-25 01:44:15,247 INFO     Episode 439 finished in 299.8989999294281s
+2023-09-25 01:44:15,256 INFO     Play episode 440
+2023-09-25 01:48:52,307 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":121,"purple":24}
+2023-09-25 01:48:52,307 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":122,"purple":24}
+2023-09-25 01:49:14,968 INFO     Episode 440 finished in 299.69999837875366s
+2023-09-25 01:49:14,975 INFO     Play episode 441
+2023-09-25 01:54:14,788 INFO     Episode 441 finished in 299.80100107192993s
+2023-09-25 01:54:14,796 INFO     Play episode 442
+2023-09-25 01:59:14,907 INFO     Episode 442 finished in 300.10100293159485s
+2023-09-25 01:59:14,918 INFO     Play episode 443
+2023-09-25 02:04:14,728 INFO     Episode 443 finished in 299.7999973297119s
+2023-09-25 02:04:14,737 INFO     Play episode 444
+2023-09-25 02:04:52,967 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":123,"purple":24}
+2023-09-25 02:09:14,548 INFO     Episode 444 finished in 299.80099987983704s
+2023-09-25 02:09:14,558 INFO     Play episode 445
+2023-09-25 02:14:14,668 INFO     Episode 445 finished in 300.1000003814697s
+2023-09-25 02:14:14,679 INFO     Play episode 446
+2023-09-25 02:19:14,487 INFO     Episode 446 finished in 299.7969982624054s
+2023-09-25 02:19:14,498 INFO     Play episode 447
+2023-09-25 02:19:39,727 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":123,"purple":25}
+2023-09-25 02:24:14,307 INFO     Episode 447 finished in 299.79900002479553s
+2023-09-25 02:24:14,317 INFO     Play episode 448
+2023-09-25 02:29:14,506 INFO     Episode 448 finished in 300.10001397132874s
+2023-09-25 02:29:14,517 INFO     Play episode 449
+2023-09-25 02:34:14,248 INFO     Episode 449 finished in 299.72484040260315s
+2023-09-25 02:34:14,259 INFO     Play episode 450
+2023-09-25 02:39:14,069 INFO     Episode 450 finished in 299.8009994029999s
+2023-09-25 02:39:14,078 INFO     Play episode 451
+2023-09-25 02:44:13,887 INFO     Episode 451 finished in 299.8000068664551s
+2023-09-25 02:44:13,896 INFO     Play episode 452
+2023-09-25 02:49:13,708 INFO     Episode 452 finished in 299.79899883270264s
+2023-09-25 02:49:13,718 INFO     Play episode 453
+2023-09-25 02:54:13,829 INFO     Episode 453 finished in 300.1015167236328s
+2023-09-25 02:54:13,840 INFO     Play episode 454
+2023-09-25 02:59:13,648 INFO     Episode 454 finished in 299.8012399673462s
+2023-09-25 02:59:13,658 INFO     Play episode 455
+2023-09-25 03:04:13,468 INFO     Episode 455 finished in 299.79927468299866s
+2023-09-25 03:04:13,479 INFO     Play episode 456
+2023-09-25 03:09:13,288 INFO     Episode 456 finished in 299.8000478744507s
+2023-09-25 03:09:13,299 INFO     Play episode 457
+2023-09-25 03:14:13,110 INFO     Episode 457 finished in 299.8019986152649s
+2023-09-25 03:14:13,121 INFO     Play episode 458
+2023-09-25 03:19:13,228 INFO     Episode 458 finished in 300.1019995212555s
+2023-09-25 03:19:13,236 INFO     Play episode 459
+2023-09-25 03:24:13,048 INFO     Episode 459 finished in 299.7999973297119s
+2023-09-25 03:24:13,056 INFO     Play episode 460
+2023-09-25 03:29:12,868 INFO     Episode 460 finished in 299.79400062561035s
+2023-09-25 03:29:12,877 INFO     Play episode 461
+2023-09-25 03:33:01,246 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":124,"purple":25}
+2023-09-25 03:34:12,589 INFO     Episode 461 finished in 299.6990008354187s
+2023-09-25 03:34:12,599 INFO     Play episode 462
+2023-09-25 03:39:12,408 INFO     Episode 462 finished in 299.79968881607056s
+2023-09-25 03:39:12,416 INFO     Play episode 463
+2023-09-25 03:41:22,907 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":125,"purple":25}
+2023-09-25 03:44:12,129 INFO     Episode 463 finished in 299.7020015716553s
+2023-09-25 03:44:12,140 INFO     Play episode 464
+2023-09-25 03:49:11,948 INFO     Episode 464 finished in 299.80000162124634s
+2023-09-25 03:49:11,959 INFO     Play episode 465
+2023-09-25 03:54:11,768 INFO     Episode 465 finished in 299.79900550842285s
+2023-09-25 03:54:11,778 INFO     Play episode 466
+2023-09-25 03:59:11,588 INFO     Episode 466 finished in 299.80056738853455s
+2023-09-25 03:59:11,598 INFO     Play episode 467
+2023-09-25 04:04:11,707 INFO     Episode 467 finished in 300.09899950027466s
+2023-09-25 04:04:11,718 INFO     Play episode 468
+2023-09-25 04:09:11,528 INFO     Episode 468 finished in 299.80100107192993s
+2023-09-25 04:09:11,536 INFO     Play episode 469
+2023-09-25 04:14:11,349 INFO     Episode 469 finished in 299.80166959762573s
+2023-09-25 04:14:11,361 INFO     Play episode 470
+2023-09-25 04:19:11,167 INFO     Episode 470 finished in 299.7982761859894s
+2023-09-25 04:19:11,176 INFO     Play episode 471
+2023-09-25 04:24:10,988 INFO     Episode 471 finished in 299.7996244430542s
+2023-09-25 04:24:10,999 INFO     Play episode 472
+2023-09-25 04:26:24,186 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":126,"purple":25}
+2023-09-25 04:29:10,909 INFO     Episode 472 finished in 299.90152645111084s
+2023-09-25 04:29:10,920 INFO     Play episode 473
+2023-09-25 04:34:12,436 INFO     Episode 473 finished in 301.5059988498688s
+2023-09-25 04:34:12,447 INFO     Play episode 474
+2023-09-25 04:38:17,057 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":126,"purple":26}
+2023-09-25 04:39:12,255 INFO     Episode 474 finished in 299.79999685287476s
+2023-09-25 04:39:12,266 INFO     Play episode 475
+2023-09-25 04:44:12,076 INFO     Episode 475 finished in 299.7990002632141s
+2023-09-25 04:44:12,087 INFO     Play episode 476
+2023-09-25 04:47:54,355 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":126,"purple":27}
+2023-09-25 04:49:11,896 INFO     Episode 476 finished in 299.7990038394928s
+2023-09-25 04:49:11,907 INFO     Play episode 477
+2023-09-25 04:53:14,474 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":126,"purple":28}
+2023-09-25 04:54:11,616 INFO     Episode 477 finished in 299.69999980926514s
+2023-09-25 04:54:11,627 INFO     Play episode 478
+2023-09-25 04:59:11,436 INFO     Episode 478 finished in 299.8000032901764s
+2023-09-25 04:59:11,447 INFO     Play episode 479
+2023-09-25 05:04:11,257 INFO     Episode 479 finished in 299.8000018596649s
+2023-09-25 05:04:11,267 INFO     Play episode 480
+2023-09-25 05:08:17,777 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":127,"purple":28}
+2023-09-25 05:09:11,376 INFO     Episode 480 finished in 300.1010015010834s
+2023-09-25 05:09:11,387 INFO     Play episode 481
+2023-09-25 05:14:11,255 INFO     Episode 481 finished in 299.8599998950958s
+2023-09-25 05:14:11,267 INFO     Play episode 482
+2023-09-25 05:19:11,075 INFO     Episode 482 finished in 299.80200481414795s
+2023-09-25 05:19:11,087 INFO     Play episode 483
+2023-09-25 05:20:00,494 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":128,"purple":28}
+2023-09-25 05:24:11,095 INFO     Episode 483 finished in 300.0010013580322s
+2023-09-25 05:24:11,106 INFO     Play episode 484
+2023-09-25 05:27:36,099 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":128,"purple":29}
+2023-09-25 05:29:10,914 INFO     Episode 484 finished in 299.79864144325256s
+2023-09-25 05:29:10,924 INFO     Play episode 485
+2023-09-25 05:34:12,442 INFO     Episode 485 finished in 301.5069978237152s
+2023-09-25 05:34:12,451 INFO     Play episode 486
+2023-09-25 05:39:12,261 INFO     Episode 486 finished in 299.79999923706055s
+2023-09-25 05:39:12,273 INFO     Play episode 487
+2023-09-25 05:44:12,082 INFO     Episode 487 finished in 299.80193877220154s
+2023-09-25 05:44:12,092 INFO     Play episode 488
+2023-09-25 05:46:57,959 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":129,"purple":29}
+2023-09-25 05:46:59,660 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":130,"purple":29}
+2023-09-25 05:48:43,003 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":131,"purple":29}
+2023-09-25 05:49:11,902 INFO     Episode 488 finished in 299.80200242996216s
+2023-09-25 05:49:11,918 INFO     Play episode 489
+2023-09-25 05:50:24,279 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":132,"purple":29}
+2023-09-25 05:54:13,337 INFO     Episode 489 finished in 301.414000749588s
+2023-09-25 05:54:13,345 INFO     Play episode 490
+2023-09-25 05:59:13,157 INFO     Episode 490 finished in 299.80100178718567s
+2023-09-25 05:59:13,166 INFO     Play episode 491
+2023-09-25 06:04:12,978 INFO     Episode 491 finished in 299.802001953125s
+2023-09-25 06:04:12,987 INFO     Play episode 492
+2023-09-25 06:08:48,455 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":133,"purple":29}
+2023-09-25 06:09:12,996 INFO     Episode 492 finished in 300.0000009536743s
+2023-09-25 06:09:13,007 INFO     Play episode 493
+2023-09-25 06:10:31,195 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":133,"purple":30}
+2023-09-25 06:14:12,718 INFO     Episode 493 finished in 299.70149326324463s
+2023-09-25 06:14:12,727 INFO     Play episode 494
+2023-09-25 06:19:12,536 INFO     Episode 494 finished in 299.79857182502747s
+2023-09-25 06:19:12,544 INFO     Play episode 495
+2023-09-25 06:20:40,556 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":133,"purple":31}
+2023-09-25 06:24:12,557 INFO     Episode 495 finished in 299.9999988079071s
+2023-09-25 06:24:12,569 INFO     Play episode 496
+2023-09-25 06:25:43,236 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":134,"purple":31}
+2023-09-25 06:29:12,277 INFO     Episode 496 finished in 299.701997756958s
+2023-09-25 06:29:12,286 INFO     Play episode 497
+2023-09-25 06:34:12,096 INFO     Episode 497 finished in 299.7997307777405s
+2023-09-25 06:34:12,107 INFO     Play episode 498
+2023-09-25 06:39:11,917 INFO     Episode 498 finished in 299.79960465431213s
+2023-09-25 06:39:11,929 INFO     Play episode 499
+2023-09-25 06:44:12,038 INFO     Episode 499 finished in 300.1005959510803s
+2023-09-25 06:44:12,047 INFO     Play episode 500
+2023-09-25 06:45:19,495 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":134,"purple":32}
+2023-09-25 06:49:11,857 INFO     Episode 500 finished in 299.79999470710754s
+2023-09-25 06:49:11,866 INFO     Play episode 501
+2023-09-25 06:54:11,677 INFO     Episode 501 finished in 299.79985642433167s
+2023-09-25 06:54:11,685 INFO     Play episode 502
+2023-09-25 06:59:13,491 INFO     Episode 502 finished in 301.79400086402893s
+2023-09-25 06:59:13,498 INFO     Play episode 503
+2023-09-25 07:04:13,311 INFO     Episode 503 finished in 299.7989990711212s
+2023-09-25 07:04:13,322 INFO     Play episode 504
+2023-09-25 07:09:13,130 INFO     Episode 504 finished in 299.7990012168884s
+2023-09-25 07:09:13,139 INFO     Play episode 505
+2023-09-25 07:14:12,950 INFO     Episode 505 finished in 299.7990016937256s
+2023-09-25 07:14:12,960 INFO     Play episode 506
+2023-09-25 07:19:12,770 INFO     Episode 506 finished in 299.80099987983704s
+2023-09-25 07:19:12,781 INFO     Play episode 507
+2023-09-25 07:24:12,891 INFO     Episode 507 finished in 300.098997592926s
+2023-09-25 07:24:12,901 INFO     Play episode 508
+2023-09-25 07:29:12,711 INFO     Episode 508 finished in 299.80000138282776s
+2023-09-25 07:29:12,719 INFO     Play episode 509
+2023-09-25 07:29:21,009 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":134,"purple":33}
+2023-09-25 07:29:21,010 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":134,"purple":34}
+2023-09-25 07:34:12,531 INFO     Episode 509 finished in 299.7990024089813s
+2023-09-25 07:34:12,540 INFO     Play episode 510
+2023-09-25 07:36:05,669 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":135,"purple":34}
+2023-09-25 07:37:47,229 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":136,"purple":34}
+2023-09-25 07:37:47,230 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":137,"purple":34}
+2023-09-25 07:39:12,151 INFO     Episode 510 finished in 299.600980758667s
+2023-09-25 07:39:12,162 INFO     Play episode 511
+2023-09-25 07:44:11,971 INFO     Episode 511 finished in 299.7990005016327s
+2023-09-25 07:44:11,982 INFO     Play episode 512
+2023-09-25 07:46:10,809 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":137,"purple":35}
+2023-09-25 07:49:11,692 INFO     Episode 512 finished in 299.699581861496s
+2023-09-25 07:49:11,700 INFO     Play episode 513
+2023-09-25 07:54:11,810 INFO     Episode 513 finished in 300.09868454933167s
+2023-09-25 07:54:11,821 INFO     Play episode 514
+2023-09-25 07:59:11,630 INFO     Episode 514 finished in 299.8000009059906s
+2023-09-25 07:59:11,641 INFO     Play episode 515
+2023-09-25 08:04:11,450 INFO     Episode 515 finished in 299.79769921302795s
+2023-09-25 08:04:11,463 INFO     Play episode 516
+2023-09-25 08:09:11,271 INFO     Episode 516 finished in 299.79925775527954s
+2023-09-25 08:09:11,279 INFO     Play episode 517
+2023-09-25 08:14:11,091 INFO     Episode 517 finished in 299.80073285102844s
+2023-09-25 08:14:11,103 INFO     Play episode 518
+2023-09-25 08:19:11,210 INFO     Episode 518 finished in 300.10005259513855s
+2023-09-25 08:19:11,223 INFO     Play episode 519
+2023-09-25 08:24:11,031 INFO     Episode 519 finished in 299.79899859428406s
+2023-09-25 08:24:11,039 INFO     Play episode 520
+2023-09-25 08:29:10,851 INFO     Episode 520 finished in 299.7989842891693s
+2023-09-25 08:29:10,864 INFO     Play episode 521
+2023-09-25 08:29:33,591 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":138,"purple":35}
+2023-09-25 08:34:10,571 INFO     Episode 521 finished in 299.7012298107147s
+2023-09-25 08:34:10,580 INFO     Play episode 522
+2023-09-25 08:39:10,691 INFO     Episode 522 finished in 300.1000146865845s
+2023-09-25 08:39:10,699 INFO     Play episode 523
+2023-09-25 08:44:10,511 INFO     Episode 523 finished in 299.79999899864197s
+2023-09-25 08:44:10,522 INFO     Play episode 524
+2023-09-25 08:49:10,332 INFO     Episode 524 finished in 299.80100107192993s
+2023-09-25 08:49:10,339 INFO     Play episode 525
+2023-09-25 08:54:10,151 INFO     Episode 525 finished in 299.80200028419495s
+2023-09-25 08:54:10,165 INFO     Play episode 526
+2023-09-25 08:59:09,972 INFO     Episode 526 finished in 299.80199670791626s
+2023-09-25 08:59:09,980 INFO     Play episode 527
+2023-09-25 09:04:10,090 INFO     Episode 527 finished in 300.0999987125397s
+2023-09-25 09:04:10,101 INFO     Play episode 528
+2023-09-25 09:04:37,729 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":139,"purple":35}
+2023-09-25 09:04:39,949 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":140,"purple":35}
+2023-09-25 09:09:09,711 INFO     Episode 528 finished in 299.60000467300415s
+2023-09-25 09:09:09,722 INFO     Play episode 529
+2023-09-25 09:14:09,530 INFO     Episode 529 finished in 299.79900431632996s
+2023-09-25 09:14:09,541 INFO     Play episode 530
+2023-09-25 09:16:21,731 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":141,"purple":35}
+2023-09-25 09:19:09,451 INFO     Episode 530 finished in 299.8990023136139s
+2023-09-25 09:19:09,458 INFO     Play episode 531
+2023-09-25 09:19:43,288 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":142,"purple":35}
+2023-09-25 09:19:46,609 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":142,"purple":36}
+2023-09-25 09:24:09,070 INFO     Episode 531 finished in 299.59914898872375s
+2023-09-25 09:24:09,080 INFO     Play episode 532
+2023-09-25 09:29:08,890 INFO     Episode 532 finished in 299.7989993095398s
+2023-09-25 09:29:08,897 INFO     Play episode 533
+2023-09-25 09:33:50,749 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":142,"purple":37}
+2023-09-25 09:34:08,910 INFO     Episode 533 finished in 300.00099992752075s
+2023-09-25 09:34:08,922 INFO     Play episode 534
+2023-09-25 09:35:33,350 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":143,"purple":37}
+2023-09-25 09:38:56,230 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":144,"purple":37}
+2023-09-25 09:39:08,629 INFO     Episode 534 finished in 299.69999980926514s
+2023-09-25 09:39:08,641 INFO     Play episode 535
+2023-09-25 09:44:04,908 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":145,"purple":37}
+2023-09-25 09:44:08,350 INFO     Episode 535 finished in 299.70100021362305s
+2023-09-25 09:44:08,358 INFO     Play episode 536
+2023-09-25 09:49:08,170 INFO     Episode 536 finished in 299.7980055809021s
+2023-09-25 09:49:08,178 INFO     Play episode 537
+2023-09-25 09:54:07,990 INFO     Episode 537 finished in 299.79900074005127s
+2023-09-25 09:54:07,999 INFO     Play episode 538
+2023-09-25 09:59:08,111 INFO     Episode 538 finished in 300.09865069389343s
+2023-09-25 09:59:08,120 INFO     Play episode 539
+2023-09-25 10:04:07,938 INFO     Episode 539 finished in 299.80699849128723s
+2023-09-25 10:04:07,950 INFO     Play episode 540
+2023-09-25 10:09:07,751 INFO     Episode 540 finished in 299.7959785461426s
+2023-09-25 10:09:07,763 INFO     Play episode 541
+2023-09-25 10:14:08,573 INFO     Episode 541 finished in 300.8029990196228s
+2023-09-25 10:14:08,581 INFO     Play episode 542
+2023-09-25 10:19:08,392 INFO     Episode 542 finished in 299.7999978065491s
+2023-09-25 10:19:08,403 INFO     Play episode 543
+2023-09-25 10:24:08,512 INFO     Episode 543 finished in 300.09999680519104s
+2023-09-25 10:24:08,521 INFO     Play episode 544
+2023-09-25 10:29:08,334 INFO     Episode 544 finished in 299.8009979724884s
+2023-09-25 10:29:08,344 INFO     Play episode 545
+2023-09-25 10:34:08,153 INFO     Episode 545 finished in 299.7999999523163s
+2023-09-25 10:34:08,162 INFO     Play episode 546
+2023-09-25 10:39:07,974 INFO     Episode 546 finished in 299.8020009994507s
+2023-09-25 10:39:07,984 INFO     Play episode 547
+2023-09-25 10:39:09,893 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":145,"purple":38}
+2023-09-25 10:44:08,093 INFO     Episode 547 finished in 300.10000133514404s
+2023-09-25 10:44:08,102 INFO     Play episode 548
+2023-09-25 10:44:11,612 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":146,"purple":38}
+2023-09-25 10:49:08,114 INFO     Episode 548 finished in 300.0020010471344s
+2023-09-25 10:49:08,123 INFO     Play episode 549
+2023-09-25 10:54:07,934 INFO     Episode 549 finished in 299.8020808696747s
+2023-09-25 10:54:07,944 INFO     Play episode 550
+2023-09-25 10:59:07,754 INFO     Episode 550 finished in 299.80153799057007s
+2023-09-25 10:59:07,763 INFO     Play episode 551
+2023-09-25 11:00:56,952 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":147,"purple":38}
+2023-09-25 11:01:31,552 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":147,"purple":39}
+2023-09-25 11:04:08,650 INFO     Episode 551 finished in 300.8770411014557s
+2023-09-25 11:04:08,662 INFO     Play episode 552
+2023-09-25 11:09:08,470 INFO     Episode 552 finished in 299.7999987602234s
+2023-09-25 11:09:08,480 INFO     Play episode 553
+2023-09-25 11:14:08,288 INFO     Episode 553 finished in 299.8000011444092s
+2023-09-25 11:14:08,299 INFO     Play episode 554
+2023-09-25 11:19:08,109 INFO     Episode 554 finished in 299.80113554000854s
+2023-09-25 11:19:08,119 INFO     Play episode 555
+2023-09-25 11:24:08,231 INFO     Episode 555 finished in 300.10000014305115s
+2023-09-25 11:24:08,242 INFO     Play episode 556
+2023-09-25 11:29:08,049 INFO     Episode 556 finished in 299.80042481422424s
+2023-09-25 11:29:08,058 INFO     Play episode 557
+2023-09-25 11:33:14,188 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":148,"purple":39}
+2023-09-25 11:33:16,328 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":149,"purple":39}
+2023-09-25 11:34:07,669 INFO     Episode 557 finished in 299.5990014076233s
+2023-09-25 11:34:07,679 INFO     Play episode 558
+2023-09-25 11:36:37,868 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":150,"purple":39}
+2023-09-25 11:39:07,390 INFO     Episode 558 finished in 299.70200634002686s
+2023-09-25 11:39:07,402 INFO     Play episode 559
+2023-09-25 11:43:21,427 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":151,"purple":39}
+2023-09-25 11:44:07,108 INFO     Episode 559 finished in 299.7000381946564s
+2023-09-25 11:44:07,120 INFO     Play episode 560
+2023-09-25 11:49:07,229 INFO     Episode 560 finished in 300.10199880599976s
+2023-09-25 11:49:07,240 INFO     Play episode 561
+2023-09-25 11:54:07,049 INFO     Episode 561 finished in 299.8000011444092s
+2023-09-25 11:54:07,057 INFO     Play episode 562
+2023-09-25 11:59:06,868 INFO     Episode 562 finished in 299.79829955101013s
+2023-09-25 11:59:06,879 INFO     Play episode 563
+2023-09-25 12:04:06,690 INFO     Episode 563 finished in 299.8012504577637s
+2023-09-25 12:04:06,701 INFO     Play episode 564
+2023-09-25 12:09:06,509 INFO     Episode 564 finished in 299.80021262168884s
+2023-09-25 12:09:06,520 INFO     Play episode 565
+2023-09-25 12:14:06,629 INFO     Episode 565 finished in 300.1010012626648s
+2023-09-25 12:14:06,638 INFO     Play episode 566
+2023-09-25 12:18:23,929 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":152,"purple":39}
+2023-09-25 12:19:06,348 INFO     Episode 566 finished in 299.6980001926422s
+2023-09-25 12:19:06,359 INFO     Play episode 567
+2023-09-25 12:24:06,169 INFO     Episode 567 finished in 299.7995309829712s
+2023-09-25 12:24:06,180 INFO     Play episode 568
+2023-09-25 12:29:05,991 INFO     Episode 568 finished in 299.8000030517578s
+2023-09-25 12:29:05,999 INFO     Play episode 569
+2023-09-25 12:34:05,808 INFO     Episode 569 finished in 299.80073857307434s
+2023-09-25 12:34:05,819 INFO     Play episode 570
+2023-09-25 12:36:49,987 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":152,"purple":40}
+2023-09-25 12:36:53,229 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":152,"purple":41}
+2023-09-25 12:36:57,387 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":152,"purple":42}
+2023-09-25 12:39:05,629 INFO     Episode 570 finished in 299.80000281333923s
+2023-09-25 12:39:05,642 INFO     Play episode 571
+2023-09-25 12:44:05,449 INFO     Episode 571 finished in 299.79900074005127s
+2023-09-25 12:44:05,459 INFO     Play episode 572
+2023-09-25 12:49:05,269 INFO     Episode 572 finished in 299.7990050315857s
+2023-09-25 12:49:05,280 INFO     Play episode 573
+2023-09-25 12:49:19,908 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":152,"purple":43}
+2023-09-25 12:51:02,107 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":153,"purple":43}
+2023-09-25 12:54:04,989 INFO     Episode 573 finished in 299.6990005970001s
+2023-09-25 12:54:05,001 INFO     Play episode 574
+2023-09-25 12:59:05,110 INFO     Episode 574 finished in 300.100998878479s
+2023-09-25 12:59:05,120 INFO     Play episode 575
+2023-09-25 13:04:04,929 INFO     Episode 575 finished in 299.800998210907s
+2023-09-25 13:04:04,939 INFO     Play episode 576
+2023-09-25 13:04:23,767 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":154,"purple":43}
+2023-09-25 13:09:04,649 INFO     Episode 576 finished in 299.70099925994873s
+2023-09-25 13:09:04,659 INFO     Play episode 577
+2023-09-25 13:09:46,588 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":154,"purple":44}
+2023-09-25 13:14:04,468 INFO     Episode 577 finished in 299.79900002479553s
+2023-09-25 13:14:04,479 INFO     Play episode 578
+2023-09-25 13:19:04,588 INFO     Episode 578 finished in 300.0980010032654s
+2023-09-25 13:19:04,598 INFO     Play episode 579
+2023-09-25 13:19:50,240 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":155,"purple":44}
+2023-09-25 13:22:10,479 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":155,"purple":45}
+2023-09-25 13:24:04,262 INFO     Episode 579 finished in 299.6530034542084s
+2023-09-25 13:24:04,273 INFO     Play episode 580
+2023-09-25 13:29:04,381 INFO     Episode 580 finished in 300.09899854660034s
+2023-09-25 13:29:04,389 INFO     Play episode 581
+2023-09-25 13:34:04,201 INFO     Episode 581 finished in 299.80000042915344s
+2023-09-25 13:34:04,213 INFO     Play episode 582
+2023-09-25 13:39:04,023 INFO     Episode 582 finished in 299.8019995689392s
+2023-09-25 13:39:04,031 INFO     Play episode 583
+2023-09-25 13:44:03,842 INFO     Episode 583 finished in 299.80100274086s
+2023-09-25 13:44:03,850 INFO     Play episode 584
+2023-09-25 13:45:33,339 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":156,"purple":45}
+2023-09-25 13:49:03,561 INFO     Episode 584 finished in 299.6990010738373s
+2023-09-25 13:49:03,573 INFO     Play episode 585
+2023-09-25 13:54:03,381 INFO     Episode 585 finished in 299.7999985218048s
+2023-09-25 13:54:03,393 INFO     Play episode 586
+2023-09-25 13:54:30,280 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":156,"purple":46}
+2023-09-25 13:59:03,201 INFO     Episode 586 finished in 299.7975344657898s
+2023-09-25 13:59:03,211 INFO     Play episode 587
+2023-09-25 14:04:03,021 INFO     Episode 587 finished in 299.7990839481354s
+2023-09-25 14:04:03,030 INFO     Play episode 588
+2023-09-25 14:09:02,841 INFO     Episode 588 finished in 299.79899764060974s
+2023-09-25 14:09:02,852 INFO     Play episode 589
+2023-09-25 14:14:02,662 INFO     Episode 589 finished in 299.79999470710754s
+2023-09-25 14:14:02,671 INFO     Play episode 590
+2023-09-25 14:19:02,782 INFO     Episode 590 finished in 300.0999987125397s
+2023-09-25 14:19:02,794 INFO     Play episode 591
+2023-09-25 14:21:14,402 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":157,"purple":46}
+2023-09-25 14:24:02,701 INFO     Episode 591 finished in 299.8990466594696s
+2023-09-25 14:24:02,702 INFO     Play episode 592
+2023-09-25 14:29:02,522 INFO     Episode 592 finished in 299.8000330924988s
+2023-09-25 14:29:02,522 INFO     Play episode 593
+2023-09-25 14:33:11,644 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":157,"purple":47}
+2023-09-25 14:34:02,342 INFO     Episode 593 finished in 299.8009328842163s
+2023-09-25 14:34:02,342 INFO     Play episode 594
+2023-09-25 14:39:02,162 INFO     Episode 594 finished in 299.80108094215393s
+2023-09-25 14:39:02,174 INFO     Play episode 595
+2023-09-25 14:44:01,981 INFO     Episode 595 finished in 299.79951882362366s
+2023-09-25 14:44:01,994 INFO     Play episode 596
+2023-09-25 14:48:13,167 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":158,"purple":47}
+2023-09-25 14:49:01,702 INFO     Episode 596 finished in 299.7002236843109s
+2023-09-25 14:49:01,712 INFO     Play episode 597
+2023-09-25 14:51:35,600 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":159,"purple":47}
+2023-09-25 14:53:17,604 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":160,"purple":47}
+2023-09-25 14:53:17,605 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":161,"purple":47}
+2023-09-25 14:54:01,331 INFO     Episode 597 finished in 299.6090335845947s
+2023-09-25 14:54:01,343 INFO     Play episode 598
+2023-09-25 14:59:01,141 INFO     Episode 598 finished in 299.7928156852722s
+2023-09-25 14:59:01,152 INFO     Play episode 599
+2023-09-25 15:00:38,400 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":161,"purple":48}
+2023-09-25 15:01:08,200 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":161,"purple":49}
+2023-09-25 15:04:00,862 INFO     Episode 599 finished in 299.7007386684418s
+2023-09-25 15:04:00,873 INFO     Play episode 600
+2023-09-25 15:09:00,682 INFO     Episode 600 finished in 299.79951572418213s
+2023-09-25 15:09:00,693 INFO     Play episode 601
+2023-09-25 15:14:00,803 INFO     Episode 601 finished in 300.103524684906s
+2023-09-25 15:14:00,817 INFO     Play episode 602
+2023-09-25 15:14:30,801 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":162,"purple":49}
+2023-09-25 15:19:00,525 INFO     Episode 602 finished in 299.6985149383545s
+2023-09-25 15:19:00,544 INFO     Play episode 603
+2023-09-25 15:24:00,340 INFO     Episode 603 finished in 299.7865180969238s
+2023-09-25 15:24:00,353 INFO     Play episode 604
+2023-09-25 15:29:00,161 INFO     Episode 604 finished in 299.8006646633148s
+2023-09-25 15:29:00,172 INFO     Play episode 605
+2023-09-25 15:33:59,981 INFO     Episode 605 finished in 299.7993152141571s
+2023-09-25 15:33:59,994 INFO     Play episode 606
+2023-09-25 15:34:32,102 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":163,"purple":49}
+2023-09-25 15:39:00,101 INFO     Episode 606 finished in 300.10051822662354s
+2023-09-25 15:39:00,113 INFO     Play episode 607
+2023-09-25 15:43:59,921 INFO     Episode 607 finished in 299.799521446228s
+2023-09-25 15:43:59,932 INFO     Play episode 608
+2023-09-25 15:48:59,743 INFO     Episode 608 finished in 299.80103731155396s
+2023-09-25 15:48:59,754 INFO     Play episode 609
+2023-09-25 15:53:59,562 INFO     Episode 609 finished in 299.80080461502075s
+2023-09-25 15:53:59,573 INFO     Play episode 610
+2023-09-25 15:58:59,381 INFO     Episode 610 finished in 299.79952001571655s
+2023-09-25 15:58:59,393 INFO     Play episode 611
+2023-09-25 16:03:59,501 INFO     Episode 611 finished in 300.1005132198334s
+2023-09-25 16:03:59,513 INFO     Play episode 612
+2023-09-25 16:08:11,530 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":164,"purple":49}
+2023-09-25 16:08:59,221 INFO     Episode 612 finished in 299.6989781856537s
+2023-09-25 16:08:59,232 INFO     Play episode 613
+2023-09-25 16:13:59,341 INFO     Episode 613 finished in 300.1010015010834s
+2023-09-25 16:13:59,353 INFO     Play episode 614
+2023-09-25 16:18:59,160 INFO     Episode 614 finished in 299.7999975681305s
+2023-09-25 16:18:59,172 INFO     Play episode 615
+2023-09-25 16:23:58,982 INFO     Episode 615 finished in 299.79951786994934s
+2023-09-25 16:23:58,993 INFO     Play episode 616
+2023-09-25 16:28:58,801 INFO     Episode 616 finished in 299.7996199131012s
+2023-09-25 16:28:58,812 INFO     Play episode 617
+2023-09-25 16:32:51,260 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":165,"purple":49}
+2023-09-25 16:33:58,622 INFO     Episode 617 finished in 299.79827880859375s
+2023-09-25 16:33:58,633 INFO     Play episode 618
+2023-09-25 16:38:58,441 INFO     Episode 618 finished in 299.7990002632141s
+2023-09-25 16:38:58,450 INFO     Play episode 619
+2023-09-25 16:43:58,562 INFO     Episode 619 finished in 300.09911131858826s
+2023-09-25 16:43:58,574 INFO     Play episode 620
+2023-09-25 16:48:58,381 INFO     Episode 620 finished in 299.80051851272583s
+2023-09-25 16:48:58,392 INFO     Play episode 621
+2023-09-25 16:53:08,580 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":166,"purple":49}
+2023-09-25 16:53:58,103 INFO     Episode 621 finished in 299.69827675819397s
+2023-09-25 16:53:58,117 INFO     Play episode 622
+2023-09-25 16:56:32,601 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":167,"purple":49}
+2023-09-25 16:58:57,821 INFO     Episode 622 finished in 299.6977436542511s
+2023-09-25 16:58:57,836 INFO     Play episode 623
+2023-09-25 17:03:57,642 INFO     Episode 623 finished in 299.7980532646179s
+2023-09-25 17:03:57,657 INFO     Play episode 624
+2023-09-25 17:06:33,841 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":168,"purple":49}
+2023-09-25 17:08:57,362 INFO     Episode 624 finished in 299.6988248825073s
+2023-09-25 17:08:57,376 INFO     Play episode 625
+2023-09-25 17:09:57,102 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":169,"purple":49}
+2023-09-25 17:13:57,082 INFO     Episode 625 finished in 299.69802808761597s
+2023-09-25 17:13:57,095 INFO     Play episode 626
+2023-09-25 17:18:19,280 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":170,"purple":49}
+2023-09-25 17:18:57,102 INFO     Episode 626 finished in 300.0001976490021s
+2023-09-25 17:18:57,116 INFO     Play episode 627
+2023-09-25 17:23:56,923 INFO     Episode 627 finished in 299.79741740226746s
+2023-09-25 17:23:56,934 INFO     Play episode 628
+2023-09-25 17:28:56,746 INFO     Episode 628 finished in 299.8043587207794s
+2023-09-25 17:28:56,762 INFO     Play episode 629
+2023-09-25 17:33:56,563 INFO     Episode 629 finished in 299.7881374359131s
+2023-09-25 17:33:56,576 INFO     Play episode 630
+2023-09-25 17:38:56,681 INFO     Episode 630 finished in 300.0980191230774s
+2023-09-25 17:38:56,692 INFO     Play episode 631
+2023-09-25 17:43:22,160 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":171,"purple":49}
+2023-09-25 17:43:56,402 INFO     Episode 631 finished in 299.6990005970001s
+2023-09-25 17:43:56,413 INFO     Play episode 632
+2023-09-25 17:48:56,222 INFO     Episode 632 finished in 299.79999828338623s
+2023-09-25 17:48:56,233 INFO     Play episode 633
+2023-09-25 17:53:56,042 INFO     Episode 633 finished in 299.8015208244324s
+2023-09-25 17:53:56,054 INFO     Play episode 634
+2023-09-25 17:58:56,176 INFO     Episode 634 finished in 300.1010015010834s
+2023-09-25 17:58:56,188 INFO     Play episode 635
+2023-09-25 18:03:23,619 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":172,"purple":49}
+2023-09-25 18:03:55,881 INFO     Episode 635 finished in 299.6880033016205s
+2023-09-25 18:03:55,892 INFO     Play episode 636
+2023-09-25 18:07:21,619 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":172,"purple":50}
+2023-09-25 18:08:55,701 INFO     Episode 636 finished in 299.8009989261627s
+2023-09-25 18:08:55,709 INFO     Play episode 637
+2023-09-25 18:12:23,422 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":173,"purple":50}
+2023-09-25 18:12:25,522 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":174,"purple":50}
+2023-09-25 18:13:55,823 INFO     Episode 637 finished in 300.1020014286041s
+2023-09-25 18:13:55,835 INFO     Play episode 638
+2023-09-25 18:18:55,642 INFO     Episode 638 finished in 299.80199670791626s
+2023-09-25 18:18:55,654 INFO     Play episode 639
+2023-09-25 18:23:55,462 INFO     Episode 639 finished in 299.80200147628784s
+2023-09-25 18:23:55,474 INFO     Play episode 640
+2023-09-25 18:28:55,283 INFO     Episode 640 finished in 299.8025555610657s
+2023-09-25 18:28:55,297 INFO     Play episode 641
+2023-09-25 18:33:55,101 INFO     Episode 641 finished in 299.797226190567s
+2023-09-25 18:33:55,115 INFO     Play episode 642
+2023-09-25 18:37:29,140 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":175,"purple":50}
+2023-09-25 18:38:55,124 INFO     Episode 642 finished in 300.00235867500305s
+2023-09-25 18:38:55,140 INFO     Play episode 643
+2023-09-25 18:43:55,242 INFO     Episode 643 finished in 300.09373664855957s
+2023-09-25 18:43:55,253 INFO     Play episode 644
+2023-09-25 18:44:14,220 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":176,"purple":50}
+2023-09-25 18:48:54,962 INFO     Episode 644 finished in 299.70060324668884s
+2023-09-25 18:48:54,972 INFO     Play episode 645
+2023-09-25 18:53:54,782 INFO     Episode 645 finished in 299.79841208457947s
+2023-09-25 18:53:54,795 INFO     Play episode 646
+2023-09-25 18:58:20,061 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":176,"purple":51}
+2023-09-25 18:58:54,501 INFO     Episode 646 finished in 299.69948148727417s
+2023-09-25 18:58:54,513 INFO     Play episode 647
+2023-09-25 19:03:54,322 INFO     Episode 647 finished in 299.79999709129333s
+2023-09-25 19:03:54,334 INFO     Play episode 648
+2023-09-25 19:08:54,141 INFO     Episode 648 finished in 299.79900002479553s
+2023-09-25 19:08:54,152 INFO     Play episode 649
+2023-09-25 19:13:23,119 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":177,"purple":51}
+2023-09-25 19:13:28,520 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":178,"purple":51}
+2023-09-25 19:13:54,062 INFO     Episode 649 finished in 299.901002407074s
+2023-09-25 19:13:54,073 INFO     Play episode 650
+2023-09-25 19:18:53,881 INFO     Episode 650 finished in 299.7995216846466s
+2023-09-25 19:18:53,891 INFO     Play episode 651
+2023-09-25 19:23:53,702 INFO     Episode 651 finished in 299.80003023147583s
+2023-09-25 19:23:53,713 INFO     Play episode 652
+2023-09-25 19:28:53,821 INFO     Episode 652 finished in 300.0999970436096s
+2023-09-25 19:28:53,830 INFO     Play episode 653
+2023-09-25 19:33:53,643 INFO     Episode 653 finished in 299.80200719833374s
+2023-09-25 19:33:53,652 INFO     Play episode 654
+2023-09-25 19:38:53,462 INFO     Episode 654 finished in 299.80000042915344s
+2023-09-25 19:38:53,473 INFO     Play episode 655
+2023-09-25 19:43:53,282 INFO     Episode 655 finished in 299.80100274086s
+2023-09-25 19:43:53,294 INFO     Play episode 656
+2023-09-25 19:44:24,903 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":178,"purple":52}
+2023-09-25 19:48:53,401 INFO     Episode 656 finished in 300.09999990463257s
+2023-09-25 19:48:53,413 INFO     Play episode 657
+2023-09-25 19:53:53,222 INFO     Episode 657 finished in 299.8000044822693s
+2023-09-25 19:53:53,232 INFO     Play episode 658
+2023-09-25 19:58:53,042 INFO     Episode 658 finished in 299.8000419139862s
+2023-09-25 19:58:53,053 INFO     Play episode 659
+2023-09-25 20:03:52,863 INFO     Episode 659 finished in 299.8010001182556s
+2023-09-25 20:03:52,875 INFO     Play episode 660
+2023-09-25 20:08:52,680 INFO     Episode 660 finished in 299.79951763153076s
+2023-09-25 20:08:52,691 INFO     Play episode 661
+2023-09-25 20:13:52,801 INFO     Episode 661 finished in 300.09899973869324s
+2023-09-25 20:13:52,812 INFO     Play episode 662
+2023-09-25 20:18:52,631 INFO     Episode 662 finished in 299.8010025024414s
+2023-09-25 20:18:52,643 INFO     Play episode 663
+2023-09-25 20:23:52,442 INFO     Episode 663 finished in 299.7930021286011s
+2023-09-25 20:23:52,452 INFO     Play episode 664
+2023-09-25 20:24:26,619 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":179,"purple":52}
+2023-09-25 20:27:51,539 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":180,"purple":52}
+2023-09-25 20:28:52,061 INFO     Episode 664 finished in 299.6000006198883s
+2023-09-25 20:28:52,072 INFO     Play episode 665
+2023-09-25 20:33:51,880 INFO     Episode 665 finished in 299.7999997138977s
+2023-09-25 20:33:51,892 INFO     Play episode 666
+2023-09-25 20:38:51,701 INFO     Episode 666 finished in 299.80099964141846s
+2023-09-25 20:38:51,712 INFO     Play episode 667
+2023-09-25 20:43:51,521 INFO     Episode 667 finished in 299.7989921569824s
+2023-09-25 20:43:51,532 INFO     Play episode 668
+2023-09-25 20:48:51,641 INFO     Episode 668 finished in 300.10200023651123s
+2023-09-25 20:48:51,652 INFO     Play episode 669
+2023-09-25 20:53:51,461 INFO     Episode 669 finished in 299.80100107192993s
+2023-09-25 20:53:51,471 INFO     Play episode 670
+2023-09-25 20:58:51,282 INFO     Episode 670 finished in 299.80204463005066s
+2023-09-25 20:58:51,293 INFO     Play episode 671
+2023-09-25 21:03:51,101 INFO     Episode 671 finished in 299.7999994754791s
+2023-09-25 21:03:51,113 INFO     Play episode 672
+2023-09-25 21:08:50,922 INFO     Episode 672 finished in 299.80199909210205s
+2023-09-25 21:08:50,934 INFO     Play episode 673
+2023-09-25 21:13:51,041 INFO     Episode 673 finished in 300.1000006198883s
+2023-09-25 21:13:51,064 INFO     Play episode 674
+2023-09-25 21:18:50,861 INFO     Episode 674 finished in 299.79199981689453s
+2023-09-25 21:18:50,871 INFO     Play episode 675
+2023-09-25 21:23:50,683 INFO     Episode 675 finished in 299.80200028419495s
+2023-09-25 21:23:50,695 INFO     Play episode 676
+2023-09-25 21:28:50,500 INFO     Episode 676 finished in 299.79999923706055s
+2023-09-25 21:28:50,513 INFO     Play episode 677
+2023-09-25 21:33:50,320 INFO     Episode 677 finished in 299.80000019073486s
+2023-09-25 21:33:50,332 INFO     Play episode 678
+2023-09-25 21:34:07,419 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":180,"purple":53}
+2023-09-25 21:35:50,543 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":180,"purple":54}
+2023-09-25 21:38:50,241 INFO     Episode 678 finished in 299.9009985923767s
+2023-09-25 21:38:50,252 INFO     Play episode 679
+2023-09-25 21:41:38,800 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":181,"purple":54}
+2023-09-25 21:43:49,960 INFO     Episode 679 finished in 299.70000100135803s
+2023-09-25 21:43:49,971 INFO     Play episode 680
+2023-09-25 21:48:49,780 INFO     Episode 680 finished in 299.79899883270264s
+2023-09-25 21:48:49,791 INFO     Play episode 681
+2023-09-25 21:53:49,901 INFO     Episode 681 finished in 300.10000228881836s
+2023-09-25 21:53:49,911 INFO     Play episode 682
+2023-09-25 21:57:37,799 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":182,"purple":54}
+2023-09-25 21:58:49,721 INFO     Episode 682 finished in 299.8000020980835s
+2023-09-25 21:58:49,732 INFO     Play episode 683
+2023-09-25 22:03:49,541 INFO     Episode 683 finished in 299.79999899864197s
+2023-09-25 22:03:49,552 INFO     Play episode 684
+2023-09-25 22:08:49,361 INFO     Episode 684 finished in 299.7989983558655s
+2023-09-25 22:08:49,369 INFO     Play episode 685
+2023-09-25 22:12:39,200 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":183,"purple":54}
+2023-09-25 22:13:49,081 INFO     Episode 685 finished in 299.6990399360657s
+2023-09-25 22:13:49,093 INFO     Play episode 686
+2023-09-25 22:18:49,203 INFO     Episode 686 finished in 300.1020429134369s
+2023-09-25 22:18:49,214 INFO     Play episode 687
+2023-09-25 22:22:40,740 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":184,"purple":54}
+2023-09-25 22:23:48,920 INFO     Episode 687 finished in 299.69999957084656s
+2023-09-25 22:23:48,932 INFO     Play episode 688
+2023-09-25 22:24:23,141 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":185,"purple":54}
+2023-09-25 22:28:49,041 INFO     Episode 688 finished in 300.0989999771118s
+2023-09-25 22:28:49,052 INFO     Play episode 689
+2023-09-25 22:33:48,861 INFO     Episode 689 finished in 299.80000257492065s
+2023-09-25 22:33:48,876 INFO     Play episode 690
+2023-09-25 22:34:25,121 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":186,"purple":54}
+2023-09-25 22:38:48,580 INFO     Episode 690 finished in 299.69700264930725s
+2023-09-25 22:38:48,591 INFO     Play episode 691
+2023-09-25 22:43:48,401 INFO     Episode 691 finished in 299.7995171546936s
+2023-09-25 22:43:48,412 INFO     Play episode 692
+2023-09-25 22:48:48,521 INFO     Episode 692 finished in 300.10052156448364s
+2023-09-25 22:48:48,533 INFO     Play episode 693
+2023-09-25 22:53:48,341 INFO     Episode 693 finished in 299.8000018596649s
+2023-09-25 22:53:48,352 INFO     Play episode 694
+2023-09-25 22:58:48,161 INFO     Episode 694 finished in 299.80051922798157s
+2023-09-25 22:58:48,172 INFO     Play episode 695
+2023-09-25 23:03:47,981 INFO     Episode 695 finished in 299.79904198646545s
+2023-09-25 23:03:47,990 INFO     Play episode 696
+2023-09-25 23:08:47,801 INFO     Episode 696 finished in 299.8010003566742s
+2023-09-25 23:08:47,810 INFO     Play episode 697
+2023-09-25 23:13:47,920 INFO     Episode 697 finished in 300.09800124168396s
+2023-09-25 23:13:47,933 INFO     Play episode 698
+2023-09-25 23:18:47,740 INFO     Episode 698 finished in 299.79899740219116s
+2023-09-25 23:18:47,751 INFO     Play episode 699
+2023-09-25 23:23:47,562 INFO     Episode 699 finished in 299.8009994029999s
+2023-09-25 23:23:47,571 INFO     Play episode 700
+2023-09-25 23:27:47,483 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":187,"purple":54}
+2023-09-25 23:28:47,380 INFO     Episode 700 finished in 299.79955768585205s
+2023-09-25 23:28:47,390 INFO     Play episode 701
+2023-09-25 23:33:47,201 INFO     Episode 701 finished in 299.8009994029999s
+2023-09-25 23:33:47,213 INFO     Play episode 702
+2023-09-25 23:36:10,538 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":188,"purple":54}
+2023-09-25 23:38:46,920 INFO     Episode 702 finished in 299.6980001926422s
+2023-09-25 23:38:46,928 INFO     Play episode 703
+2023-09-25 23:43:47,041 INFO     Episode 703 finished in 300.1000089645386s
+2023-09-25 23:43:47,052 INFO     Play episode 704
+2023-09-25 23:48:46,860 INFO     Episode 704 finished in 299.79899978637695s
+2023-09-25 23:48:46,869 INFO     Play episode 705
+2023-09-25 23:53:46,682 INFO     Episode 705 finished in 299.802001953125s
+2023-09-25 23:53:46,695 INFO     Play episode 706
+2023-09-25 23:58:46,502 INFO     Episode 706 finished in 299.8000407218933s
+2023-09-25 23:58:46,511 INFO     Play episode 707
+2023-09-26 00:03:46,320 INFO     Episode 707 finished in 299.7999994754791s
+2023-09-26 00:03:46,331 INFO     Play episode 708
+2023-09-26 00:08:46,442 INFO     Episode 708 finished in 300.09999799728394s
+2023-09-26 00:08:46,455 INFO     Play episode 709
+2023-09-26 00:13:46,263 INFO     Episode 709 finished in 299.8009994029999s
+2023-09-26 00:13:46,273 INFO     Play episode 710
+2023-09-26 00:16:11,919 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":189,"purple":54}
+2023-09-26 00:18:45,980 INFO     Episode 710 finished in 299.6990008354187s
+2023-09-26 00:18:45,992 INFO     Play episode 711
+2023-09-26 00:23:45,801 INFO     Episode 711 finished in 299.8009991645813s
+2023-09-26 00:23:45,814 INFO     Play episode 712
+2023-09-26 00:28:45,920 INFO     Episode 712 finished in 300.09984374046326s
+2023-09-26 00:28:45,930 INFO     Play episode 713
+2023-09-26 00:33:45,741 INFO     Episode 713 finished in 299.8005211353302s
+2023-09-26 00:33:45,753 INFO     Play episode 714
+2023-09-26 00:38:45,561 INFO     Episode 714 finished in 299.8009991645813s
+2023-09-26 00:38:45,574 INFO     Play episode 715
+2023-09-26 00:43:45,381 INFO     Episode 715 finished in 299.8005211353302s
+2023-09-26 00:43:45,391 INFO     Play episode 716
+2023-09-26 00:44:14,879 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":190,"purple":54}
+2023-09-26 00:48:45,201 INFO     Episode 716 finished in 299.7999978065491s
+2023-09-26 00:48:45,213 INFO     Play episode 717
+2023-09-26 00:53:45,023 INFO     Episode 717 finished in 299.80100178718567s
+2023-09-26 00:53:45,035 INFO     Play episode 718
+2023-09-26 00:58:44,841 INFO     Episode 718 finished in 299.800000667572s
+2023-09-26 00:58:44,852 INFO     Play episode 719
+2023-09-26 01:03:44,661 INFO     Episode 719 finished in 299.79999828338623s
+2023-09-26 01:03:44,672 INFO     Play episode 720
+2023-09-26 01:08:44,781 INFO     Episode 720 finished in 300.10051798820496s
+2023-09-26 01:08:44,791 INFO     Play episode 721
+2023-09-26 01:13:44,601 INFO     Episode 721 finished in 299.8000032901764s
+2023-09-26 01:13:44,610 INFO     Play episode 722
+2023-09-26 01:14:17,000 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":191,"purple":54}
+2023-09-26 01:17:43,299 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":191,"purple":55}
+2023-09-26 01:18:44,220 INFO     Episode 722 finished in 299.5990002155304s
+2023-09-26 01:18:44,231 INFO     Play episode 723
+2023-09-26 01:19:24,679 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":192,"purple":55}
+2023-09-26 01:19:24,680 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":193,"purple":55}
+2023-09-26 01:23:43,942 INFO     Episode 723 finished in 299.7010018825531s
+2023-09-26 01:23:43,954 INFO     Play episode 724
+2023-09-26 01:28:43,760 INFO     Episode 724 finished in 299.8005166053772s
+2023-09-26 01:28:43,770 INFO     Play episode 725
+2023-09-26 01:31:07,781 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":193,"purple":56}
+2023-09-26 01:33:43,881 INFO     Episode 725 finished in 300.10051822662354s
+2023-09-26 01:33:43,893 INFO     Play episode 726
+2023-09-26 01:38:43,701 INFO     Episode 726 finished in 299.8005130290985s
+2023-09-26 01:38:43,713 INFO     Play episode 727
+2023-09-26 01:41:10,499 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":194,"purple":56}
+2023-09-26 01:43:43,420 INFO     Episode 727 finished in 299.6980473995209s
+2023-09-26 01:43:43,433 INFO     Play episode 728
+2023-09-26 01:48:43,241 INFO     Episode 728 finished in 299.7999999523163s
+2023-09-26 01:48:43,253 INFO     Play episode 729
+2023-09-26 01:51:13,162 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":195,"purple":56}
+2023-09-26 01:53:43,162 INFO     Episode 729 finished in 299.9000520706177s
+2023-09-26 01:53:43,173 INFO     Play episode 730
+2023-09-26 01:58:42,982 INFO     Episode 730 finished in 299.8005540370941s
+2023-09-26 01:58:42,991 INFO     Play episode 731
+2023-09-26 02:03:42,801 INFO     Episode 731 finished in 299.79952239990234s
+2023-09-26 02:03:42,810 INFO     Play episode 732
+2023-09-26 02:08:42,621 INFO     Episode 732 finished in 299.79899740219116s
+2023-09-26 02:08:42,630 INFO     Play episode 733
+2023-09-26 02:13:42,440 INFO     Episode 733 finished in 299.80152201652527s
+2023-09-26 02:13:42,453 INFO     Play episode 734
+2023-09-26 02:16:32,239 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":196,"purple":56}
+2023-09-26 02:16:36,862 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":197,"purple":56}
+2023-09-26 02:18:20,379 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":198,"purple":56}
+2023-09-26 02:18:42,360 INFO     Episode 734 finished in 299.89999866485596s
+2023-09-26 02:18:42,372 INFO     Play episode 735
+2023-09-26 02:20:03,339 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":199,"purple":56}
+2023-09-26 02:23:42,180 INFO     Episode 735 finished in 299.7999999523163s
+2023-09-26 02:23:42,192 INFO     Play episode 736
+2023-09-26 02:28:42,001 INFO     Episode 736 finished in 299.80000162124634s
+2023-09-26 02:28:42,013 INFO     Play episode 737
+2023-09-26 02:33:41,821 INFO     Episode 737 finished in 299.79855513572693s
+2023-09-26 02:33:41,833 INFO     Play episode 738
+2023-09-26 02:38:41,941 INFO     Episode 738 finished in 300.0990011692047s
+2023-09-26 02:38:41,952 INFO     Play episode 739
+2023-09-26 02:43:41,761 INFO     Episode 739 finished in 299.79900193214417s
+2023-09-26 02:43:41,774 INFO     Play episode 740
+2023-09-26 02:48:41,581 INFO     Episode 740 finished in 299.80152583122253s
+2023-09-26 02:48:41,591 INFO     Play episode 741
+2023-09-26 02:53:41,401 INFO     Episode 741 finished in 299.8000009059906s
+2023-09-26 02:53:41,413 INFO     Play episode 742
+2023-09-26 02:58:41,220 INFO     Episode 742 finished in 299.799001455307s
+2023-09-26 02:58:41,233 INFO     Play episode 743
+2023-09-26 03:00:04,719 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":200,"purple":56}
+2023-09-26 03:03:41,041 INFO     Episode 743 finished in 299.8009994029999s
+2023-09-26 03:03:41,053 INFO     Play episode 744
+2023-09-26 03:06:46,800 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":201,"purple":56}
+2023-09-26 03:08:40,760 INFO     Episode 744 finished in 299.6999967098236s
+2023-09-26 03:08:40,772 INFO     Play episode 745
+2023-09-26 03:13:40,592 INFO     Episode 745 finished in 299.81099557876587s
+2023-09-26 03:13:40,604 INFO     Play episode 746
+2023-09-26 03:18:40,700 INFO     Episode 746 finished in 300.08899784088135s
+2023-09-26 03:18:40,713 INFO     Play episode 747
+2023-09-26 03:23:40,520 INFO     Episode 747 finished in 299.8000295162201s
+2023-09-26 03:23:40,533 INFO     Play episode 748
+2023-09-26 03:28:02,379 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":201,"purple":57}
+2023-09-26 03:28:40,340 INFO     Episode 748 finished in 299.79899859428406s
+2023-09-26 03:28:40,353 INFO     Play episode 749
+2023-09-26 03:29:47,019 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":202,"purple":57}
+2023-09-26 03:33:40,062 INFO     Episode 749 finished in 299.7000000476837s
+2023-09-26 03:33:40,073 INFO     Play episode 750
+2023-09-26 03:38:39,880 INFO     Episode 750 finished in 299.800000667572s
+2023-09-26 03:38:39,892 INFO     Play episode 751
+2023-09-26 03:41:28,623 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":203,"purple":57}
+2023-09-26 03:41:30,560 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":204,"purple":57}
+2023-09-26 03:43:39,500 INFO     Episode 751 finished in 299.59899854660034s
+2023-09-26 03:43:39,511 INFO     Play episode 752
+2023-09-26 03:48:39,321 INFO     Episode 752 finished in 299.7999987602234s
+2023-09-26 03:48:39,333 INFO     Play episode 753
+2023-09-26 03:51:58,819 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":204,"purple":58}
+2023-09-26 03:53:39,040 INFO     Episode 753 finished in 299.69899702072144s
+2023-09-26 03:53:39,053 INFO     Play episode 754
+2023-09-26 03:58:38,860 INFO     Episode 754 finished in 299.79999899864197s
+2023-09-26 03:58:38,872 INFO     Play episode 755
+2023-09-26 03:58:40,883 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":205,"purple":58}
+2023-09-26 03:58:42,339 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":206,"purple":58}
+2023-09-26 04:02:03,839 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":207,"purple":58}
+2023-09-26 04:03:38,580 INFO     Episode 755 finished in 299.70099782943726s
+2023-09-26 04:03:38,591 INFO     Play episode 756
+2023-09-26 04:08:38,400 INFO     Episode 756 finished in 299.7990005016327s
+2023-09-26 04:08:38,412 INFO     Play episode 757
+2023-09-26 04:13:38,220 INFO     Episode 757 finished in 299.79900074005127s
+2023-09-26 04:13:38,232 INFO     Play episode 758
+2023-09-26 04:13:48,559 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":208,"purple":58}
+2023-09-26 04:18:38,040 INFO     Episode 758 finished in 299.799001455307s
+2023-09-26 04:18:38,053 INFO     Play episode 759
+2023-09-26 04:20:37,062 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":209,"purple":58}
+2023-09-26 04:23:38,160 INFO     Episode 759 finished in 300.098997592926s
+2023-09-26 04:23:38,174 INFO     Play episode 760
+2023-09-26 04:28:37,980 INFO     Episode 760 finished in 299.800000667572s
+2023-09-26 04:28:37,992 INFO     Play episode 761
+2023-09-26 04:33:15,802 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":210,"purple":58}
+2023-09-26 04:33:37,800 INFO     Episode 761 finished in 299.80000138282776s
+2023-09-26 04:33:37,813 INFO     Play episode 762
+2023-09-26 04:38:37,621 INFO     Episode 762 finished in 299.8005721569061s
+2023-09-26 04:38:37,634 INFO     Play episode 763
+2023-09-26 04:39:05,659 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":210,"purple":59}
+2023-09-26 04:43:37,441 INFO     Episode 763 finished in 299.80004620552063s
+2023-09-26 04:43:37,453 INFO     Play episode 764
+2023-09-26 04:48:37,561 INFO     Episode 764 finished in 300.0909993648529s
+2023-09-26 04:48:37,572 INFO     Play episode 765
+2023-09-26 04:53:37,381 INFO     Episode 765 finished in 299.79899859428406s
+2023-09-26 04:53:37,394 INFO     Play episode 766
+2023-09-26 04:58:37,212 INFO     Episode 766 finished in 299.80000019073486s
+2023-09-26 04:58:37,224 INFO     Play episode 767
+2023-09-26 05:03:37,021 INFO     Episode 767 finished in 299.7909972667694s
+2023-09-26 05:03:37,032 INFO     Play episode 768
+2023-09-26 05:08:36,841 INFO     Episode 768 finished in 299.80000281333923s
+2023-09-26 05:08:36,853 INFO     Play episode 769
+2023-09-26 05:11:25,579 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":211,"purple":59}
+2023-09-26 05:13:36,761 INFO     Episode 769 finished in 299.9000005722046s
+2023-09-26 05:13:36,772 INFO     Play episode 770
+2023-09-26 05:15:57,583 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":211,"purple":60}
+2023-09-26 05:18:36,882 INFO     Episode 770 finished in 300.10100197792053s
+2023-09-26 05:18:36,894 INFO     Play episode 771
+2023-09-26 05:19:18,841 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":212,"purple":60}
+2023-09-26 05:19:21,719 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":212,"purple":61}
+2023-09-26 05:19:26,259 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":213,"purple":61}
+2023-09-26 05:23:36,402 INFO     Episode 771 finished in 299.50099444389343s
+2023-09-26 05:23:36,414 INFO     Play episode 772
+2023-09-26 05:28:36,221 INFO     Episode 772 finished in 299.7999999523163s
+2023-09-26 05:28:36,233 INFO     Play episode 773
+2023-09-26 05:33:36,040 INFO     Episode 773 finished in 299.79900336265564s
+2023-09-26 05:33:36,053 INFO     Play episode 774
+2023-09-26 05:34:28,420 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":214,"purple":61}
+2023-09-26 05:38:35,861 INFO     Episode 774 finished in 299.7990005016327s
+2023-09-26 05:38:35,872 INFO     Play episode 775
+2023-09-26 05:39:30,359 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":215,"purple":61}
+2023-09-26 05:43:35,581 INFO     Episode 775 finished in 299.69999957084656s
+2023-09-26 05:43:35,593 INFO     Play episode 776
+2023-09-26 05:48:35,400 INFO     Episode 776 finished in 299.80099987983704s
+2023-09-26 05:48:35,411 INFO     Play episode 777
+2023-09-26 05:53:35,222 INFO     Episode 777 finished in 299.7999985218048s
+2023-09-26 05:53:35,241 INFO     Play episode 778
+2023-09-26 05:58:35,040 INFO     Episode 778 finished in 299.79400300979614s
+2023-09-26 05:58:35,051 INFO     Play episode 779
+2023-09-26 06:01:12,739 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":216,"purple":61}
+2023-09-26 06:03:34,962 INFO     Episode 779 finished in 299.89999413490295s
+2023-09-26 06:03:34,973 INFO     Play episode 780
+2023-09-26 06:07:54,482 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":217,"purple":61}
+2023-09-26 06:08:34,780 INFO     Episode 780 finished in 299.79999828338623s
+2023-09-26 06:08:34,793 INFO     Play episode 781
+2023-09-26 06:13:34,601 INFO     Episode 781 finished in 299.7989971637726s
+2023-09-26 06:13:34,613 INFO     Play episode 782
+2023-09-26 06:18:34,421 INFO     Episode 782 finished in 299.7999997138977s
+2023-09-26 06:18:34,433 INFO     Play episode 783
+2023-09-26 06:22:56,059 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":218,"purple":61}
+2023-09-26 06:23:34,141 INFO     Episode 783 finished in 299.6999988555908s
+2023-09-26 06:23:34,153 INFO     Play episode 784
+2023-09-26 06:28:34,263 INFO     Episode 784 finished in 300.10200023651123s
+2023-09-26 06:28:34,275 INFO     Play episode 785
+2023-09-26 06:31:18,320 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":219,"purple":61}
+2023-09-26 06:33:33,980 INFO     Episode 785 finished in 299.6999981403351s
+2023-09-26 06:33:33,992 INFO     Play episode 786
+2023-09-26 06:38:33,802 INFO     Episode 786 finished in 299.80099868774414s
+2023-09-26 06:38:33,814 INFO     Play episode 787
+2023-09-26 06:43:33,921 INFO     Episode 787 finished in 300.1000006198883s
+2023-09-26 06:43:33,932 INFO     Play episode 788
+2023-09-26 06:48:33,741 INFO     Episode 788 finished in 299.799001455307s
+2023-09-26 06:48:33,752 INFO     Play episode 789
+2023-09-26 06:53:33,562 INFO     Episode 789 finished in 299.7900002002716s
+2023-09-26 06:53:33,574 INFO     Play episode 790
+2023-09-26 06:58:33,380 INFO     Episode 790 finished in 299.80004358291626s
+2023-09-26 06:58:33,399 INFO     Play episode 791
+2023-09-26 07:03:33,199 INFO     Episode 791 finished in 299.79451870918274s
+2023-09-26 07:03:33,212 INFO     Play episode 792
+2023-09-26 07:08:33,320 INFO     Episode 792 finished in 300.0999970436096s
+2023-09-26 07:08:33,333 INFO     Play episode 793
+2023-09-26 07:11:19,599 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":220,"purple":61}
+2023-09-26 07:11:24,158 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":221,"purple":61}
+2023-09-26 07:13:32,940 INFO     Episode 793 finished in 299.59999918937683s
+2023-09-26 07:13:32,951 INFO     Play episode 794
+2023-09-26 07:18:33,060 INFO     Episode 794 finished in 300.1000072956085s
+2023-09-26 07:18:33,073 INFO     Play episode 795
+2023-09-26 07:23:32,880 INFO     Episode 795 finished in 299.800000667572s
+2023-09-26 07:23:32,893 INFO     Play episode 796
+2023-09-26 07:28:32,700 INFO     Episode 796 finished in 299.7855191230774s
+2023-09-26 07:28:32,712 INFO     Play episode 797
+2023-09-26 07:33:32,520 INFO     Episode 797 finished in 299.7990002632141s
+2023-09-26 07:33:32,532 INFO     Play episode 798
+2023-09-26 07:38:05,799 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":222,"purple":61}
+2023-09-26 07:38:32,240 INFO     Episode 798 finished in 299.6990005970001s
+2023-09-26 07:38:32,253 INFO     Play episode 799
+2023-09-26 07:43:08,139 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":223,"purple":61}
+2023-09-26 07:43:31,961 INFO     Episode 799 finished in 299.6999988555908s
+2023-09-26 07:43:31,973 INFO     Play episode 800
+2023-09-26 07:44:04,039 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":223,"purple":62}
+2023-09-26 07:44:07,659 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":223,"purple":63}
+2023-09-26 07:47:31,299 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":224,"purple":63}
+2023-09-26 07:48:31,581 INFO     Episode 800 finished in 299.6009986400604s
+2023-09-26 07:48:31,594 INFO     Play episode 801
+2023-09-26 07:53:31,701 INFO     Episode 801 finished in 300.10103940963745s
+2023-09-26 07:53:31,713 INFO     Play episode 802
+2023-09-26 07:58:31,521 INFO     Episode 802 finished in 299.80000019073486s
+2023-09-26 07:58:31,535 INFO     Play episode 803
+2023-09-26 08:03:31,340 INFO     Episode 803 finished in 299.79800057411194s
+2023-09-26 08:03:31,350 INFO     Play episode 804
+2023-09-26 08:08:31,160 INFO     Episode 804 finished in 299.80100440979004s
+2023-09-26 08:08:31,172 INFO     Play episode 805
+2023-09-26 08:13:30,980 INFO     Episode 805 finished in 299.7940526008606s
+2023-09-26 08:13:30,991 INFO     Play episode 806
+2023-09-26 08:18:31,100 INFO     Episode 806 finished in 300.09800004959106s
+2023-09-26 08:18:31,110 INFO     Play episode 807
+2023-09-26 08:23:30,920 INFO     Episode 807 finished in 299.79800391197205s
+2023-09-26 08:23:30,932 INFO     Play episode 808
+2023-09-26 08:28:30,740 INFO     Episode 808 finished in 299.79799723625183s
+2023-09-26 08:28:30,751 INFO     Play episode 809
+2023-09-26 08:33:30,560 INFO     Episode 809 finished in 299.7999999523163s
+2023-09-26 08:33:30,571 INFO     Play episode 810
+2023-09-26 08:38:30,381 INFO     Episode 810 finished in 299.80099868774414s
+2023-09-26 08:38:30,392 INFO     Play episode 811
+2023-09-26 08:43:30,500 INFO     Episode 811 finished in 300.0989968776703s
+2023-09-26 08:43:30,511 INFO     Play episode 812
+2023-09-26 08:48:30,322 INFO     Episode 812 finished in 299.8020007610321s
+2023-09-26 08:48:30,334 INFO     Play episode 813
+2023-09-26 08:53:30,140 INFO     Episode 813 finished in 299.8010013103485s
+2023-09-26 08:53:30,152 INFO     Play episode 814
+2023-09-26 08:58:29,960 INFO     Episode 814 finished in 299.8000020980835s
+2023-09-26 08:58:29,973 INFO     Play episode 815
+2023-09-26 09:03:29,781 INFO     Episode 815 finished in 299.7980399131775s
+2023-09-26 09:03:29,793 INFO     Play episode 816
+2023-09-26 09:08:29,900 INFO     Episode 816 finished in 300.09999895095825s
+2023-09-26 09:08:29,911 INFO     Play episode 817
+2023-09-26 09:13:29,719 INFO     Episode 817 finished in 299.7989990711212s
+2023-09-26 09:13:29,730 INFO     Play episode 818
+2023-09-26 09:18:29,540 INFO     Episode 818 finished in 299.80000042915344s
+2023-09-26 09:18:29,554 INFO     Play episode 819
+2023-09-26 09:23:29,360 INFO     Episode 819 finished in 299.80099964141846s
+2023-09-26 09:23:29,371 INFO     Play episode 820
+2023-09-26 09:25:53,019 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":225,"purple":63}
+2023-09-26 09:28:29,079 INFO     Episode 820 finished in 299.70000171661377s
+2023-09-26 09:28:29,091 INFO     Play episode 821
+2023-09-26 09:33:28,900 INFO     Episode 821 finished in 299.8009994029999s
+2023-09-26 09:33:28,910 INFO     Play episode 822
+2023-09-26 09:38:29,020 INFO     Episode 822 finished in 300.09900164604187s
+2023-09-26 09:38:29,033 INFO     Play episode 823
+2023-09-26 09:43:28,840 INFO     Episode 823 finished in 299.79799938201904s
+2023-09-26 09:43:28,850 INFO     Play episode 824
+2023-09-26 09:48:28,660 INFO     Episode 824 finished in 299.7990005016327s
+2023-09-26 09:48:28,671 INFO     Play episode 825
+2023-09-26 09:53:28,480 INFO     Episode 825 finished in 299.80099964141846s
+2023-09-26 09:53:28,493 INFO     Play episode 826
+2023-09-26 09:58:28,300 INFO     Episode 826 finished in 299.79800152778625s
+2023-09-26 09:58:28,312 INFO     Play episode 827
+2023-09-26 09:59:15,138 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":226,"purple":63}
+2023-09-26 10:03:28,120 INFO     Episode 827 finished in 299.79900002479553s
+2023-09-26 10:03:28,132 INFO     Play episode 828
+2023-09-26 10:08:28,241 INFO     Episode 828 finished in 300.10199904441833s
+2023-09-26 10:08:28,253 INFO     Play episode 829
+2023-09-26 10:09:16,361 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":227,"purple":63}
+2023-09-26 10:13:28,259 INFO     Episode 829 finished in 299.99899888038635s
+2023-09-26 10:13:28,272 INFO     Play episode 830
+2023-09-26 10:18:28,080 INFO     Episode 830 finished in 299.80000138282776s
+2023-09-26 10:18:28,091 INFO     Play episode 831
+2023-09-26 10:23:27,900 INFO     Episode 831 finished in 299.79799938201904s
+2023-09-26 10:23:27,911 INFO     Play episode 832
+2023-09-26 10:28:27,720 INFO     Episode 832 finished in 299.80099749565125s
+2023-09-26 10:28:27,733 INFO     Play episode 833
+2023-09-26 10:33:27,540 INFO     Episode 833 finished in 299.80000162124634s
+2023-09-26 10:33:27,552 INFO     Play episode 834
+2023-09-26 10:38:28,098 INFO     Episode 834 finished in 300.537992477417s
+2023-09-26 10:38:28,110 INFO     Play episode 835
+2023-09-26 10:43:27,917 INFO     Episode 835 finished in 299.79999923706055s
+2023-09-26 10:43:27,927 INFO     Play episode 836
+2023-09-26 10:47:39,877 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":228,"purple":63}
+2023-09-26 10:48:27,637 INFO     Episode 836 finished in 299.6989977359772s
+2023-09-26 10:48:27,649 INFO     Play episode 837
+2023-09-26 10:53:27,457 INFO     Episode 837 finished in 299.7990016937256s
+2023-09-26 10:53:27,467 INFO     Play episode 838
+2023-09-26 10:58:27,577 INFO     Episode 838 finished in 300.1000270843506s
+2023-09-26 10:58:27,589 INFO     Play episode 839
+2023-09-26 11:03:27,398 INFO     Episode 839 finished in 299.800000667572s
+2023-09-26 11:03:27,410 INFO     Play episode 840
+2023-09-26 11:08:27,218 INFO     Episode 840 finished in 299.8005175590515s
+2023-09-26 11:08:27,231 INFO     Play episode 841
+2023-09-26 11:13:27,038 INFO     Episode 841 finished in 299.79900074005127s
+2023-09-26 11:13:27,050 INFO     Play episode 842
+2023-09-26 11:17:46,497 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":229,"purple":63}
+2023-09-26 11:17:52,537 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":230,"purple":63}
+2023-09-26 11:17:56,438 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":231,"purple":63}
+2023-09-26 11:18:26,558 INFO     Episode 842 finished in 299.4989993572235s
+2023-09-26 11:18:26,568 INFO     Play episode 843
+2023-09-26 11:23:26,379 INFO     Episode 843 finished in 299.80100107192993s
+2023-09-26 11:23:26,390 INFO     Play episode 844
+2023-09-26 11:24:39,177 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":232,"purple":63}
+2023-09-26 11:28:26,099 INFO     Episode 844 finished in 299.7010006904602s
+2023-09-26 11:28:26,113 INFO     Play episode 845
+2023-09-26 11:29:40,696 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":233,"purple":63}
+2023-09-26 11:33:25,818 INFO     Episode 845 finished in 299.7000002861023s
+2023-09-26 11:33:25,830 INFO     Play episode 846
+2023-09-26 11:38:25,638 INFO     Episode 846 finished in 299.7999987602234s
+2023-09-26 11:38:25,650 INFO     Play episode 847
+2023-09-26 11:43:25,458 INFO     Episode 847 finished in 299.79999899864197s
+2023-09-26 11:43:25,470 INFO     Play episode 848
+2023-09-26 11:48:25,278 INFO     Episode 848 finished in 299.79900193214417s
+2023-09-26 11:48:25,289 INFO     Play episode 849
+2023-09-26 11:53:25,397 INFO     Episode 849 finished in 300.09900164604187s
+2023-09-26 11:53:25,410 INFO     Play episode 850
+2023-09-26 11:58:25,218 INFO     Episode 850 finished in 299.79952001571655s
+2023-09-26 11:58:25,236 INFO     Play episode 851
+2023-09-26 12:03:25,041 INFO     Episode 851 finished in 299.79899859428406s
+2023-09-26 12:03:25,054 INFO     Play episode 852
+2023-09-26 12:08:24,857 INFO     Episode 852 finished in 299.7970006465912s
+2023-09-26 12:08:24,870 INFO     Play episode 853
+2023-09-26 12:13:24,677 INFO     Episode 853 finished in 299.8000018596649s
+2023-09-26 12:13:24,690 INFO     Play episode 854
+2023-09-26 12:18:24,799 INFO     Episode 854 finished in 300.1000003814697s
+2023-09-26 12:18:24,810 INFO     Play episode 855
+2023-09-26 12:23:24,618 INFO     Episode 855 finished in 299.8009979724884s
+2023-09-26 12:23:24,629 INFO     Play episode 856
+2023-09-26 12:28:11,476 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":233,"purple":64}
+2023-09-26 12:28:24,337 INFO     Episode 856 finished in 299.69900012016296s
+2023-09-26 12:28:24,348 INFO     Play episode 857
+2023-09-26 12:33:24,158 INFO     Episode 857 finished in 299.8005156517029s
+2023-09-26 12:33:24,168 INFO     Play episode 858
+2023-09-26 12:34:54,296 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":234,"purple":64}
+2023-09-26 12:38:23,980 INFO     Episode 858 finished in 299.80100417137146s
+2023-09-26 12:38:23,991 INFO     Play episode 859
+2023-09-26 12:43:16,299 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":235,"purple":64}
+2023-09-26 12:43:24,099 INFO     Episode 859 finished in 300.10199785232544s
+2023-09-26 12:43:24,112 INFO     Play episode 860
+2023-09-26 12:48:23,918 INFO     Episode 860 finished in 299.8010001182556s
+2023-09-26 12:48:23,930 INFO     Play episode 861
+2023-09-26 12:49:18,097 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":235,"purple":65}
+2023-09-26 12:53:23,738 INFO     Episode 861 finished in 299.80000138282776s
+2023-09-26 12:53:23,751 INFO     Play episode 862
+2023-09-26 12:58:23,563 INFO     Episode 862 finished in 299.80299711227417s
+2023-09-26 12:58:23,574 INFO     Play episode 863
+2023-09-26 13:03:23,378 INFO     Episode 863 finished in 299.7975161075592s
+2023-09-26 13:03:23,389 INFO     Play episode 864
+2023-09-26 13:08:23,497 INFO     Episode 864 finished in 300.0989978313446s
+2023-09-26 13:08:23,508 INFO     Play episode 865
+2023-09-26 13:13:23,317 INFO     Episode 865 finished in 299.8000009059906s
+2023-09-26 13:13:23,330 INFO     Play episode 866
+2023-09-26 13:18:23,137 INFO     Episode 866 finished in 299.79999709129333s
+2023-09-26 13:18:23,150 INFO     Play episode 867
+2023-09-26 13:21:00,038 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":236,"purple":65}
+2023-09-26 13:23:22,857 INFO     Episode 867 finished in 299.6999945640564s
+2023-09-26 13:23:22,869 INFO     Play episode 868
+2023-09-26 13:28:22,677 INFO     Episode 868 finished in 299.797518491745s
+2023-09-26 13:28:22,690 INFO     Play episode 869
+2023-09-26 13:29:36,958 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":236,"purple":66}
+2023-09-26 13:33:22,398 INFO     Episode 869 finished in 299.6989974975586s
+2023-09-26 13:33:22,410 INFO     Play episode 870
+2023-09-26 13:38:23,947 INFO     Episode 870 finished in 301.5289976596832s
+2023-09-26 13:38:23,957 INFO     Play episode 871
+2023-09-26 13:43:23,766 INFO     Episode 871 finished in 299.7999987602234s
+2023-09-26 13:43:23,775 INFO     Play episode 872
+2023-09-26 13:48:23,887 INFO     Episode 872 finished in 300.09999918937683s
+2023-09-26 13:48:23,897 INFO     Play episode 873
+2023-09-26 13:53:23,707 INFO     Episode 873 finished in 299.8000044822693s
+2023-09-26 13:53:23,721 INFO     Play episode 874
+2023-09-26 13:58:23,527 INFO     Episode 874 finished in 299.7980008125305s
+2023-09-26 13:58:23,539 INFO     Play episode 875
+2023-09-26 13:59:40,466 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":237,"purple":66}
+2023-09-26 14:03:23,246 INFO     Episode 875 finished in 299.6990005970001s
+2023-09-26 14:03:23,257 INFO     Play episode 876
+2023-09-26 14:08:23,368 INFO     Episode 876 finished in 300.0990002155304s
+2023-09-26 14:08:23,382 INFO     Play episode 877
+2023-09-26 14:13:23,187 INFO     Episode 877 finished in 299.79999899864197s
+2023-09-26 14:13:23,199 INFO     Play episode 878
+2023-09-26 14:18:23,008 INFO     Episode 878 finished in 299.8019983768463s
+2023-09-26 14:18:23,020 INFO     Play episode 879
+2023-09-26 14:23:22,828 INFO     Episode 879 finished in 299.79999828338623s
+2023-09-26 14:23:22,840 INFO     Play episode 880
+2023-09-26 14:28:22,648 INFO     Episode 880 finished in 299.8010001182556s
+2023-09-26 14:28:22,658 INFO     Play episode 881
+2023-09-26 14:33:22,766 INFO     Episode 881 finished in 300.0989992618561s
+2023-09-26 14:33:22,778 INFO     Play episode 882
+2023-09-26 14:38:22,587 INFO     Episode 882 finished in 299.8009994029999s
+2023-09-26 14:38:22,598 INFO     Play episode 883
+2023-09-26 14:39:45,626 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":237,"purple":67}
+2023-09-26 14:43:22,308 INFO     Episode 883 finished in 299.70000410079956s
+2023-09-26 14:43:22,319 INFO     Play episode 884
+2023-09-26 14:48:22,427 INFO     Episode 884 finished in 300.1010010242462s
+2023-09-26 14:48:22,437 INFO     Play episode 885
+2023-09-26 14:53:22,247 INFO     Episode 885 finished in 299.8000011444092s
+2023-09-26 14:53:22,258 INFO     Play episode 886
+2023-09-26 14:55:03,245 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":238,"purple":67}
+2023-09-26 14:58:22,067 INFO     Episode 886 finished in 299.8000020980835s
+2023-09-26 14:58:22,077 INFO     Play episode 887
+2023-09-26 15:03:21,887 INFO     Episode 887 finished in 299.7989983558655s
+2023-09-26 15:03:21,896 INFO     Play episode 888
+2023-09-26 15:08:21,707 INFO     Episode 888 finished in 299.8010046482086s
+2023-09-26 15:08:21,719 INFO     Play episode 889
+2023-09-26 15:13:21,526 INFO     Episode 889 finished in 299.8005497455597s
+2023-09-26 15:13:21,538 INFO     Play episode 890
+2023-09-26 15:18:21,646 INFO     Episode 890 finished in 300.09800004959106s
+2023-09-26 15:18:21,657 INFO     Play episode 891
+2023-09-26 15:23:21,466 INFO     Episode 891 finished in 299.80099081993103s
+2023-09-26 15:23:21,479 INFO     Play episode 892
+2023-09-26 15:26:47,265 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":239,"purple":67}
+2023-09-26 15:28:21,188 INFO     Episode 892 finished in 299.7010004520416s
+2023-09-26 15:28:21,200 INFO     Play episode 893
+2023-09-26 15:33:21,008 INFO     Episode 893 finished in 299.80100083351135s
+2023-09-26 15:33:21,018 INFO     Play episode 894
+2023-09-26 15:38:20,826 INFO     Episode 894 finished in 299.80100107192993s
+2023-09-26 15:38:20,839 INFO     Play episode 895
+2023-09-26 15:43:20,648 INFO     Episode 895 finished in 299.7999999523163s
+2023-09-26 15:43:20,660 INFO     Play episode 896
+2023-09-26 15:48:20,767 INFO     Episode 896 finished in 300.10056591033936s
+2023-09-26 15:48:20,778 INFO     Play episode 897
+2023-09-26 15:51:45,101 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":239,"purple":68}
+2023-09-26 15:51:45,102 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":239,"purple":69}
+2023-09-26 15:53:20,587 INFO     Episode 897 finished in 299.80100107192993s
+2023-09-26 15:53:20,596 INFO     Play episode 898
+2023-09-26 15:58:20,708 INFO     Episode 898 finished in 300.1009976863861s
+2023-09-26 15:58:20,720 INFO     Play episode 899
+2023-09-26 16:03:20,528 INFO     Episode 899 finished in 299.8010034561157s
+2023-09-26 16:03:20,538 INFO     Play episode 900
+2023-09-26 16:08:20,346 INFO     Episode 900 finished in 299.79800248146057s
+2023-09-26 16:08:20,358 INFO     Play episode 901
+2023-09-26 16:10:06,325 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":240,"purple":69}
+2023-09-26 16:13:20,068 INFO     Episode 901 finished in 299.69999980926514s
+2023-09-26 16:13:20,077 INFO     Play episode 902
+2023-09-26 16:18:19,887 INFO     Episode 902 finished in 299.79900097846985s
+2023-09-26 16:18:19,898 INFO     Play episode 903
+2023-09-26 16:23:19,707 INFO     Episode 903 finished in 299.7999985218048s
+2023-09-26 16:23:19,722 INFO     Play episode 904
+2023-09-26 16:26:48,865 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":241,"purple":69}
+2023-09-26 16:28:19,726 INFO     Episode 904 finished in 299.99799966812134s
+2023-09-26 16:28:19,736 INFO     Play episode 905
+2023-09-26 16:33:19,547 INFO     Episode 905 finished in 299.7990005016327s
+2023-09-26 16:33:19,558 INFO     Play episode 906
+2023-09-26 16:38:19,667 INFO     Episode 906 finished in 300.10099959373474s
+2023-09-26 16:38:19,680 INFO     Play episode 907
+2023-09-26 16:43:19,487 INFO     Episode 907 finished in 299.7999951839447s
+2023-09-26 16:43:19,499 INFO     Play episode 908
+2023-09-26 16:43:30,325 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":242,"purple":69}
+2023-09-26 16:48:19,207 INFO     Episode 908 finished in 299.7019979953766s
+2023-09-26 16:48:19,220 INFO     Play episode 909
+2023-09-26 16:53:19,328 INFO     Episode 909 finished in 300.10199904441833s
+2023-09-26 16:53:19,342 INFO     Play episode 910
+2023-09-26 16:58:19,163 INFO     Episode 910 finished in 299.81556463241577s
+2023-09-26 16:58:19,177 INFO     Play episode 911
+2023-09-26 17:03:18,967 INFO     Episode 911 finished in 299.7829999923706s
+2023-09-26 17:03:18,982 INFO     Play episode 912
+2023-09-26 17:08:20,764 INFO     Episode 912 finished in 301.4245960712433s
+2023-09-26 17:08:20,822 INFO     Play episode 913
+2023-09-26 17:10:13,714 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":243,"purple":69}
+2023-09-26 17:13:20,417 INFO     Episode 913 finished in 299.5879967212677s
+2023-09-26 17:13:20,537 INFO     Play episode 914
+2023-09-26 17:18:20,376 INFO     Episode 914 finished in 299.8295500278473s
+2023-09-26 17:18:20,388 INFO     Play episode 915
+2023-09-26 17:23:20,197 INFO     Episode 915 finished in 299.80152916908264s
+2023-09-26 17:23:20,243 INFO     Play episode 916
+2023-09-26 17:23:36,995 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":244,"purple":69}
+2023-09-26 17:27:00,934 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":244,"purple":70}
+2023-09-26 17:28:19,817 INFO     Episode 916 finished in 299.5659992694855s
+2023-09-26 17:28:19,830 INFO     Play episode 917
+2023-09-26 17:33:19,936 INFO     Episode 917 finished in 300.1000008583069s
+2023-09-26 17:33:19,948 INFO     Play episode 918
+2023-09-26 17:38:19,756 INFO     Episode 918 finished in 299.7989995479584s
+2023-09-26 17:38:19,883 INFO     Play episode 919
+2023-09-26 17:43:19,576 INFO     Episode 919 finished in 299.68700098991394s
+2023-09-26 17:43:19,587 INFO     Play episode 920
+2023-09-26 17:47:15,574 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":244,"purple":71}
+2023-09-26 17:48:19,295 INFO     Episode 920 finished in 299.70000195503235s
+2023-09-26 17:48:19,306 INFO     Play episode 921
+2023-09-26 17:53:19,116 INFO     Episode 921 finished in 299.80099844932556s
+2023-09-26 17:53:19,126 INFO     Play episode 922
+2023-09-26 17:58:18,935 INFO     Episode 922 finished in 299.798996925354s
+2023-09-26 17:58:18,948 INFO     Play episode 923
+2023-09-26 18:03:18,754 INFO     Episode 923 finished in 299.7981050014496s
+2023-09-26 18:03:18,766 INFO     Play episode 924
+2023-09-26 18:08:18,876 INFO     Episode 924 finished in 300.10100078582764s
+2023-09-26 18:08:18,888 INFO     Play episode 925
+2023-09-26 18:13:18,695 INFO     Episode 925 finished in 299.8005199432373s
+2023-09-26 18:13:18,706 INFO     Play episode 926
+2023-09-26 18:18:18,518 INFO     Episode 926 finished in 299.80251693725586s
+2023-09-26 18:18:18,530 INFO     Play episode 927
+2023-09-26 18:19:45,677 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":244,"purple":72}
+2023-09-26 18:23:18,576 INFO     Episode 927 finished in 300.03799986839294s
+2023-09-26 18:23:18,585 INFO     Play episode 928
+2023-09-26 18:28:18,396 INFO     Episode 928 finished in 299.7999997138977s
+2023-09-26 18:28:18,407 INFO     Play episode 929
+2023-09-26 18:33:18,217 INFO     Episode 929 finished in 299.80200004577637s
+2023-09-26 18:33:18,226 INFO     Play episode 930
+2023-09-26 18:34:39,074 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":245,"purple":72}
+2023-09-26 18:38:18,036 INFO     Episode 930 finished in 299.80000042915344s
+2023-09-26 18:38:18,048 INFO     Play episode 931
+2023-09-26 18:43:17,856 INFO     Episode 931 finished in 299.8000030517578s
+2023-09-26 18:43:17,869 INFO     Play episode 932
+2023-09-26 18:48:17,977 INFO     Episode 932 finished in 300.10051226615906s
+2023-09-26 18:48:17,988 INFO     Play episode 933
+2023-09-26 18:53:17,796 INFO     Episode 933 finished in 299.797997713089s
+2023-09-26 18:53:17,808 INFO     Play episode 934
+2023-09-26 18:58:17,615 INFO     Episode 934 finished in 299.7989995479584s
+2023-09-26 18:58:17,626 INFO     Play episode 935
+2023-09-26 19:03:19,435 INFO     Episode 935 finished in 299.7989981174469s
+2023-09-26 19:03:19,448 INFO     Play episode 936
+2023-09-26 19:06:23,719 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":246,"purple":72}
+2023-09-26 19:08:18,841 INFO     Episode 936 finished in 299.38600277900696s
+2023-09-26 19:08:18,853 INFO     Play episode 937
+2023-09-26 19:13:18,661 INFO     Episode 937 finished in 299.799036026001s
+2023-09-26 19:13:18,672 INFO     Play episode 938
+2023-09-26 19:18:18,480 INFO     Episode 938 finished in 299.7999973297119s
+2023-09-26 19:18:18,492 INFO     Play episode 939
+2023-09-26 19:23:07,679 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":247,"purple":72}
+2023-09-26 19:23:18,200 INFO     Episode 939 finished in 299.69900250434875s
+2023-09-26 19:23:18,212 INFO     Play episode 940
+2023-09-26 19:28:18,020 INFO     Episode 940 finished in 299.8000020980835s
+2023-09-26 19:28:18,033 INFO     Play episode 941
+2023-09-26 19:33:17,841 INFO     Episode 941 finished in 299.8000011444092s
+2023-09-26 19:33:17,963 INFO     Play episode 942
+2023-09-26 19:38:17,660 INFO     Episode 942 finished in 299.6920006275177s
+2023-09-26 19:38:17,671 INFO     Play episode 943
+2023-09-26 19:43:17,782 INFO     Episode 943 finished in 300.0999982357025s
+2023-09-26 19:43:17,792 INFO     Play episode 944
+2023-09-26 19:45:17,539 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":248,"purple":72}
+2023-09-26 19:47:46,339 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":248,"purple":73}
+2023-09-26 19:48:17,500 INFO     Episode 944 finished in 299.7000002861023s
+2023-09-26 19:48:17,510 INFO     Play episode 945
+2023-09-26 19:53:17,320 INFO     Episode 945 finished in 299.79899859428406s
+2023-09-26 19:53:17,331 INFO     Play episode 946
+2023-09-26 19:56:07,864 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":249,"purple":73}
+2023-09-26 19:58:17,241 INFO     Episode 946 finished in 299.9009850025177s
+2023-09-26 19:58:17,252 INFO     Play episode 947
+2023-09-26 20:03:17,360 INFO     Episode 947 finished in 300.0999982357025s
+2023-09-26 20:03:17,370 INFO     Play episode 948
+2023-09-26 20:08:17,180 INFO     Episode 948 finished in 299.7989993095398s
+2023-09-26 20:08:17,190 INFO     Play episode 949
+2023-09-26 20:12:52,901 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":250,"purple":73}
+2023-09-26 20:13:17,001 INFO     Episode 949 finished in 299.80100083351135s
+2023-09-26 20:13:17,012 INFO     Play episode 950
+2023-09-26 20:14:35,439 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":251,"purple":73}
+2023-09-26 20:18:16,720 INFO     Episode 950 finished in 299.7009975910187s
+2023-09-26 20:18:16,731 INFO     Play episode 951
+2023-09-26 20:23:16,840 INFO     Episode 951 finished in 300.10100197792053s
+2023-09-26 20:23:16,853 INFO     Play episode 952
+2023-09-26 20:28:16,661 INFO     Episode 952 finished in 299.8010013103485s
+2023-09-26 20:28:16,672 INFO     Play episode 953
+2023-09-26 20:33:16,480 INFO     Episode 953 finished in 299.799001455307s
+2023-09-26 20:33:16,491 INFO     Play episode 954
+2023-09-26 20:38:16,303 INFO     Episode 954 finished in 299.80402994155884s
+2023-09-26 20:38:16,411 INFO     Play episode 955
+2023-09-26 20:43:16,122 INFO     Episode 955 finished in 299.692999124527s
+2023-09-26 20:43:16,240 INFO     Play episode 956
+2023-09-26 20:48:16,241 INFO     Episode 956 finished in 299.9965238571167s
+2023-09-26 20:48:16,253 INFO     Play episode 957
+2023-09-26 20:53:16,060 INFO     Episode 957 finished in 299.7999997138977s
+2023-09-26 20:53:16,073 INFO     Play episode 958
+2023-09-26 20:58:15,879 INFO     Episode 958 finished in 299.7980000972748s
+2023-09-26 20:58:15,891 INFO     Play episode 959
+2023-09-26 21:03:15,700 INFO     Episode 959 finished in 299.8000009059906s
+2023-09-26 21:03:15,717 INFO     Play episode 960
+2023-09-26 21:08:15,519 INFO     Episode 960 finished in 299.7950026988983s
+2023-09-26 21:08:15,644 INFO     Play episode 961
+2023-09-26 21:13:15,640 INFO     Episode 961 finished in 299.98999977111816s
+2023-09-26 21:13:15,758 INFO     Play episode 962
+2023-09-26 21:18:15,460 INFO     Episode 962 finished in 299.69599962234497s
+2023-09-26 21:18:15,471 INFO     Play episode 963
+2023-09-26 21:23:15,279 INFO     Episode 963 finished in 299.80099654197693s
+2023-09-26 21:23:15,290 INFO     Play episode 964
+2023-09-26 21:28:15,100 INFO     Episode 964 finished in 299.7995114326477s
+2023-09-26 21:28:15,109 INFO     Play episode 965
+2023-09-26 21:33:14,920 INFO     Episode 965 finished in 299.7995195388794s
+2023-09-26 21:33:14,930 INFO     Play episode 966
+2023-09-26 21:38:15,040 INFO     Episode 966 finished in 300.0990037918091s
+2023-09-26 21:38:15,052 INFO     Play episode 967
+2023-09-26 21:43:14,860 INFO     Episode 967 finished in 299.800523519516s
+2023-09-26 21:43:14,977 INFO     Play episode 968
+2023-09-26 21:43:44,339 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":252,"purple":73}
+2023-09-26 21:48:14,680 INFO     Episode 968 finished in 299.6979959011078s
+2023-09-26 21:48:14,800 INFO     Play episode 969
+2023-09-26 21:53:14,499 INFO     Episode 969 finished in 299.69400000572205s
+2023-09-26 21:53:14,511 INFO     Play episode 970
+2023-09-26 21:58:14,319 INFO     Episode 970 finished in 299.79900097846985s
+2023-09-26 21:58:14,463 INFO     Play episode 971
+2023-09-26 22:02:46,440 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":252,"purple":74}
+2023-09-26 22:03:14,439 INFO     Episode 971 finished in 299.97056698799133s
+2023-09-26 22:03:14,452 INFO     Play episode 972
+2023-09-26 22:08:14,261 INFO     Episode 972 finished in 299.8000023365021s
+2023-09-26 22:08:14,407 INFO     Play episode 973
+2023-09-26 22:12:48,880 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":253,"purple":74}
+2023-09-26 22:13:14,080 INFO     Episode 973 finished in 299.6680021286011s
+2023-09-26 22:13:14,194 INFO     Play episode 974
+2023-09-26 22:18:14,312 INFO     Episode 974 finished in 299.6980011463165s
+2023-09-26 22:18:14,322 INFO     Play episode 975
+2023-09-26 22:23:13,814 INFO     Episode 975 finished in 299.4869954586029s
+2023-09-26 22:23:13,825 INFO     Play episode 976
+2023-09-26 22:28:13,634 INFO     Episode 976 finished in 299.79852294921875s
+2023-09-26 22:28:13,753 INFO     Play episode 977
+2023-09-26 22:33:13,455 INFO     Episode 977 finished in 299.6940059661865s
+2023-09-26 22:33:13,467 INFO     Play episode 978
+2023-09-26 22:38:13,579 INFO     Episode 978 finished in 300.10300278663635s
+2023-09-26 22:38:13,587 INFO     Play episode 979
+2023-09-26 22:43:13,394 INFO     Episode 979 finished in 299.7999966144562s
+2023-09-26 22:43:13,404 INFO     Play episode 980
+2023-09-26 22:48:13,217 INFO     Episode 980 finished in 299.80200028419495s
+2023-09-26 22:48:13,229 INFO     Play episode 981
+2023-09-26 22:53:14,266 INFO     Episode 981 finished in 301.0317544937134s
+2023-09-26 22:53:14,282 INFO     Play episode 982
+2023-09-26 22:58:14,087 INFO     Episode 982 finished in 299.7973895072937s
+2023-09-26 22:58:14,102 INFO     Play episode 983
+2023-09-26 23:03:14,216 INFO     Episode 983 finished in 300.10815048217773s
+2023-09-26 23:03:14,232 INFO     Play episode 984
+2023-09-26 23:08:14,040 INFO     Episode 984 finished in 299.79838585853577s
+2023-09-26 23:08:14,055 INFO     Play episode 985
+2023-09-26 23:13:13,845 INFO     Episode 985 finished in 299.7790946960449s
+2023-09-26 23:13:13,974 INFO     Play episode 986
+2023-09-26 23:18:13,664 INFO     Episode 986 finished in 299.6831374168396s
+2023-09-26 23:18:13,678 INFO     Play episode 987
+2023-09-26 23:23:13,484 INFO     Episode 987 finished in 299.80044627189636s
+2023-09-26 23:23:13,498 INFO     Play episode 988
+2023-09-26 23:28:13,605 INFO     Episode 988 finished in 300.10044622421265s
+2023-09-26 23:28:13,618 INFO     Play episode 989
+2023-09-26 23:33:13,424 INFO     Episode 989 finished in 299.79873514175415s
+2023-09-26 23:33:13,437 INFO     Play episode 990
+2023-09-26 23:39:09,948 INFO     Episode 990 finished in 356.4995160102844s
+2023-09-26 23:39:10,071 INFO     Play episode 991
+2023-09-26 23:44:09,767 INFO     Episode 991 finished in 299.6915240287781s
+2023-09-26 23:44:09,779 INFO     Play episode 992
+2023-09-26 23:49:09,586 INFO     Episode 992 finished in 299.79900097846985s
+2023-09-26 23:49:09,597 INFO     Play episode 993
+2023-09-26 23:54:09,707 INFO     Episode 993 finished in 300.09851837158203s
+2023-09-26 23:54:09,718 INFO     Play episode 994
+2023-09-26 23:55:29,547 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":254,"purple":74}
+2023-09-26 23:55:31,846 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":255,"purple":74}
+2023-09-26 23:55:34,046 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":256,"purple":74}
+2023-09-26 23:59:09,227 INFO     Episode 994 finished in 299.4995505809784s
+2023-09-26 23:59:11,338 INFO     Play episode 995
+2023-09-27 00:04:11,130 INFO     Episode 995 finished in 299.7869997024536s
+2023-09-27 00:04:11,141 INFO     Play episode 996
+2023-09-27 00:09:10,950 INFO     Episode 996 finished in 299.7995386123657s
+2023-09-27 00:09:10,962 INFO     Play episode 997
+2023-09-27 00:14:10,770 INFO     Episode 997 finished in 299.79900312423706s
+2023-09-27 00:14:10,781 INFO     Play episode 998
+2023-09-27 00:19:10,590 INFO     Episode 998 finished in 299.7980041503906s
+2023-09-27 00:19:10,602 INFO     Play episode 999
+2023-09-27 00:23:58,513 INFO     Message received from Unity: {"id":"1e1d2b06-aaa0-4908-8742-b783fdc37373","blue":257,"purple":74}
+2023-09-27 00:24:10,412 INFO     Episode 999 finished in 299.80100274086s
+2023-09-27 00:24:10,425 INFO     Play episode 1000
+2023-09-27 00:29:10,231 INFO     Episode 1000 finished in 299.79899978637695s
+2023-09-27 00:29:10,240 INFO     Shutting down ray
+2023-09-27 00:29:48,052 DEBUG    Environment shut down with return code 0 (CTRL_C_EVENT).

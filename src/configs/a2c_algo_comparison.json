@@ -1,0 +1,12 @@
+{
+  "fcnet_hiddens": [256, 256, 256],
+  "lambda": 0.87,
+  "gamma": 0.80,
+  "lr": 0.00005,
+  "sgd_minibatch_size": 256,
+  "train_batch_size": 4000,
+  "clip_param": 0.2,
+  "num_rollout_workers": 3,
+  "num_cpus_per_worker": 1,
+  "env_steps": 500000
+}

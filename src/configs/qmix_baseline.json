@@ -10,5 +10,6 @@
   "max_seq_len": 4128,
   "horizon": 4127,
   "sgd_minibatch_size": 8256,
-  "run_iter_count": 3000
+  "run_iter_count": 3000,
+  "play_episode_count": 1000
 }

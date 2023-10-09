@@ -1,0 +1,2112 @@
+2023-09-04 03:21:44,446 INFO     Building assets from: soccertwos-stage1
+2023-09-04 03:21:44,497 DEBUG    git repository is invalid
+2023-09-04 03:21:45,552 DEBUG    Starting new HTTPS connection (1): api.wandb.ai:443
+2023-09-04 03:21:46,149 DEBUG    https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-09-04 03:21:46,153 DEBUG    Starting new HTTPS connection (1): api.wandb.ai:443
+2023-09-04 03:21:46,735 DEBUG    https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2023-09-04 03:22:08,062 INFO     Tracking wincounts in ppo_stage1_393098_win_counts_history.txt
+2023-09-04 03:22:08,063 INFO     CustomSideChannel initialized
+2023-09-04 03:22:08,064 INFO     Extracting policies for env_name: SoccerTwosRR-SA
+2023-09-04 03:22:46,767 DEBUG    Starting new HTTPS connection (1): o151352.ingest.sentry.io:443
+2023-09-04 03:22:47,250 DEBUG    https://o151352.ingest.sentry.io:443 "POST /api/5288891/envelope/ HTTP/1.1" 200 2
+2023-09-04 03:23:20,483 INFO     Training iteration 1
+2023-09-04 03:24:03,667 INFO     Iteration 1 finished in 43.18358016014099s
+2023-09-04 03:24:03,668 INFO     Training iteration 2
+2023-09-04 03:24:46,149 INFO     Iteration 2 finished in 42.47955775260925s
+2023-09-04 03:24:46,153 INFO     Training iteration 3
+2023-09-04 03:25:28,557 INFO     Iteration 3 finished in 42.40345025062561s
+2023-09-04 03:25:28,562 INFO     Training iteration 4
+2023-09-04 03:26:11,241 INFO     Iteration 4 finished in 42.67959952354431s
+2023-09-04 03:26:11,246 INFO     Training iteration 5
+2023-09-04 03:26:53,678 INFO     Iteration 5 finished in 42.43252944946289s
+2023-09-04 03:26:53,683 INFO     Training iteration 6
+2023-09-04 03:27:36,112 INFO     Iteration 6 finished in 42.428590297698975s
+2023-09-04 03:27:36,116 INFO     Training iteration 7
+2023-09-04 03:28:18,547 INFO     Iteration 7 finished in 42.43013072013855s
+2023-09-04 03:28:18,552 INFO     Training iteration 8
+2023-09-04 03:29:00,970 INFO     Iteration 8 finished in 42.417948484420776s
+2023-09-04 03:29:00,974 INFO     Training iteration 9
+2023-09-04 03:29:43,553 INFO     Iteration 9 finished in 42.579248905181885s
+2023-09-04 03:29:43,557 INFO     Training iteration 10
+2023-09-04 03:30:26,040 INFO     Iteration 10 finished in 42.48118591308594s
+2023-09-04 03:30:26,078 INFO     Checkpoint after iteration 10 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000010
+2023-09-04 03:30:26,079 INFO     Training iteration 11
+2023-09-04 03:31:08,514 INFO     Iteration 11 finished in 42.43539547920227s
+2023-09-04 03:31:08,518 INFO     Training iteration 12
+2023-09-04 03:31:51,004 INFO     Iteration 12 finished in 42.48627972602844s
+2023-09-04 03:31:51,008 INFO     Training iteration 13
+2023-09-04 03:32:33,508 INFO     Iteration 13 finished in 42.49880814552307s
+2023-09-04 03:32:33,513 INFO     Training iteration 14
+2023-09-04 03:33:16,181 INFO     Iteration 14 finished in 42.66818332672119s
+2023-09-04 03:33:16,185 INFO     Training iteration 15
+2023-09-04 03:33:58,726 INFO     Iteration 15 finished in 42.54101920127869s
+2023-09-04 03:33:58,731 INFO     Training iteration 16
+2023-09-04 03:34:41,192 INFO     Iteration 16 finished in 42.45884871482849s
+2023-09-04 03:34:41,196 INFO     Training iteration 17
+2023-09-04 03:35:23,759 INFO     Iteration 17 finished in 42.56305718421936s
+2023-09-04 03:35:23,764 INFO     Training iteration 18
+2023-09-04 03:36:06,325 INFO     Iteration 18 finished in 42.55996227264404s
+2023-09-04 03:36:06,330 INFO     Training iteration 19
+2023-09-04 03:36:48,882 INFO     Iteration 19 finished in 42.55105400085449s
+2023-09-04 03:36:48,887 INFO     Training iteration 20
+2023-09-04 03:37:31,482 INFO     Iteration 20 finished in 42.59538197517395s
+2023-09-04 03:37:31,497 INFO     Checkpoint after iteration 20 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000020
+2023-09-04 03:37:31,497 INFO     Training iteration 21
+2023-09-04 03:38:14,205 INFO     Iteration 21 finished in 42.707865476608276s
+2023-09-04 03:38:14,211 INFO     Training iteration 22
+2023-09-04 03:38:56,941 INFO     Iteration 22 finished in 42.72961497306824s
+2023-09-04 03:38:56,947 INFO     Training iteration 23
+2023-09-04 03:39:39,670 INFO     Iteration 23 finished in 42.72235941886902s
+2023-09-04 03:39:39,675 INFO     Training iteration 24
+2023-09-04 03:40:22,349 INFO     Iteration 24 finished in 42.674306869506836s
+2023-09-04 03:40:22,355 INFO     Training iteration 25
+2023-09-04 03:41:04,770 INFO     Iteration 25 finished in 42.41547751426697s
+2023-09-04 03:41:04,771 INFO     Training iteration 26
+2023-09-04 03:41:47,194 INFO     Iteration 26 finished in 42.42182016372681s
+2023-09-04 03:41:47,199 INFO     Training iteration 27
+2023-09-04 03:42:29,619 INFO     Iteration 27 finished in 42.42072820663452s
+2023-09-04 03:42:29,624 INFO     Training iteration 28
+2023-09-04 03:43:12,120 INFO     Iteration 28 finished in 42.495795249938965s
+2023-09-04 03:43:12,125 INFO     Training iteration 29
+2023-09-04 03:43:54,564 INFO     Iteration 29 finished in 42.43787884712219s
+2023-09-04 03:43:54,569 INFO     Training iteration 30
+2023-09-04 03:44:37,022 INFO     Iteration 30 finished in 42.45256495475769s
+2023-09-04 03:44:37,031 INFO     Checkpoint after iteration 30 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000030
+2023-09-04 03:44:37,031 INFO     Training iteration 31
+2023-09-04 03:45:19,484 INFO     Iteration 31 finished in 42.452534198760986s
+2023-09-04 03:45:19,485 INFO     Training iteration 32
+2023-09-04 03:46:01,888 INFO     Iteration 32 finished in 42.40350270271301s
+2023-09-04 03:46:01,889 INFO     Training iteration 33
+2023-09-04 03:46:44,410 INFO     Iteration 33 finished in 42.52128052711487s
+2023-09-04 03:46:44,416 INFO     Training iteration 34
+2023-09-04 03:47:26,823 INFO     Iteration 34 finished in 42.406548738479614s
+2023-09-04 03:47:26,827 INFO     Training iteration 35
+2023-09-04 03:48:09,354 INFO     Iteration 35 finished in 42.5271475315094s
+2023-09-04 03:48:09,359 INFO     Training iteration 36
+2023-09-04 03:48:51,884 INFO     Iteration 36 finished in 42.5236918926239s
+2023-09-04 03:48:51,889 INFO     Training iteration 37
+2023-09-04 03:49:34,456 INFO     Iteration 37 finished in 42.56736469268799s
+2023-09-04 03:49:34,457 INFO     Training iteration 38
+2023-09-04 03:50:16,991 INFO     Iteration 38 finished in 42.53343844413757s
+2023-09-04 03:50:16,996 INFO     Training iteration 39
+2023-09-04 03:50:59,690 INFO     Iteration 39 finished in 42.6938898563385s
+2023-09-04 03:50:59,697 INFO     Training iteration 40
+2023-09-04 03:51:42,529 INFO     Iteration 40 finished in 42.830968141555786s
+2023-09-04 03:51:42,539 INFO     Checkpoint after iteration 40 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000040
+2023-09-04 03:51:42,539 INFO     Training iteration 41
+2023-09-04 03:52:25,134 INFO     Iteration 41 finished in 42.59408664703369s
+2023-09-04 03:52:25,134 INFO     Training iteration 42
+2023-09-04 03:53:07,566 INFO     Iteration 42 finished in 42.4307701587677s
+2023-09-04 03:53:07,571 INFO     Training iteration 43
+2023-09-04 03:53:50,022 INFO     Iteration 43 finished in 42.449819564819336s
+2023-09-04 03:53:50,027 INFO     Training iteration 44
+2023-09-04 03:54:32,687 INFO     Iteration 44 finished in 42.65886640548706s
+2023-09-04 03:54:32,691 INFO     Training iteration 45
+2023-09-04 03:55:15,225 INFO     Iteration 45 finished in 42.534279584884644s
+2023-09-04 03:55:15,231 INFO     Training iteration 46
+2023-09-04 03:55:57,780 INFO     Iteration 46 finished in 42.54896426200867s
+2023-09-04 03:55:57,786 INFO     Training iteration 47
+2023-09-04 03:56:40,359 INFO     Iteration 47 finished in 42.57177782058716s
+2023-09-04 03:56:40,364 INFO     Training iteration 48
+2023-09-04 03:57:23,110 INFO     Iteration 48 finished in 42.74560832977295s
+2023-09-04 03:57:23,111 INFO     Training iteration 49
+2023-09-04 03:58:05,557 INFO     Iteration 49 finished in 42.44549322128296s
+2023-09-04 03:58:05,562 INFO     Training iteration 50
+2023-09-04 03:58:47,994 INFO     Iteration 50 finished in 42.430654525756836s
+2023-09-04 03:58:48,008 INFO     Checkpoint after iteration 50 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000050
+2023-09-04 03:58:48,008 INFO     Training iteration 51
+2023-09-04 03:59:30,436 INFO     Iteration 51 finished in 42.4283332824707s
+2023-09-04 03:59:30,441 INFO     Training iteration 52
+2023-09-04 04:00:12,856 INFO     Iteration 52 finished in 42.413291692733765s
+2023-09-04 04:00:12,860 INFO     Training iteration 53
+2023-09-04 04:00:55,265 INFO     Iteration 53 finished in 42.40538287162781s
+2023-09-04 04:00:55,270 INFO     Training iteration 54
+2023-09-04 04:01:37,659 INFO     Iteration 54 finished in 42.38859462738037s
+2023-09-04 04:01:37,664 INFO     Training iteration 55
+2023-09-04 04:02:20,081 INFO     Iteration 55 finished in 42.41544437408447s
+2023-09-04 04:02:20,082 INFO     Training iteration 56
+2023-09-04 04:03:02,511 INFO     Iteration 56 finished in 42.42850852012634s
+2023-09-04 04:03:02,516 INFO     Training iteration 57
+2023-09-04 04:03:44,940 INFO     Iteration 57 finished in 42.42301416397095s
+2023-09-04 04:03:44,944 INFO     Training iteration 58
+2023-09-04 04:04:27,348 INFO     Iteration 58 finished in 42.40408492088318s
+2023-09-04 04:04:27,354 INFO     Training iteration 59
+2023-09-04 04:05:09,781 INFO     Iteration 59 finished in 42.42621994018555s
+2023-09-04 04:05:09,786 INFO     Training iteration 60
+2023-09-04 04:05:52,209 INFO     Iteration 60 finished in 42.42302703857422s
+2023-09-04 04:05:52,225 INFO     Checkpoint after iteration 60 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000060
+2023-09-04 04:05:52,225 INFO     Training iteration 61
+2023-09-04 04:06:34,678 INFO     Iteration 61 finished in 42.4516339302063s
+2023-09-04 04:06:34,682 INFO     Training iteration 62
+2023-09-04 04:07:17,109 INFO     Iteration 62 finished in 42.4263699054718s
+2023-09-04 04:07:17,114 INFO     Training iteration 63
+2023-09-04 04:07:59,517 INFO     Iteration 63 finished in 42.40339660644531s
+2023-09-04 04:07:59,524 INFO     Training iteration 64
+2023-09-04 04:08:41,953 INFO     Iteration 64 finished in 42.42844581604004s
+2023-09-04 04:08:41,958 INFO     Training iteration 65
+2023-09-04 04:09:24,374 INFO     Iteration 65 finished in 42.41584348678589s
+2023-09-04 04:09:24,379 INFO     Training iteration 66
+2023-09-04 04:10:06,778 INFO     Iteration 66 finished in 42.39746689796448s
+2023-09-04 04:10:06,782 INFO     Training iteration 67
+2023-09-04 04:10:49,148 INFO     Iteration 67 finished in 42.36546969413757s
+2023-09-04 04:10:49,153 INFO     Training iteration 68
+2023-09-04 04:11:31,523 INFO     Iteration 68 finished in 42.36932611465454s
+2023-09-04 04:11:31,527 INFO     Training iteration 69
+2023-09-04 04:12:13,920 INFO     Iteration 69 finished in 42.39382195472717s
+2023-09-04 04:12:13,926 INFO     Training iteration 70
+2023-09-04 04:12:56,324 INFO     Iteration 70 finished in 42.39677929878235s
+2023-09-04 04:12:56,338 INFO     Checkpoint after iteration 70 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000070
+2023-09-04 04:12:56,338 INFO     Training iteration 71
+2023-09-04 04:13:38,732 INFO     Iteration 71 finished in 42.392413854599s
+2023-09-04 04:13:38,736 INFO     Training iteration 72
+2023-09-04 04:14:21,115 INFO     Iteration 72 finished in 42.37822914123535s
+2023-09-04 04:14:21,119 INFO     Training iteration 73
+2023-09-04 04:15:03,503 INFO     Iteration 73 finished in 42.38293814659119s
+2023-09-04 04:15:03,508 INFO     Training iteration 74
+2023-09-04 04:15:45,890 INFO     Iteration 74 finished in 42.380828857421875s
+2023-09-04 04:15:45,895 INFO     Training iteration 75
+2023-09-04 04:16:28,274 INFO     Iteration 75 finished in 42.37899923324585s
+2023-09-04 04:16:28,279 INFO     Training iteration 76
+2023-09-04 04:17:10,684 INFO     Iteration 76 finished in 42.40479826927185s
+2023-09-04 04:17:10,689 INFO     Training iteration 77
+2023-09-04 04:17:53,073 INFO     Iteration 77 finished in 42.38307237625122s
+2023-09-04 04:17:53,078 INFO     Training iteration 78
+2023-09-04 04:18:35,464 INFO     Iteration 78 finished in 42.386921644210815s
+2023-09-04 04:18:35,469 INFO     Training iteration 79
+2023-09-04 04:19:17,848 INFO     Iteration 79 finished in 42.378177642822266s
+2023-09-04 04:19:17,852 INFO     Training iteration 80
+2023-09-04 04:20:00,241 INFO     Iteration 80 finished in 42.389296531677246s
+2023-09-04 04:20:00,257 INFO     Checkpoint after iteration 80 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000080
+2023-09-04 04:20:00,257 INFO     Training iteration 81
+2023-09-04 04:20:42,647 INFO     Iteration 81 finished in 42.3900203704834s
+2023-09-04 04:20:42,652 INFO     Training iteration 82
+2023-09-04 04:21:25,045 INFO     Iteration 82 finished in 42.392871618270874s
+2023-09-04 04:21:25,050 INFO     Training iteration 83
+2023-09-04 04:22:07,413 INFO     Iteration 83 finished in 42.36302304267883s
+2023-09-04 04:22:07,418 INFO     Training iteration 84
+2023-09-04 04:22:49,798 INFO     Iteration 84 finished in 42.3787727355957s
+2023-09-04 04:22:49,803 INFO     Training iteration 85
+2023-09-04 04:23:32,198 INFO     Iteration 85 finished in 42.3958203792572s
+2023-09-04 04:23:32,204 INFO     Training iteration 86
+2023-09-04 04:24:14,581 INFO     Iteration 86 finished in 42.37658143043518s
+2023-09-04 04:24:14,586 INFO     Training iteration 87
+2023-09-04 04:24:56,983 INFO     Iteration 87 finished in 42.39652156829834s
+2023-09-04 04:24:56,988 INFO     Training iteration 88
+2023-09-04 04:25:39,358 INFO     Iteration 88 finished in 42.370243549346924s
+2023-09-04 04:25:39,363 INFO     Training iteration 89
+2023-09-04 04:26:21,768 INFO     Iteration 89 finished in 42.404282093048096s
+2023-09-04 04:26:21,773 INFO     Training iteration 90
+2023-09-04 04:27:04,178 INFO     Iteration 90 finished in 42.40526080131531s
+2023-09-04 04:27:04,193 INFO     Checkpoint after iteration 90 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000090
+2023-09-04 04:27:04,193 INFO     Training iteration 91
+2023-09-04 04:27:46,611 INFO     Iteration 91 finished in 42.41716480255127s
+2023-09-04 04:27:46,616 INFO     Training iteration 92
+2023-09-04 04:28:29,022 INFO     Iteration 92 finished in 42.4053852558136s
+2023-09-04 04:28:29,027 INFO     Training iteration 93
+2023-09-04 04:29:11,432 INFO     Iteration 93 finished in 42.404871463775635s
+2023-09-04 04:29:11,437 INFO     Training iteration 94
+2023-09-04 04:29:53,833 INFO     Iteration 94 finished in 42.39594388008118s
+2023-09-04 04:29:53,838 INFO     Training iteration 95
+2023-09-04 04:30:36,242 INFO     Iteration 95 finished in 42.402727365493774s
+2023-09-04 04:30:36,247 INFO     Training iteration 96
+2023-09-04 04:31:18,633 INFO     Iteration 96 finished in 42.38517451286316s
+2023-09-04 04:31:18,638 INFO     Training iteration 97
+2023-09-04 04:32:01,033 INFO     Iteration 97 finished in 42.394012689590454s
+2023-09-04 04:32:01,038 INFO     Training iteration 98
+2023-09-04 04:32:43,394 INFO     Iteration 98 finished in 42.354432582855225s
+2023-09-04 04:32:43,398 INFO     Training iteration 99
+2023-09-04 04:33:25,757 INFO     Iteration 99 finished in 42.35858702659607s
+2023-09-04 04:33:25,762 INFO     Training iteration 100
+2023-09-04 04:34:08,141 INFO     Iteration 100 finished in 42.37818908691406s
+2023-09-04 04:34:08,157 INFO     Checkpoint after iteration 100 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000100
+2023-09-04 04:34:08,157 INFO     Training iteration 101
+2023-09-04 04:34:50,556 INFO     Iteration 101 finished in 42.39844632148743s
+2023-09-04 04:34:50,560 INFO     Training iteration 102
+2023-09-04 04:35:32,947 INFO     Iteration 102 finished in 42.3861346244812s
+2023-09-04 04:35:32,952 INFO     Training iteration 103
+2023-09-04 04:36:15,355 INFO     Iteration 103 finished in 42.402732372283936s
+2023-09-04 04:36:15,360 INFO     Training iteration 104
+2023-09-04 04:36:57,745 INFO     Iteration 104 finished in 42.38555288314819s
+2023-09-04 04:36:57,751 INFO     Training iteration 105
+2023-09-04 04:37:40,152 INFO     Iteration 105 finished in 42.39989995956421s
+2023-09-04 04:37:40,157 INFO     Training iteration 106
+2023-09-04 04:38:22,563 INFO     Iteration 106 finished in 42.40468740463257s
+2023-09-04 04:38:22,567 INFO     Training iteration 107
+2023-09-04 04:39:04,947 INFO     Iteration 107 finished in 42.378676891326904s
+2023-09-04 04:39:04,952 INFO     Training iteration 108
+2023-09-04 04:39:47,439 INFO     Iteration 108 finished in 42.48681616783142s
+2023-09-04 04:39:47,444 INFO     Training iteration 109
+2023-09-04 04:40:29,833 INFO     Iteration 109 finished in 42.389326333999634s
+2023-09-04 04:40:29,839 INFO     Training iteration 110
+2023-09-04 04:41:12,217 INFO     Iteration 110 finished in 42.37732267379761s
+2023-09-04 04:41:12,231 INFO     Checkpoint after iteration 110 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000110
+2023-09-04 04:41:12,231 INFO     Training iteration 111
+2023-09-04 04:41:54,628 INFO     Iteration 111 finished in 42.39701795578003s
+2023-09-04 04:41:54,634 INFO     Training iteration 112
+2023-09-04 04:42:37,010 INFO     Iteration 112 finished in 42.37631106376648s
+2023-09-04 04:42:37,016 INFO     Training iteration 113
+2023-09-04 04:43:19,376 INFO     Iteration 113 finished in 42.360830307006836s
+2023-09-04 04:43:19,382 INFO     Training iteration 114
+2023-09-04 04:44:01,775 INFO     Iteration 114 finished in 42.39305138587952s
+2023-09-04 04:44:01,781 INFO     Training iteration 115
+2023-09-04 04:44:44,168 INFO     Iteration 115 finished in 42.38623118400574s
+2023-09-04 04:44:44,173 INFO     Training iteration 116
+2023-09-04 04:45:26,544 INFO     Iteration 116 finished in 42.37002205848694s
+2023-09-04 04:45:26,549 INFO     Training iteration 117
+2023-09-04 04:46:08,932 INFO     Iteration 117 finished in 42.381635904312134s
+2023-09-04 04:46:08,937 INFO     Training iteration 118
+2023-09-04 04:46:51,329 INFO     Iteration 118 finished in 42.391961336135864s
+2023-09-04 04:46:51,334 INFO     Training iteration 119
+2023-09-04 04:47:33,721 INFO     Iteration 119 finished in 42.38538932800293s
+2023-09-04 04:47:33,726 INFO     Training iteration 120
+2023-09-04 04:48:16,115 INFO     Iteration 120 finished in 42.38915801048279s
+2023-09-04 04:48:16,130 INFO     Checkpoint after iteration 120 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000120
+2023-09-04 04:48:16,130 INFO     Training iteration 121
+2023-09-04 04:48:58,516 INFO     Iteration 121 finished in 42.38505458831787s
+2023-09-04 04:48:58,522 INFO     Training iteration 122
+2023-09-04 04:49:40,905 INFO     Iteration 122 finished in 42.38232779502869s
+2023-09-04 04:49:40,910 INFO     Training iteration 123
+2023-09-04 04:50:23,298 INFO     Iteration 123 finished in 42.38740301132202s
+2023-09-04 04:50:23,303 INFO     Training iteration 124
+2023-09-04 04:51:05,675 INFO     Iteration 124 finished in 42.37114453315735s
+2023-09-04 04:51:05,680 INFO     Training iteration 125
+2023-09-04 04:51:48,054 INFO     Iteration 125 finished in 42.37319827079773s
+2023-09-04 04:51:48,059 INFO     Training iteration 126
+2023-09-04 04:52:30,416 INFO     Iteration 126 finished in 42.3569016456604s
+2023-09-04 04:52:30,421 INFO     Training iteration 127
+2023-09-04 04:53:12,792 INFO     Iteration 127 finished in 42.37012219429016s
+2023-09-04 04:53:12,797 INFO     Training iteration 128
+2023-09-04 04:53:55,168 INFO     Iteration 128 finished in 42.37036490440369s
+2023-09-04 04:53:55,173 INFO     Training iteration 129
+2023-09-04 04:54:37,551 INFO     Iteration 129 finished in 42.377655029296875s
+2023-09-04 04:54:37,557 INFO     Training iteration 130
+2023-09-04 04:55:19,896 INFO     Iteration 130 finished in 42.339747190475464s
+2023-09-04 04:55:19,911 INFO     Checkpoint after iteration 130 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000130
+2023-09-04 04:55:19,911 INFO     Training iteration 131
+2023-09-04 04:56:02,295 INFO     Iteration 131 finished in 42.382489919662476s
+2023-09-04 04:56:02,301 INFO     Training iteration 132
+2023-09-04 04:56:44,671 INFO     Iteration 132 finished in 42.3703830242157s
+2023-09-04 04:56:44,677 INFO     Training iteration 133
+2023-09-04 04:57:27,030 INFO     Iteration 133 finished in 42.35351800918579s
+2023-09-04 04:57:27,036 INFO     Training iteration 134
+2023-09-04 04:58:09,403 INFO     Iteration 134 finished in 42.36651587486267s
+2023-09-04 04:58:09,408 INFO     Training iteration 135
+2023-09-04 04:58:51,775 INFO     Iteration 135 finished in 42.36762976646423s
+2023-09-04 04:58:51,781 INFO     Training iteration 136
+2023-09-04 04:59:34,171 INFO     Iteration 136 finished in 42.39021611213684s
+2023-09-04 04:59:34,177 INFO     Training iteration 137
+2023-09-04 05:00:16,551 INFO     Iteration 137 finished in 42.37472724914551s
+2023-09-04 05:00:16,556 INFO     Training iteration 138
+2023-09-04 05:00:58,907 INFO     Iteration 138 finished in 42.35076069831848s
+2023-09-04 05:00:58,914 INFO     Training iteration 139
+2023-09-04 05:01:41,277 INFO     Iteration 139 finished in 42.36285758018494s
+2023-09-04 05:01:41,282 INFO     Training iteration 140
+2023-09-04 05:02:23,635 INFO     Iteration 140 finished in 42.352264404296875s
+2023-09-04 05:02:23,650 INFO     Checkpoint after iteration 140 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000140
+2023-09-04 05:02:23,650 INFO     Training iteration 141
+2023-09-04 05:03:06,029 INFO     Iteration 141 finished in 42.378719329833984s
+2023-09-04 05:03:06,034 INFO     Training iteration 142
+2023-09-04 05:03:48,409 INFO     Iteration 142 finished in 42.37444543838501s
+2023-09-04 05:03:48,414 INFO     Training iteration 143
+2023-09-04 05:04:30,772 INFO     Iteration 143 finished in 42.35707473754883s
+2023-09-04 05:04:30,777 INFO     Training iteration 144
+2023-09-04 05:05:13,142 INFO     Iteration 144 finished in 42.36466717720032s
+2023-09-04 05:05:13,147 INFO     Training iteration 145
+2023-09-04 05:05:55,522 INFO     Iteration 145 finished in 42.37437844276428s
+2023-09-04 05:05:55,527 INFO     Training iteration 146
+2023-09-04 05:06:37,895 INFO     Iteration 146 finished in 42.36644434928894s
+2023-09-04 05:06:37,899 INFO     Training iteration 147
+2023-09-04 05:07:20,271 INFO     Iteration 147 finished in 42.37210249900818s
+2023-09-04 05:07:20,276 INFO     Training iteration 148
+2023-09-04 05:08:02,657 INFO     Iteration 148 finished in 42.37983250617981s
+2023-09-04 05:08:02,664 INFO     Training iteration 149
+2023-09-04 05:08:45,022 INFO     Iteration 149 finished in 42.35844016075134s
+2023-09-04 05:08:45,027 INFO     Training iteration 150
+2023-09-04 05:09:27,503 INFO     Iteration 150 finished in 42.47595477104187s
+2023-09-04 05:09:27,514 INFO     Checkpoint after iteration 150 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000150
+2023-09-04 05:09:27,514 INFO     Training iteration 151
+2023-09-04 05:10:09,931 INFO     Iteration 151 finished in 42.4152991771698s
+2023-09-04 05:10:09,936 INFO     Training iteration 152
+2023-09-04 05:10:52,315 INFO     Iteration 152 finished in 42.378299951553345s
+2023-09-04 05:10:52,320 INFO     Training iteration 153
+2023-09-04 05:11:34,711 INFO     Iteration 153 finished in 42.391812801361084s
+2023-09-04 05:11:34,716 INFO     Training iteration 154
+2023-09-04 05:12:17,124 INFO     Iteration 154 finished in 42.4070520401001s
+2023-09-04 05:12:17,130 INFO     Training iteration 155
+2023-09-04 05:12:59,580 INFO     Iteration 155 finished in 42.45039200782776s
+2023-09-04 05:12:59,587 INFO     Training iteration 156
+2023-09-04 05:13:41,972 INFO     Iteration 156 finished in 42.38341665267944s
+2023-09-04 05:13:41,976 INFO     Training iteration 157
+2023-09-04 05:14:24,367 INFO     Iteration 157 finished in 42.38951587677002s
+2023-09-04 05:14:24,372 INFO     Training iteration 158
+2023-09-04 05:15:06,753 INFO     Iteration 158 finished in 42.380768060684204s
+2023-09-04 05:15:06,758 INFO     Training iteration 159
+2023-09-04 05:15:49,128 INFO     Iteration 159 finished in 42.37038564682007s
+2023-09-04 05:15:49,134 INFO     Training iteration 160
+2023-09-04 05:16:31,530 INFO     Iteration 160 finished in 42.395519495010376s
+2023-09-04 05:16:31,545 INFO     Checkpoint after iteration 160 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000160
+2023-09-04 05:16:31,545 INFO     Training iteration 161
+2023-09-04 05:17:13,920 INFO     Iteration 161 finished in 42.373759269714355s
+2023-09-04 05:17:13,925 INFO     Training iteration 162
+2023-09-04 05:17:56,314 INFO     Iteration 162 finished in 42.3876097202301s
+2023-09-04 05:17:56,319 INFO     Training iteration 163
+2023-09-04 05:18:38,747 INFO     Iteration 163 finished in 42.42711424827576s
+2023-09-04 05:18:38,753 INFO     Training iteration 164
+2023-09-04 05:19:21,134 INFO     Iteration 164 finished in 42.381000995635986s
+2023-09-04 05:19:21,140 INFO     Training iteration 165
+2023-09-04 05:20:03,531 INFO     Iteration 165 finished in 42.39036512374878s
+2023-09-04 05:20:03,537 INFO     Training iteration 166
+2023-09-04 05:20:45,934 INFO     Iteration 166 finished in 42.39676260948181s
+2023-09-04 05:20:45,940 INFO     Training iteration 167
+2023-09-04 05:21:28,317 INFO     Iteration 167 finished in 42.37667989730835s
+2023-09-04 05:21:28,322 INFO     Training iteration 168
+2023-09-04 05:22:10,989 INFO     Iteration 168 finished in 42.66541361808777s
+2023-09-04 05:22:10,993 INFO     Training iteration 169
+2023-09-04 05:22:53,371 INFO     Iteration 169 finished in 42.376368045806885s
+2023-09-04 05:22:53,376 INFO     Training iteration 170
+2023-09-04 05:23:35,751 INFO     Iteration 170 finished in 42.37445616722107s
+2023-09-04 05:23:35,765 INFO     Checkpoint after iteration 170 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000170
+2023-09-04 05:23:35,766 INFO     Training iteration 171
+2023-09-04 05:24:18,150 INFO     Iteration 171 finished in 42.383811712265015s
+2023-09-04 05:24:18,155 INFO     Training iteration 172
+2023-09-04 05:25:00,545 INFO     Iteration 172 finished in 42.388256788253784s
+2023-09-04 05:25:00,551 INFO     Training iteration 173
+2023-09-04 05:25:42,932 INFO     Iteration 173 finished in 42.379857540130615s
+2023-09-04 05:25:42,937 INFO     Training iteration 174
+2023-09-04 05:26:25,345 INFO     Iteration 174 finished in 42.40780019760132s
+2023-09-04 05:26:25,350 INFO     Training iteration 175
+2023-09-04 05:27:07,739 INFO     Iteration 175 finished in 42.38774299621582s
+2023-09-04 05:27:07,744 INFO     Training iteration 176
+2023-09-04 05:27:50,133 INFO     Iteration 176 finished in 42.38749146461487s
+2023-09-04 05:27:50,138 INFO     Training iteration 177
+2023-09-04 05:28:32,498 INFO     Iteration 177 finished in 42.359955072402954s
+2023-09-04 05:28:32,503 INFO     Training iteration 178
+2023-09-04 05:29:14,888 INFO     Iteration 178 finished in 42.38540983200073s
+2023-09-04 05:29:14,893 INFO     Training iteration 179
+2023-09-04 05:29:57,280 INFO     Iteration 179 finished in 42.38597083091736s
+2023-09-04 05:29:57,285 INFO     Training iteration 180
+2023-09-04 05:30:39,673 INFO     Iteration 180 finished in 42.388285636901855s
+2023-09-04 05:30:39,688 INFO     Checkpoint after iteration 180 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000180
+2023-09-04 05:30:39,688 INFO     Training iteration 181
+2023-09-04 05:31:22,078 INFO     Iteration 181 finished in 42.38962721824646s
+2023-09-04 05:31:22,084 INFO     Training iteration 182
+2023-09-04 05:32:04,442 INFO     Iteration 182 finished in 42.35836052894592s
+2023-09-04 05:32:04,449 INFO     Training iteration 183
+2023-09-04 05:32:46,845 INFO     Iteration 183 finished in 42.395652055740356s
+2023-09-04 05:32:46,852 INFO     Training iteration 184
+2023-09-04 05:33:29,237 INFO     Iteration 184 finished in 42.3846321105957s
+2023-09-04 05:33:29,243 INFO     Training iteration 185
+2023-09-04 05:34:11,618 INFO     Iteration 185 finished in 42.37519454956055s
+2023-09-04 05:34:11,625 INFO     Training iteration 186
+2023-09-04 05:34:54,011 INFO     Iteration 186 finished in 42.38553595542908s
+2023-09-04 05:34:54,016 INFO     Training iteration 187
+2023-09-04 05:35:36,392 INFO     Iteration 187 finished in 42.376009702682495s
+2023-09-04 05:35:36,399 INFO     Training iteration 188
+2023-09-04 05:36:18,744 INFO     Iteration 188 finished in 42.34433627128601s
+2023-09-04 05:36:18,749 INFO     Training iteration 189
+2023-09-04 05:37:01,129 INFO     Iteration 189 finished in 42.38009262084961s
+2023-09-04 05:37:01,135 INFO     Training iteration 190
+2023-09-04 05:37:43,511 INFO     Iteration 190 finished in 42.37610912322998s
+2023-09-04 05:37:43,527 INFO     Checkpoint after iteration 190 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000190
+2023-09-04 05:37:43,527 INFO     Training iteration 191
+2023-09-04 05:38:25,919 INFO     Iteration 191 finished in 42.39035630226135s
+2023-09-04 05:38:25,924 INFO     Training iteration 192
+2023-09-04 05:39:08,303 INFO     Iteration 192 finished in 42.37828087806702s
+2023-09-04 05:39:08,309 INFO     Training iteration 193
+2023-09-04 05:39:50,715 INFO     Iteration 193 finished in 42.405537128448486s
+2023-09-04 05:39:50,720 INFO     Training iteration 194
+2023-09-04 05:40:33,146 INFO     Iteration 194 finished in 42.42463445663452s
+2023-09-04 05:40:33,151 INFO     Training iteration 195
+2023-09-04 05:41:15,535 INFO     Iteration 195 finished in 42.384161710739136s
+2023-09-04 05:41:15,541 INFO     Training iteration 196
+2023-09-04 05:41:57,934 INFO     Iteration 196 finished in 42.39293694496155s
+2023-09-04 05:41:57,939 INFO     Training iteration 197
+2023-09-04 05:42:40,328 INFO     Iteration 197 finished in 42.38772916793823s
+2023-09-04 05:42:40,334 INFO     Training iteration 198
+2023-09-04 05:43:22,727 INFO     Iteration 198 finished in 42.39282822608948s
+2023-09-04 05:43:22,733 INFO     Training iteration 199
+2023-09-04 05:44:05,116 INFO     Iteration 199 finished in 42.38290190696716s
+2023-09-04 05:44:05,123 INFO     Training iteration 200
+2023-09-04 05:44:47,503 INFO     Iteration 200 finished in 42.37884569168091s
+2023-09-04 05:44:47,518 INFO     Checkpoint after iteration 200 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000200
+2023-09-04 05:44:47,518 INFO     Training iteration 201
+2023-09-04 05:45:29,907 INFO     Iteration 201 finished in 42.388911724090576s
+2023-09-04 05:45:29,911 INFO     Training iteration 202
+2023-09-04 05:46:12,279 INFO     Iteration 202 finished in 42.366838216781616s
+2023-09-04 05:46:12,284 INFO     Training iteration 203
+2023-09-04 05:46:54,643 INFO     Iteration 203 finished in 42.359352350234985s
+2023-09-04 05:46:54,649 INFO     Training iteration 204
+2023-09-04 05:47:37,036 INFO     Iteration 204 finished in 42.38702726364136s
+2023-09-04 05:47:37,042 INFO     Training iteration 205
+2023-09-04 05:48:19,409 INFO     Iteration 205 finished in 42.367077350616455s
+2023-09-04 05:48:19,415 INFO     Training iteration 206
+2023-09-04 05:49:01,798 INFO     Iteration 206 finished in 42.381399393081665s
+2023-09-04 05:49:01,805 INFO     Training iteration 207
+2023-09-04 05:49:44,176 INFO     Iteration 207 finished in 42.37139844894409s
+2023-09-04 05:49:44,182 INFO     Training iteration 208
+2023-09-04 05:50:26,562 INFO     Iteration 208 finished in 42.37822413444519s
+2023-09-04 05:50:26,567 INFO     Training iteration 209
+2023-09-04 05:51:08,934 INFO     Iteration 209 finished in 42.36685371398926s
+2023-09-04 05:51:08,939 INFO     Training iteration 210
+2023-09-04 05:51:51,325 INFO     Iteration 210 finished in 42.385785818099976s
+2023-09-04 05:51:51,341 INFO     Checkpoint after iteration 210 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000210
+2023-09-04 05:51:51,341 INFO     Training iteration 211
+2023-09-04 05:52:33,743 INFO     Iteration 211 finished in 42.40251159667969s
+2023-09-04 05:52:33,749 INFO     Training iteration 212
+2023-09-04 05:53:16,133 INFO     Iteration 212 finished in 42.38409924507141s
+2023-09-04 05:53:16,138 INFO     Training iteration 213
+2023-09-04 05:53:58,519 INFO     Iteration 213 finished in 42.38010048866272s
+2023-09-04 05:53:58,525 INFO     Training iteration 214
+2023-09-04 05:54:40,897 INFO     Iteration 214 finished in 42.37191367149353s
+2023-09-04 05:54:40,905 INFO     Training iteration 215
+2023-09-04 05:55:23,282 INFO     Iteration 215 finished in 42.37630033493042s
+2023-09-04 05:55:23,288 INFO     Training iteration 216
+2023-09-04 05:56:05,651 INFO     Iteration 216 finished in 42.36263966560364s
+2023-09-04 05:56:05,658 INFO     Training iteration 217
+2023-09-04 05:56:48,025 INFO     Iteration 217 finished in 42.36685037612915s
+2023-09-04 05:56:48,033 INFO     Training iteration 218
+2023-09-04 05:57:30,387 INFO     Iteration 218 finished in 42.3546507358551s
+2023-09-04 05:57:30,394 INFO     Training iteration 219
+2023-09-04 05:58:12,754 INFO     Iteration 219 finished in 42.358973026275635s
+2023-09-04 05:58:12,759 INFO     Training iteration 220
+2023-09-04 05:58:55,112 INFO     Iteration 220 finished in 42.35172963142395s
+2023-09-04 05:58:55,127 INFO     Checkpoint after iteration 220 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000220
+2023-09-04 05:58:55,127 INFO     Training iteration 221
+2023-09-04 05:59:37,496 INFO     Iteration 221 finished in 42.369919776916504s
+2023-09-04 05:59:37,503 INFO     Training iteration 222
+2023-09-04 06:00:19,838 INFO     Iteration 222 finished in 42.333677530288696s
+2023-09-04 06:00:19,843 INFO     Training iteration 223
+2023-09-04 06:01:02,226 INFO     Iteration 223 finished in 42.3824827671051s
+2023-09-04 06:01:02,233 INFO     Training iteration 224
+2023-09-04 06:01:44,593 INFO     Iteration 224 finished in 42.36026358604431s
+2023-09-04 06:01:44,599 INFO     Training iteration 225
+2023-09-04 06:02:26,974 INFO     Iteration 225 finished in 42.37361145019531s
+2023-09-04 06:02:26,980 INFO     Training iteration 226
+2023-09-04 06:03:09,365 INFO     Iteration 226 finished in 42.3856360912323s
+2023-09-04 06:03:09,372 INFO     Training iteration 227
+2023-09-04 06:03:51,751 INFO     Iteration 227 finished in 42.37867546081543s
+2023-09-04 06:03:51,756 INFO     Training iteration 228
+2023-09-04 06:04:34,124 INFO     Iteration 228 finished in 42.36730766296387s
+2023-09-04 06:04:34,129 INFO     Training iteration 229
+2023-09-04 06:05:16,506 INFO     Iteration 229 finished in 42.37542366981506s
+2023-09-04 06:05:16,511 INFO     Training iteration 230
+2023-09-04 06:05:58,862 INFO     Iteration 230 finished in 42.34960460662842s
+2023-09-04 06:05:58,876 INFO     Checkpoint after iteration 230 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000230
+2023-09-04 06:05:58,876 INFO     Training iteration 231
+2023-09-04 06:06:41,258 INFO     Iteration 231 finished in 42.38111114501953s
+2023-09-04 06:06:41,263 INFO     Training iteration 232
+2023-09-04 06:07:23,698 INFO     Iteration 232 finished in 42.435211420059204s
+2023-09-04 06:07:23,706 INFO     Training iteration 233
+2023-09-04 06:08:06,068 INFO     Iteration 233 finished in 42.36210799217224s
+2023-09-04 06:08:06,075 INFO     Training iteration 234
+2023-09-04 06:08:48,453 INFO     Iteration 234 finished in 42.37752151489258s
+2023-09-04 06:08:48,459 INFO     Training iteration 235
+2023-09-04 06:09:30,830 INFO     Iteration 235 finished in 42.37135648727417s
+2023-09-04 06:09:30,836 INFO     Training iteration 236
+2023-09-04 06:10:13,212 INFO     Iteration 236 finished in 42.37558364868164s
+2023-09-04 06:10:13,218 INFO     Training iteration 237
+2023-09-04 06:10:55,585 INFO     Iteration 237 finished in 42.36550283432007s
+2023-09-04 06:10:55,590 INFO     Training iteration 238
+2023-09-04 06:11:37,967 INFO     Iteration 238 finished in 42.37619352340698s
+2023-09-04 06:11:37,973 INFO     Training iteration 239
+2023-09-04 06:12:20,347 INFO     Iteration 239 finished in 42.37224054336548s
+2023-09-04 06:12:20,352 INFO     Training iteration 240
+2023-09-04 06:13:02,707 INFO     Iteration 240 finished in 42.35568690299988s
+2023-09-04 06:13:02,724 INFO     Checkpoint after iteration 240 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000240
+2023-09-04 06:13:02,724 INFO     Training iteration 241
+2023-09-04 06:13:45,109 INFO     Iteration 241 finished in 42.3844792842865s
+2023-09-04 06:13:45,115 INFO     Training iteration 242
+2023-09-04 06:14:27,481 INFO     Iteration 242 finished in 42.3646297454834s
+2023-09-04 06:14:27,486 INFO     Training iteration 243
+2023-09-04 06:15:09,865 INFO     Iteration 243 finished in 42.37716484069824s
+2023-09-04 06:15:09,871 INFO     Training iteration 244
+2023-09-04 06:15:52,226 INFO     Iteration 244 finished in 42.35458159446716s
+2023-09-04 06:15:52,231 INFO     Training iteration 245
+2023-09-04 06:16:34,603 INFO     Iteration 245 finished in 42.370765924453735s
+2023-09-04 06:16:34,608 INFO     Training iteration 246
+2023-09-04 06:17:16,960 INFO     Iteration 246 finished in 42.35130333900452s
+2023-09-04 06:17:16,966 INFO     Training iteration 247
+2023-09-04 06:17:59,356 INFO     Iteration 247 finished in 42.39047026634216s
+2023-09-04 06:17:59,362 INFO     Training iteration 248
+2023-09-04 06:18:41,722 INFO     Iteration 248 finished in 42.360024213790894s
+2023-09-04 06:18:41,728 INFO     Training iteration 249
+2023-09-04 06:19:24,110 INFO     Iteration 249 finished in 42.38263702392578s
+2023-09-04 06:19:24,116 INFO     Training iteration 250
+2023-09-04 06:20:06,485 INFO     Iteration 250 finished in 42.36715245246887s
+2023-09-04 06:20:06,500 INFO     Checkpoint after iteration 250 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000250
+2023-09-04 06:20:06,500 INFO     Training iteration 251
+2023-09-04 06:20:48,855 INFO     Iteration 251 finished in 42.354772090911865s
+2023-09-04 06:20:48,860 INFO     Training iteration 252
+2023-09-04 06:21:31,238 INFO     Iteration 252 finished in 42.3776478767395s
+2023-09-04 06:21:31,246 INFO     Training iteration 253
+2023-09-04 06:22:13,862 INFO     Iteration 253 finished in 42.61608552932739s
+2023-09-04 06:22:13,868 INFO     Training iteration 254
+2023-09-04 06:22:56,246 INFO     Iteration 254 finished in 42.37830710411072s
+2023-09-04 06:22:56,251 INFO     Training iteration 255
+2023-09-04 06:23:38,626 INFO     Iteration 255 finished in 42.37399935722351s
+2023-09-04 06:23:38,632 INFO     Training iteration 256
+2023-09-04 06:24:21,022 INFO     Iteration 256 finished in 42.3895161151886s
+2023-09-04 06:24:21,028 INFO     Training iteration 257
+2023-09-04 06:25:03,395 INFO     Iteration 257 finished in 42.367103815078735s
+2023-09-04 06:25:03,401 INFO     Training iteration 258
+2023-09-04 06:25:45,763 INFO     Iteration 258 finished in 42.36254596710205s
+2023-09-04 06:25:45,769 INFO     Training iteration 259
+2023-09-04 06:26:28,121 INFO     Iteration 259 finished in 42.35274648666382s
+2023-09-04 06:26:28,127 INFO     Training iteration 260
+2023-09-04 06:27:10,507 INFO     Iteration 260 finished in 42.37974572181702s
+2023-09-04 06:27:10,522 INFO     Checkpoint after iteration 260 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000260
+2023-09-04 06:27:10,522 INFO     Training iteration 261
+2023-09-04 06:27:52,860 INFO     Iteration 261 finished in 42.338765382766724s
+2023-09-04 06:27:52,866 INFO     Training iteration 262
+2023-09-04 06:28:35,239 INFO     Iteration 262 finished in 42.37200570106506s
+2023-09-04 06:28:35,244 INFO     Training iteration 263
+2023-09-04 06:29:17,592 INFO     Iteration 263 finished in 42.34784746170044s
+2023-09-04 06:29:17,597 INFO     Training iteration 264
+2023-09-04 06:29:59,947 INFO     Iteration 264 finished in 42.348848819732666s
+2023-09-04 06:29:59,952 INFO     Training iteration 265
+2023-09-04 06:30:42,312 INFO     Iteration 265 finished in 42.36000633239746s
+2023-09-04 06:30:42,318 INFO     Training iteration 266
+2023-09-04 06:31:24,685 INFO     Iteration 266 finished in 42.36694407463074s
+2023-09-04 06:31:24,691 INFO     Training iteration 267
+2023-09-04 06:32:07,041 INFO     Iteration 267 finished in 42.35031747817993s
+2023-09-04 06:32:07,046 INFO     Training iteration 268
+2023-09-04 06:32:49,412 INFO     Iteration 268 finished in 42.365126609802246s
+2023-09-04 06:32:49,417 INFO     Training iteration 269
+2023-09-04 06:33:31,790 INFO     Iteration 269 finished in 42.373279333114624s
+2023-09-04 06:33:31,796 INFO     Training iteration 270
+2023-09-04 06:34:14,145 INFO     Iteration 270 finished in 42.348865032196045s
+2023-09-04 06:34:14,160 INFO     Checkpoint after iteration 270 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000270
+2023-09-04 06:34:14,161 INFO     Training iteration 271
+2023-09-04 06:34:56,553 INFO     Iteration 271 finished in 42.39164090156555s
+2023-09-04 06:34:56,559 INFO     Training iteration 272
+2023-09-04 06:35:38,916 INFO     Iteration 272 finished in 42.35655355453491s
+2023-09-04 06:35:38,922 INFO     Training iteration 273
+2023-09-04 06:36:21,268 INFO     Iteration 273 finished in 42.34600329399109s
+2023-09-04 06:36:21,274 INFO     Training iteration 274
+2023-09-04 06:37:03,645 INFO     Iteration 274 finished in 42.37024474143982s
+2023-09-04 06:37:03,651 INFO     Training iteration 275
+2023-09-04 06:37:46,020 INFO     Iteration 275 finished in 42.36855149269104s
+2023-09-04 06:37:46,026 INFO     Training iteration 276
+2023-09-04 06:38:28,403 INFO     Iteration 276 finished in 42.37718462944031s
+2023-09-04 06:38:28,409 INFO     Training iteration 277
+2023-09-04 06:39:10,784 INFO     Iteration 277 finished in 42.37412166595459s
+2023-09-04 06:39:10,790 INFO     Training iteration 278
+2023-09-04 06:39:53,144 INFO     Iteration 278 finished in 42.3539764881134s
+2023-09-04 06:39:53,150 INFO     Training iteration 279
+2023-09-04 06:40:35,524 INFO     Iteration 279 finished in 42.37429761886597s
+2023-09-04 06:40:35,531 INFO     Training iteration 280
+2023-09-04 06:41:17,906 INFO     Iteration 280 finished in 42.37435173988342s
+2023-09-04 06:41:17,922 INFO     Checkpoint after iteration 280 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000280
+2023-09-04 06:41:17,922 INFO     Training iteration 281
+2023-09-04 06:42:00,302 INFO     Iteration 281 finished in 42.378870248794556s
+2023-09-04 06:42:00,307 INFO     Training iteration 282
+2023-09-04 06:42:42,688 INFO     Iteration 282 finished in 42.38022828102112s
+2023-09-04 06:42:42,694 INFO     Training iteration 283
+2023-09-04 06:43:25,074 INFO     Iteration 283 finished in 42.37943506240845s
+2023-09-04 06:43:25,080 INFO     Training iteration 284
+2023-09-04 06:44:07,473 INFO     Iteration 284 finished in 42.393078088760376s
+2023-09-04 06:44:07,479 INFO     Training iteration 285
+2023-09-04 06:44:49,866 INFO     Iteration 285 finished in 42.385860204696655s
+2023-09-04 06:44:49,872 INFO     Training iteration 286
+2023-09-04 06:45:32,241 INFO     Iteration 286 finished in 42.368696451187134s
+2023-09-04 06:45:32,247 INFO     Training iteration 287
+2023-09-04 06:46:14,624 INFO     Iteration 287 finished in 42.37674903869629s
+2023-09-04 06:46:14,630 INFO     Training iteration 288
+2023-09-04 06:46:57,002 INFO     Iteration 288 finished in 42.37041664123535s
+2023-09-04 06:46:57,008 INFO     Training iteration 289
+2023-09-04 06:47:39,386 INFO     Iteration 289 finished in 42.377967834472656s
+2023-09-04 06:47:39,392 INFO     Training iteration 290
+2023-09-04 06:48:21,758 INFO     Iteration 290 finished in 42.365753173828125s
+2023-09-04 06:48:21,773 INFO     Checkpoint after iteration 290 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000290
+2023-09-04 06:48:21,773 INFO     Training iteration 291
+2023-09-04 06:49:04,118 INFO     Iteration 291 finished in 42.342132568359375s
+2023-09-04 06:49:04,124 INFO     Training iteration 292
+2023-09-04 06:49:46,502 INFO     Iteration 292 finished in 42.37865877151489s
+2023-09-04 06:49:46,509 INFO     Training iteration 293
+2023-09-04 06:50:28,841 INFO     Iteration 293 finished in 42.33177900314331s
+2023-09-04 06:50:28,847 INFO     Training iteration 294
+2023-09-04 06:51:11,210 INFO     Iteration 294 finished in 42.36197805404663s
+2023-09-04 06:51:11,215 INFO     Training iteration 295
+2023-09-04 06:51:53,585 INFO     Iteration 295 finished in 42.36846470832825s
+2023-09-04 06:51:53,591 INFO     Training iteration 296
+2023-09-04 06:52:36,095 INFO     Iteration 296 finished in 42.50316286087036s
+2023-09-04 06:52:36,100 INFO     Training iteration 297
+2023-09-04 06:53:18,495 INFO     Iteration 297 finished in 42.39269185066223s
+2023-09-04 06:53:18,500 INFO     Training iteration 298
+2023-09-04 06:54:00,890 INFO     Iteration 298 finished in 42.39050006866455s
+2023-09-04 06:54:00,897 INFO     Training iteration 299
+2023-09-04 06:54:43,256 INFO     Iteration 299 finished in 42.358784198760986s
+2023-09-04 06:54:43,263 INFO     Training iteration 300
+2023-09-04 06:55:25,643 INFO     Iteration 300 finished in 42.3788845539093s
+2023-09-04 06:55:25,659 INFO     Checkpoint after iteration 300 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000300
+2023-09-04 06:55:25,659 INFO     Training iteration 301
+2023-09-04 06:56:08,028 INFO     Iteration 301 finished in 42.36913347244263s
+2023-09-04 06:56:08,034 INFO     Training iteration 302
+2023-09-04 06:56:50,409 INFO     Iteration 302 finished in 42.3731906414032s
+2023-09-04 06:56:50,416 INFO     Training iteration 303
+2023-09-04 06:57:32,786 INFO     Iteration 303 finished in 42.3687846660614s
+2023-09-04 06:57:32,792 INFO     Training iteration 304
+2023-09-04 06:58:15,124 INFO     Iteration 304 finished in 42.33184266090393s
+2023-09-04 06:58:15,131 INFO     Training iteration 305
+2023-09-04 06:58:57,510 INFO     Iteration 305 finished in 42.37937378883362s
+2023-09-04 06:58:57,517 INFO     Training iteration 306
+2023-09-04 06:59:39,875 INFO     Iteration 306 finished in 42.35757803916931s
+2023-09-04 06:59:39,885 INFO     Training iteration 307
+2023-09-04 07:00:22,258 INFO     Iteration 307 finished in 42.37210130691528s
+2023-09-04 07:00:22,264 INFO     Training iteration 308
+2023-09-04 07:01:04,613 INFO     Iteration 308 finished in 42.34831714630127s
+2023-09-04 07:01:04,620 INFO     Training iteration 309
+2023-09-04 07:01:46,981 INFO     Iteration 309 finished in 42.36153054237366s
+2023-09-04 07:01:46,988 INFO     Training iteration 310
+2023-09-04 07:02:29,373 INFO     Iteration 310 finished in 42.383097410202026s
+2023-09-04 07:02:29,389 INFO     Checkpoint after iteration 310 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000310
+2023-09-04 07:02:29,389 INFO     Training iteration 311
+2023-09-04 07:03:11,766 INFO     Iteration 311 finished in 42.37623476982117s
+2023-09-04 07:03:11,772 INFO     Training iteration 312
+2023-09-04 07:03:54,145 INFO     Iteration 312 finished in 42.372748374938965s
+2023-09-04 07:03:54,151 INFO     Training iteration 313
+2023-09-04 07:04:36,525 INFO     Iteration 313 finished in 42.37340497970581s
+2023-09-04 07:04:36,531 INFO     Training iteration 314
+2023-09-04 07:05:18,906 INFO     Iteration 314 finished in 42.375364780426025s
+2023-09-04 07:05:18,912 INFO     Training iteration 315
+2023-09-04 07:06:01,302 INFO     Iteration 315 finished in 42.38841891288757s
+2023-09-04 07:06:01,309 INFO     Training iteration 316
+2023-09-04 07:06:43,699 INFO     Iteration 316 finished in 42.38971662521362s
+2023-09-04 07:06:43,706 INFO     Training iteration 317
+2023-09-04 07:07:26,093 INFO     Iteration 317 finished in 42.386237144470215s
+2023-09-04 07:07:26,098 INFO     Training iteration 318
+2023-09-04 07:08:08,499 INFO     Iteration 318 finished in 42.39944505691528s
+2023-09-04 07:08:08,505 INFO     Training iteration 319
+2023-09-04 07:08:50,878 INFO     Iteration 319 finished in 42.373215436935425s
+2023-09-04 07:08:50,885 INFO     Training iteration 320
+2023-09-04 07:09:33,270 INFO     Iteration 320 finished in 42.38500094413757s
+2023-09-04 07:09:33,287 INFO     Checkpoint after iteration 320 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000320
+2023-09-04 07:09:33,287 INFO     Training iteration 321
+2023-09-04 07:10:15,652 INFO     Iteration 321 finished in 42.36465620994568s
+2023-09-04 07:10:15,658 INFO     Training iteration 322
+2023-09-04 07:10:58,051 INFO     Iteration 322 finished in 42.392366886138916s
+2023-09-04 07:10:58,057 INFO     Training iteration 323
+2023-09-04 07:11:40,430 INFO     Iteration 323 finished in 42.372586488723755s
+2023-09-04 07:11:40,436 INFO     Training iteration 324
+2023-09-04 07:12:22,801 INFO     Iteration 324 finished in 42.365214824676514s
+2023-09-04 07:12:22,809 INFO     Training iteration 325
+2023-09-04 07:13:05,200 INFO     Iteration 325 finished in 42.39049506187439s
+2023-09-04 07:13:05,207 INFO     Training iteration 326
+2023-09-04 07:13:47,578 INFO     Iteration 326 finished in 42.37027335166931s
+2023-09-04 07:13:47,584 INFO     Training iteration 327
+2023-09-04 07:14:29,972 INFO     Iteration 327 finished in 42.38860106468201s
+2023-09-04 07:14:29,978 INFO     Training iteration 328
+2023-09-04 07:15:12,379 INFO     Iteration 328 finished in 42.39977741241455s
+2023-09-04 07:15:12,385 INFO     Training iteration 329
+2023-09-04 07:15:54,755 INFO     Iteration 329 finished in 42.3693733215332s
+2023-09-04 07:15:54,760 INFO     Training iteration 330
+2023-09-04 07:16:37,141 INFO     Iteration 330 finished in 42.38132619857788s
+2023-09-04 07:16:37,157 INFO     Checkpoint after iteration 330 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000330
+2023-09-04 07:16:37,157 INFO     Training iteration 331
+2023-09-04 07:17:19,539 INFO     Iteration 331 finished in 42.382429361343384s
+2023-09-04 07:17:19,545 INFO     Training iteration 332
+2023-09-04 07:18:01,920 INFO     Iteration 332 finished in 42.37309408187866s
+2023-09-04 07:18:01,925 INFO     Training iteration 333
+2023-09-04 07:18:44,319 INFO     Iteration 333 finished in 42.393157720565796s
+2023-09-04 07:18:44,325 INFO     Training iteration 334
+2023-09-04 07:19:26,710 INFO     Iteration 334 finished in 42.38452100753784s
+2023-09-04 07:19:26,715 INFO     Training iteration 335
+2023-09-04 07:20:09,100 INFO     Iteration 335 finished in 42.383694648742676s
+2023-09-04 07:20:09,107 INFO     Training iteration 336
+2023-09-04 07:20:51,495 INFO     Iteration 336 finished in 42.38776969909668s
+2023-09-04 07:20:51,500 INFO     Training iteration 337
+2023-09-04 07:21:33,870 INFO     Iteration 337 finished in 42.368834018707275s
+2023-09-04 07:21:33,876 INFO     Training iteration 338
+2023-09-04 07:22:16,245 INFO     Iteration 338 finished in 42.36870789527893s
+2023-09-04 07:22:16,252 INFO     Training iteration 339
+2023-09-04 07:22:58,625 INFO     Iteration 339 finished in 42.37211847305298s
+2023-09-04 07:22:58,631 INFO     Training iteration 340
+2023-09-04 07:23:41,014 INFO     Iteration 340 finished in 42.3821747303009s
+2023-09-04 07:23:41,029 INFO     Checkpoint after iteration 340 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000340
+2023-09-04 07:23:41,029 INFO     Training iteration 341
+2023-09-04 07:24:23,428 INFO     Iteration 341 finished in 42.39870810508728s
+2023-09-04 07:24:23,434 INFO     Training iteration 342
+2023-09-04 07:25:05,796 INFO     Iteration 342 finished in 42.36182355880737s
+2023-09-04 07:25:05,802 INFO     Training iteration 343
+2023-09-04 07:25:48,176 INFO     Iteration 343 finished in 42.37260866165161s
+2023-09-04 07:25:48,181 INFO     Training iteration 344
+2023-09-04 07:26:30,550 INFO     Iteration 344 finished in 42.3679358959198s
+2023-09-04 07:26:30,555 INFO     Training iteration 345
+2023-09-04 07:27:12,947 INFO     Iteration 345 finished in 42.39182734489441s
+2023-09-04 07:27:12,953 INFO     Training iteration 346
+2023-09-04 07:27:55,341 INFO     Iteration 346 finished in 42.38698744773865s
+2023-09-04 07:27:55,347 INFO     Training iteration 347
+2023-09-04 07:28:37,699 INFO     Iteration 347 finished in 42.35093808174133s
+2023-09-04 07:28:37,704 INFO     Training iteration 348
+2023-09-04 07:29:20,099 INFO     Iteration 348 finished in 42.39388656616211s
+2023-09-04 07:29:20,105 INFO     Training iteration 349
+2023-09-04 07:30:02,481 INFO     Iteration 349 finished in 42.375970125198364s
+2023-09-04 07:30:02,487 INFO     Training iteration 350
+2023-09-04 07:30:44,856 INFO     Iteration 350 finished in 42.369134187698364s
+2023-09-04 07:30:44,873 INFO     Checkpoint after iteration 350 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000350
+2023-09-04 07:30:44,873 INFO     Training iteration 351
+2023-09-04 07:31:27,268 INFO     Iteration 351 finished in 42.39477276802063s
+2023-09-04 07:31:27,274 INFO     Training iteration 352
+2023-09-04 07:32:09,644 INFO     Iteration 352 finished in 42.36888551712036s
+2023-09-04 07:32:09,650 INFO     Training iteration 353
+2023-09-04 07:32:52,017 INFO     Iteration 353 finished in 42.367207527160645s
+2023-09-04 07:32:52,024 INFO     Training iteration 354
+2023-09-04 07:33:34,403 INFO     Iteration 354 finished in 42.378905296325684s
+2023-09-04 07:33:34,410 INFO     Training iteration 355
+2023-09-04 07:34:16,778 INFO     Iteration 355 finished in 42.36894392967224s
+2023-09-04 07:34:16,785 INFO     Training iteration 356
+2023-09-04 07:34:59,170 INFO     Iteration 356 finished in 42.385453939437866s
+2023-09-04 07:34:59,177 INFO     Training iteration 357
+2023-09-04 07:35:41,917 INFO     Iteration 357 finished in 42.739752531051636s
+2023-09-04 07:35:41,924 INFO     Training iteration 358
+2023-09-04 07:36:24,311 INFO     Iteration 358 finished in 42.38615036010742s
+2023-09-04 07:36:24,317 INFO     Training iteration 359
+2023-09-04 07:37:06,742 INFO     Iteration 359 finished in 42.42412328720093s
+2023-09-04 07:37:06,748 INFO     Training iteration 360
+2023-09-04 07:37:49,140 INFO     Iteration 360 finished in 42.391785621643066s
+2023-09-04 07:37:49,155 INFO     Checkpoint after iteration 360 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000360
+2023-09-04 07:37:49,156 INFO     Training iteration 361
+2023-09-04 07:38:31,552 INFO     Iteration 361 finished in 42.395490646362305s
+2023-09-04 07:38:31,558 INFO     Training iteration 362
+2023-09-04 07:39:13,954 INFO     Iteration 362 finished in 42.39610028266907s
+2023-09-04 07:39:13,960 INFO     Training iteration 363
+2023-09-04 07:39:56,360 INFO     Iteration 363 finished in 42.39982080459595s
+2023-09-04 07:39:56,366 INFO     Training iteration 364
+2023-09-04 07:40:38,818 INFO     Iteration 364 finished in 42.452165365219116s
+2023-09-04 07:40:38,825 INFO     Training iteration 365
+2023-09-04 07:41:21,604 INFO     Iteration 365 finished in 42.77724552154541s
+2023-09-04 07:41:21,610 INFO     Training iteration 366
+2023-09-04 07:42:04,037 INFO     Iteration 366 finished in 42.42669486999512s
+2023-09-04 07:42:04,043 INFO     Training iteration 367
+2023-09-04 07:42:46,485 INFO     Iteration 367 finished in 42.44233179092407s
+2023-09-04 07:42:46,492 INFO     Training iteration 368
+2023-09-04 07:43:28,905 INFO     Iteration 368 finished in 42.413100242614746s
+2023-09-04 07:43:28,911 INFO     Training iteration 369
+2023-09-04 07:44:11,332 INFO     Iteration 369 finished in 42.42029047012329s
+2023-09-04 07:44:11,338 INFO     Training iteration 370
+2023-09-04 07:44:53,761 INFO     Iteration 370 finished in 42.423293113708496s
+2023-09-04 07:44:53,777 INFO     Checkpoint after iteration 370 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000370
+2023-09-04 07:44:53,777 INFO     Training iteration 371
+2023-09-04 07:45:36,193 INFO     Iteration 371 finished in 42.41514182090759s
+2023-09-04 07:45:36,199 INFO     Training iteration 372
+2023-09-04 07:46:18,610 INFO     Iteration 372 finished in 42.41007876396179s
+2023-09-04 07:46:18,617 INFO     Training iteration 373
+2023-09-04 07:47:01,049 INFO     Iteration 373 finished in 42.430996894836426s
+2023-09-04 07:47:01,056 INFO     Training iteration 374
+2023-09-04 07:47:43,471 INFO     Iteration 374 finished in 42.41403341293335s
+2023-09-04 07:47:43,477 INFO     Training iteration 375
+2023-09-04 07:48:25,896 INFO     Iteration 375 finished in 42.41698384284973s
+2023-09-04 07:48:25,902 INFO     Training iteration 376
+2023-09-04 07:49:08,326 INFO     Iteration 376 finished in 42.42357516288757s
+2023-09-04 07:49:08,332 INFO     Training iteration 377
+2023-09-04 07:49:50,737 INFO     Iteration 377 finished in 42.40350842475891s
+2023-09-04 07:49:50,743 INFO     Training iteration 378
+2023-09-04 07:50:33,159 INFO     Iteration 378 finished in 42.4165735244751s
+2023-09-04 07:50:33,166 INFO     Training iteration 379
+2023-09-04 07:51:15,599 INFO     Iteration 379 finished in 42.43305969238281s
+2023-09-04 07:51:15,605 INFO     Training iteration 380
+2023-09-04 07:51:58,020 INFO     Iteration 380 finished in 42.414697885513306s
+2023-09-04 07:51:58,037 INFO     Checkpoint after iteration 380 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000380
+2023-09-04 07:51:58,037 INFO     Training iteration 381
+2023-09-04 07:52:40,487 INFO     Iteration 381 finished in 42.44932699203491s
+2023-09-04 07:52:40,493 INFO     Training iteration 382
+2023-09-04 07:53:22,883 INFO     Iteration 382 finished in 42.3902587890625s
+2023-09-04 07:53:22,889 INFO     Training iteration 383
+2023-09-04 07:54:05,253 INFO     Iteration 383 finished in 42.3631706237793s
+2023-09-04 07:54:05,259 INFO     Training iteration 384
+2023-09-04 07:54:47,738 INFO     Iteration 384 finished in 42.47864651679993s
+2023-09-04 07:54:47,745 INFO     Training iteration 385
+2023-09-04 07:55:30,129 INFO     Iteration 385 finished in 42.384366035461426s
+2023-09-04 07:55:30,136 INFO     Training iteration 386
+2023-09-04 07:56:12,508 INFO     Iteration 386 finished in 42.37149930000305s
+2023-09-04 07:56:12,514 INFO     Training iteration 387
+2023-09-04 07:56:54,901 INFO     Iteration 387 finished in 42.38544058799744s
+2023-09-04 07:56:54,907 INFO     Training iteration 388
+2023-09-04 07:57:37,273 INFO     Iteration 388 finished in 42.3663809299469s
+2023-09-04 07:57:37,280 INFO     Training iteration 389
+2023-09-04 07:58:19,660 INFO     Iteration 389 finished in 42.379119634628296s
+2023-09-04 07:58:19,666 INFO     Training iteration 390
+2023-09-04 07:59:02,053 INFO     Iteration 390 finished in 42.38664245605469s
+2023-09-04 07:59:02,070 INFO     Checkpoint after iteration 390 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000390
+2023-09-04 07:59:02,070 INFO     Training iteration 391
+2023-09-04 07:59:44,456 INFO     Iteration 391 finished in 42.386327028274536s
+2023-09-04 07:59:44,463 INFO     Training iteration 392
+2023-09-04 08:00:26,840 INFO     Iteration 392 finished in 42.37672233581543s
+2023-09-04 08:00:26,846 INFO     Training iteration 393
+2023-09-04 08:01:09,219 INFO     Iteration 393 finished in 42.37111163139343s
+2023-09-04 08:01:09,225 INFO     Training iteration 394
+2023-09-04 08:01:51,607 INFO     Iteration 394 finished in 42.381229639053345s
+2023-09-04 08:01:51,613 INFO     Training iteration 395
+2023-09-04 08:02:34,009 INFO     Iteration 395 finished in 42.39634108543396s
+2023-09-04 08:02:34,016 INFO     Training iteration 396
+2023-09-04 08:03:16,394 INFO     Iteration 396 finished in 42.37819981575012s
+2023-09-04 08:03:16,400 INFO     Training iteration 397
+2023-09-04 08:03:58,794 INFO     Iteration 397 finished in 42.39407777786255s
+2023-09-04 08:03:58,800 INFO     Training iteration 398
+2023-09-04 08:04:41,157 INFO     Iteration 398 finished in 42.356481075286865s
+2023-09-04 08:04:41,163 INFO     Training iteration 399
+2023-09-04 08:05:23,540 INFO     Iteration 399 finished in 42.377171754837036s
+2023-09-04 08:05:23,547 INFO     Training iteration 400
+2023-09-04 08:06:05,939 INFO     Iteration 400 finished in 42.3918731212616s
+2023-09-04 08:06:05,961 INFO     Checkpoint after iteration 400 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000400
+2023-09-04 08:06:05,961 INFO     Training iteration 401
+2023-09-04 08:06:48,361 INFO     Iteration 401 finished in 42.39959263801575s
+2023-09-04 08:06:48,367 INFO     Training iteration 402
+2023-09-04 08:07:30,824 INFO     Iteration 402 finished in 42.45657706260681s
+2023-09-04 08:07:30,830 INFO     Training iteration 403
+2023-09-04 08:08:13,222 INFO     Iteration 403 finished in 42.39181327819824s
+2023-09-04 08:08:13,228 INFO     Training iteration 404
+2023-09-04 08:08:55,605 INFO     Iteration 404 finished in 42.376174211502075s
+2023-09-04 08:08:55,611 INFO     Training iteration 405
+2023-09-04 08:09:37,995 INFO     Iteration 405 finished in 42.38313436508179s
+2023-09-04 08:09:38,001 INFO     Training iteration 406
+2023-09-04 08:10:20,386 INFO     Iteration 406 finished in 42.38419222831726s
+2023-09-04 08:10:20,391 INFO     Training iteration 407
+2023-09-04 08:11:02,799 INFO     Iteration 407 finished in 42.407649755477905s
+2023-09-04 08:11:02,807 INFO     Training iteration 408
+2023-09-04 08:11:45,209 INFO     Iteration 408 finished in 42.4021360874176s
+2023-09-04 08:11:45,215 INFO     Training iteration 409
+2023-09-04 08:12:27,585 INFO     Iteration 409 finished in 42.37041473388672s
+2023-09-04 08:12:27,591 INFO     Training iteration 410
+2023-09-04 08:13:09,954 INFO     Iteration 410 finished in 42.361804485321045s
+2023-09-04 08:13:09,970 INFO     Checkpoint after iteration 410 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000410
+2023-09-04 08:13:09,970 INFO     Training iteration 411
+2023-09-04 08:13:52,355 INFO     Iteration 411 finished in 42.38343119621277s
+2023-09-04 08:13:52,360 INFO     Training iteration 412
+2023-09-04 08:14:34,724 INFO     Iteration 412 finished in 42.363330125808716s
+2023-09-04 08:14:34,730 INFO     Training iteration 413
+2023-09-04 08:15:17,098 INFO     Iteration 413 finished in 42.36676621437073s
+2023-09-04 08:15:17,103 INFO     Training iteration 414
+2023-09-04 08:15:59,480 INFO     Iteration 414 finished in 42.37623572349548s
+2023-09-04 08:15:59,486 INFO     Training iteration 415
+2023-09-04 08:16:41,859 INFO     Iteration 415 finished in 42.37165594100952s
+2023-09-04 08:16:41,865 INFO     Training iteration 416
+2023-09-04 08:17:24,243 INFO     Iteration 416 finished in 42.378498792648315s
+2023-09-04 08:17:24,250 INFO     Training iteration 417
+2023-09-04 08:18:06,608 INFO     Iteration 417 finished in 42.356484174728394s
+2023-09-04 08:18:06,613 INFO     Training iteration 418
+2023-09-04 08:18:48,995 INFO     Iteration 418 finished in 42.38121795654297s
+2023-09-04 08:18:49,001 INFO     Training iteration 419
+2023-09-04 08:19:31,377 INFO     Iteration 419 finished in 42.37555384635925s
+2023-09-04 08:19:31,384 INFO     Training iteration 420
+2023-09-04 08:20:13,741 INFO     Iteration 420 finished in 42.356555223464966s
+2023-09-04 08:20:13,757 INFO     Checkpoint after iteration 420 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000420
+2023-09-04 08:20:13,757 INFO     Training iteration 421
+2023-09-04 08:20:56,159 INFO     Iteration 421 finished in 42.4016649723053s
+2023-09-04 08:20:56,164 INFO     Training iteration 422
+2023-09-04 08:21:38,545 INFO     Iteration 422 finished in 42.380640268325806s
+2023-09-04 08:21:38,551 INFO     Training iteration 423
+2023-09-04 08:22:20,927 INFO     Iteration 423 finished in 42.3742892742157s
+2023-09-04 08:22:20,933 INFO     Training iteration 424
+2023-09-04 08:23:03,316 INFO     Iteration 424 finished in 42.38259410858154s
+2023-09-04 08:23:03,323 INFO     Training iteration 425
+2023-09-04 08:23:45,682 INFO     Iteration 425 finished in 42.35863757133484s
+2023-09-04 08:23:45,688 INFO     Training iteration 426
+2023-09-04 08:24:28,164 INFO     Iteration 426 finished in 42.47441267967224s
+2023-09-04 08:24:28,170 INFO     Training iteration 427
+2023-09-04 08:25:10,532 INFO     Iteration 427 finished in 42.36071538925171s
+2023-09-04 08:25:10,538 INFO     Training iteration 428
+2023-09-04 08:25:52,891 INFO     Iteration 428 finished in 42.3533353805542s
+2023-09-04 08:25:52,896 INFO     Training iteration 429
+2023-09-04 08:26:35,275 INFO     Iteration 429 finished in 42.376054525375366s
+2023-09-04 08:26:35,281 INFO     Training iteration 430
+2023-09-04 08:27:17,647 INFO     Iteration 430 finished in 42.366658449172974s
+2023-09-04 08:27:17,663 INFO     Checkpoint after iteration 430 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000430
+2023-09-04 08:27:17,663 INFO     Training iteration 431
+2023-09-04 08:28:00,040 INFO     Iteration 431 finished in 42.37713289260864s
+2023-09-04 08:28:00,047 INFO     Training iteration 432
+2023-09-04 08:28:42,457 INFO     Iteration 432 finished in 42.41049671173096s
+2023-09-04 08:28:42,464 INFO     Training iteration 433
+2023-09-04 08:29:24,839 INFO     Iteration 433 finished in 42.3753502368927s
+2023-09-04 08:29:24,846 INFO     Training iteration 434
+2023-09-04 08:30:07,215 INFO     Iteration 434 finished in 42.36976933479309s
+2023-09-04 08:30:07,221 INFO     Training iteration 435
+2023-09-04 08:30:49,607 INFO     Iteration 435 finished in 42.384215116500854s
+2023-09-04 08:30:49,612 INFO     Training iteration 436
+2023-09-04 08:31:31,986 INFO     Iteration 436 finished in 42.37337946891785s
+2023-09-04 08:31:31,992 INFO     Training iteration 437
+2023-09-04 08:32:14,627 INFO     Iteration 437 finished in 42.634742975234985s
+2023-09-04 08:32:14,633 INFO     Training iteration 438
+2023-09-04 08:32:57,010 INFO     Iteration 438 finished in 42.37585115432739s
+2023-09-04 08:32:57,020 INFO     Training iteration 439
+2023-09-04 08:33:39,397 INFO     Iteration 439 finished in 42.37280869483948s
+2023-09-04 08:33:39,401 INFO     Training iteration 440
+2023-09-04 08:34:21,776 INFO     Iteration 440 finished in 42.374255657196045s
+2023-09-04 08:34:21,792 INFO     Checkpoint after iteration 440 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000440
+2023-09-04 08:34:21,792 INFO     Training iteration 441
+2023-09-04 08:35:04,177 INFO     Iteration 441 finished in 42.38388442993164s
+2023-09-04 08:35:04,183 INFO     Training iteration 442
+2023-09-04 08:35:46,567 INFO     Iteration 442 finished in 42.38397693634033s
+2023-09-04 08:35:46,574 INFO     Training iteration 443
+2023-09-04 08:36:28,919 INFO     Iteration 443 finished in 42.34417104721069s
+2023-09-04 08:36:28,925 INFO     Training iteration 444
+2023-09-04 08:37:11,315 INFO     Iteration 444 finished in 42.39007496833801s
+2023-09-04 08:37:11,320 INFO     Training iteration 445
+2023-09-04 08:37:53,780 INFO     Iteration 445 finished in 42.45848894119263s
+2023-09-04 08:37:53,785 INFO     Training iteration 446
+2023-09-04 08:38:36,178 INFO     Iteration 446 finished in 42.39274621009827s
+2023-09-04 08:38:36,184 INFO     Training iteration 447
+2023-09-04 08:39:18,568 INFO     Iteration 447 finished in 42.38395953178406s
+2023-09-04 08:39:18,574 INFO     Training iteration 448
+2023-09-04 08:40:00,947 INFO     Iteration 448 finished in 42.372430086135864s
+2023-09-04 08:40:00,954 INFO     Training iteration 449
+2023-09-04 08:40:43,334 INFO     Iteration 449 finished in 42.37890434265137s
+2023-09-04 08:40:43,338 INFO     Training iteration 450
+2023-09-04 08:41:25,732 INFO     Iteration 450 finished in 42.39249324798584s
+2023-09-04 08:41:25,747 INFO     Checkpoint after iteration 450 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000450
+2023-09-04 08:41:25,747 INFO     Training iteration 451
+2023-09-04 08:42:08,121 INFO     Iteration 451 finished in 42.374183654785156s
+2023-09-04 08:42:08,128 INFO     Training iteration 452
+2023-09-04 08:42:50,506 INFO     Iteration 452 finished in 42.37838411331177s
+2023-09-04 08:42:50,512 INFO     Training iteration 453
+2023-09-04 08:43:32,887 INFO     Iteration 453 finished in 42.37523651123047s
+2023-09-04 08:43:32,894 INFO     Training iteration 454
+2023-09-04 08:44:15,260 INFO     Iteration 454 finished in 42.365421295166016s
+2023-09-04 08:44:15,266 INFO     Training iteration 455
+2023-09-04 08:44:57,669 INFO     Iteration 455 finished in 42.402881145477295s
+2023-09-04 08:44:57,676 INFO     Training iteration 456
+2023-09-04 08:45:40,038 INFO     Iteration 456 finished in 42.360787868499756s
+2023-09-04 08:45:40,044 INFO     Training iteration 457
+2023-09-04 08:46:22,410 INFO     Iteration 457 finished in 42.3660032749176s
+2023-09-04 08:46:22,415 INFO     Training iteration 458
+2023-09-04 08:47:04,764 INFO     Iteration 458 finished in 42.34896445274353s
+2023-09-04 08:47:04,771 INFO     Training iteration 459
+2023-09-04 08:47:47,135 INFO     Iteration 459 finished in 42.36423850059509s
+2023-09-04 08:47:47,141 INFO     Training iteration 460
+2023-09-04 08:48:29,507 INFO     Iteration 460 finished in 42.364819049835205s
+2023-09-04 08:48:29,522 INFO     Checkpoint after iteration 460 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000460
+2023-09-04 08:48:29,522 INFO     Training iteration 461
+2023-09-04 08:49:11,909 INFO     Iteration 461 finished in 42.385725021362305s
+2023-09-04 08:49:11,914 INFO     Training iteration 462
+2023-09-04 08:49:54,262 INFO     Iteration 462 finished in 42.34753775596619s
+2023-09-04 08:49:54,268 INFO     Training iteration 463
+2023-09-04 08:50:36,643 INFO     Iteration 463 finished in 42.37441945075989s
+2023-09-04 08:50:36,649 INFO     Training iteration 464
+2023-09-04 08:51:19,042 INFO     Iteration 464 finished in 42.39095187187195s
+2023-09-04 08:51:19,048 INFO     Training iteration 465
+2023-09-04 08:52:01,417 INFO     Iteration 465 finished in 42.36927080154419s
+2023-09-04 08:52:01,425 INFO     Training iteration 466
+2023-09-04 08:52:43,817 INFO     Iteration 466 finished in 42.392123222351074s
+2023-09-04 08:52:43,823 INFO     Training iteration 467
+2023-09-04 08:53:26,209 INFO     Iteration 467 finished in 42.38437795639038s
+2023-09-04 08:53:26,215 INFO     Training iteration 468
+2023-09-04 08:54:08,584 INFO     Iteration 468 finished in 42.36852955818176s
+2023-09-04 08:54:08,590 INFO     Training iteration 469
+2023-09-04 08:54:50,975 INFO     Iteration 469 finished in 42.38463473320007s
+2023-09-04 08:54:50,981 INFO     Training iteration 470
+2023-09-04 08:55:33,350 INFO     Iteration 470 finished in 42.369277477264404s
+2023-09-04 08:55:33,367 INFO     Checkpoint after iteration 470 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000470
+2023-09-04 08:55:33,367 INFO     Training iteration 471
+2023-09-04 08:56:15,743 INFO     Iteration 471 finished in 42.37659525871277s
+2023-09-04 08:56:15,749 INFO     Training iteration 472
+2023-09-04 08:56:58,115 INFO     Iteration 472 finished in 42.36599946022034s
+2023-09-04 08:56:58,122 INFO     Training iteration 473
+2023-09-04 08:57:40,482 INFO     Iteration 473 finished in 42.360121965408325s
+2023-09-04 08:57:40,487 INFO     Training iteration 474
+2023-09-04 08:58:22,874 INFO     Iteration 474 finished in 42.386250495910645s
+2023-09-04 08:58:22,879 INFO     Training iteration 475
+2023-09-04 08:59:05,231 INFO     Iteration 475 finished in 42.35065793991089s
+2023-09-04 08:59:05,237 INFO     Training iteration 476
+2023-09-04 08:59:47,621 INFO     Iteration 476 finished in 42.38292145729065s
+2023-09-04 08:59:47,627 INFO     Training iteration 477
+2023-09-04 09:00:29,989 INFO     Iteration 477 finished in 42.36247444152832s
+2023-09-04 09:00:29,996 INFO     Training iteration 478
+2023-09-04 09:01:12,367 INFO     Iteration 478 finished in 42.37153601646423s
+2023-09-04 09:01:12,373 INFO     Training iteration 479
+2023-09-04 09:01:54,746 INFO     Iteration 479 finished in 42.37185454368591s
+2023-09-04 09:01:54,751 INFO     Training iteration 480
+2023-09-04 09:02:37,107 INFO     Iteration 480 finished in 42.354947090148926s
+2023-09-04 09:02:37,122 INFO     Checkpoint after iteration 480 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000480
+2023-09-04 09:02:37,122 INFO     Training iteration 481
+2023-09-04 09:03:19,508 INFO     Iteration 481 finished in 42.385979652404785s
+2023-09-04 09:03:19,514 INFO     Training iteration 482
+2023-09-04 09:04:01,882 INFO     Iteration 482 finished in 42.367506980895996s
+2023-09-04 09:04:01,889 INFO     Training iteration 483
+2023-09-04 09:04:44,282 INFO     Iteration 483 finished in 42.39104461669922s
+2023-09-04 09:04:44,288 INFO     Training iteration 484
+2023-09-04 09:05:26,667 INFO     Iteration 484 finished in 42.37916564941406s
+2023-09-04 09:05:26,673 INFO     Training iteration 485
+2023-09-04 09:06:09,045 INFO     Iteration 485 finished in 42.37086033821106s
+2023-09-04 09:06:09,051 INFO     Training iteration 486
+2023-09-04 09:06:51,431 INFO     Iteration 486 finished in 42.379509925842285s
+2023-09-04 09:06:51,436 INFO     Training iteration 487
+2023-09-04 09:07:33,835 INFO     Iteration 487 finished in 42.39927673339844s
+2023-09-04 09:07:33,842 INFO     Training iteration 488
+2023-09-04 09:08:16,201 INFO     Iteration 488 finished in 42.35820007324219s
+2023-09-04 09:08:16,207 INFO     Training iteration 489
+2023-09-04 09:08:58,582 INFO     Iteration 489 finished in 42.375712156295776s
+2023-09-04 09:08:58,589 INFO     Training iteration 490
+2023-09-04 09:09:40,951 INFO     Iteration 490 finished in 42.36261820793152s
+2023-09-04 09:09:40,967 INFO     Checkpoint after iteration 490 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000490
+2023-09-04 09:09:40,968 INFO     Training iteration 491
+2023-09-04 09:10:23,350 INFO     Iteration 491 finished in 42.38204574584961s
+2023-09-04 09:10:23,356 INFO     Training iteration 492
+2023-09-04 09:11:05,828 INFO     Iteration 492 finished in 42.471059799194336s
+2023-09-04 09:11:05,835 INFO     Training iteration 493
+2023-09-04 09:11:48,212 INFO     Iteration 493 finished in 42.377689599990845s
+2023-09-04 09:11:48,218 INFO     Training iteration 494
+2023-09-04 09:12:30,587 INFO     Iteration 494 finished in 42.36889171600342s
+2023-09-04 09:12:30,593 INFO     Training iteration 495
+2023-09-04 09:13:12,956 INFO     Iteration 495 finished in 42.3631329536438s
+2023-09-04 09:13:12,962 INFO     Training iteration 496
+2023-09-04 09:13:55,347 INFO     Iteration 496 finished in 42.38430047035217s
+2023-09-04 09:13:55,353 INFO     Training iteration 497
+2023-09-04 09:14:37,732 INFO     Iteration 497 finished in 42.377591133117676s
+2023-09-04 09:14:37,737 INFO     Training iteration 498
+2023-09-04 09:15:20,097 INFO     Iteration 498 finished in 42.360620737075806s
+2023-09-04 09:15:20,103 INFO     Training iteration 499
+2023-09-04 09:16:02,478 INFO     Iteration 499 finished in 42.374035358428955s
+2023-09-04 09:16:02,485 INFO     Training iteration 500
+2023-09-04 09:16:44,845 INFO     Iteration 500 finished in 42.35890793800354s
+2023-09-04 09:16:44,860 INFO     Checkpoint after iteration 500 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000500
+2023-09-04 09:16:44,860 INFO     Training iteration 501
+2023-09-04 09:17:27,277 INFO     Iteration 501 finished in 42.415340185165405s
+2023-09-04 09:17:27,282 INFO     Training iteration 502
+2023-09-04 09:18:09,656 INFO     Iteration 502 finished in 42.37263345718384s
+2023-09-04 09:18:09,664 INFO     Training iteration 503
+2023-09-04 09:18:52,022 INFO     Iteration 503 finished in 42.35635685920715s
+2023-09-04 09:18:52,027 INFO     Training iteration 504
+2023-09-04 09:19:34,390 INFO     Iteration 504 finished in 42.36219263076782s
+2023-09-04 09:19:34,396 INFO     Training iteration 505
+2023-09-04 09:20:16,748 INFO     Iteration 505 finished in 42.35142970085144s
+2023-09-04 09:20:16,753 INFO     Training iteration 506
+2023-09-04 09:20:59,117 INFO     Iteration 506 finished in 42.36339545249939s
+2023-09-04 09:20:59,123 INFO     Training iteration 507
+2023-09-04 09:21:41,498 INFO     Iteration 507 finished in 42.37501525878906s
+2023-09-04 09:21:41,503 INFO     Training iteration 508
+2023-09-04 09:22:23,873 INFO     Iteration 508 finished in 42.36935567855835s
+2023-09-04 09:22:23,879 INFO     Training iteration 509
+2023-09-04 09:23:06,257 INFO     Iteration 509 finished in 42.37727403640747s
+2023-09-04 09:23:06,264 INFO     Training iteration 510
+2023-09-04 09:23:48,638 INFO     Iteration 510 finished in 42.373453855514526s
+2023-09-04 09:23:48,652 INFO     Checkpoint after iteration 510 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000510
+2023-09-04 09:23:48,652 INFO     Training iteration 511
+2023-09-04 09:24:31,041 INFO     Iteration 511 finished in 42.38864755630493s
+2023-09-04 09:24:31,048 INFO     Training iteration 512
+2023-09-04 09:25:13,446 INFO     Iteration 512 finished in 42.39751648902893s
+2023-09-04 09:25:13,451 INFO     Training iteration 513
+2023-09-04 09:25:55,827 INFO     Iteration 513 finished in 42.37636041641235s
+2023-09-04 09:25:55,833 INFO     Training iteration 514
+2023-09-04 09:26:38,195 INFO     Iteration 514 finished in 42.3606960773468s
+2023-09-04 09:26:38,200 INFO     Training iteration 515
+2023-09-04 09:27:20,580 INFO     Iteration 515 finished in 42.38028883934021s
+2023-09-04 09:27:20,586 INFO     Training iteration 516
+2023-09-04 09:28:02,953 INFO     Iteration 516 finished in 42.36710047721863s
+2023-09-04 09:28:02,961 INFO     Training iteration 517
+2023-09-04 09:28:45,341 INFO     Iteration 517 finished in 42.379544734954834s
+2023-09-04 09:28:45,347 INFO     Training iteration 518
+2023-09-04 09:29:27,716 INFO     Iteration 518 finished in 42.36824917793274s
+2023-09-04 09:29:27,726 INFO     Training iteration 519
+2023-09-04 09:30:10,094 INFO     Iteration 519 finished in 42.36746644973755s
+2023-09-04 09:30:10,100 INFO     Training iteration 520
+2023-09-04 09:30:52,482 INFO     Iteration 520 finished in 42.38126873970032s
+2023-09-04 09:30:52,497 INFO     Checkpoint after iteration 520 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000520
+2023-09-04 09:30:52,497 INFO     Training iteration 521
+2023-09-04 09:31:34,877 INFO     Iteration 521 finished in 42.37950563430786s
+2023-09-04 09:31:34,883 INFO     Training iteration 522
+2023-09-04 09:32:17,262 INFO     Iteration 522 finished in 42.37923765182495s
+2023-09-04 09:32:17,267 INFO     Training iteration 523
+2023-09-04 09:32:59,642 INFO     Iteration 523 finished in 42.37410068511963s
+2023-09-04 09:32:59,653 INFO     Training iteration 524
+2023-09-04 09:33:42,092 INFO     Iteration 524 finished in 42.43701529502869s
+2023-09-04 09:33:42,097 INFO     Training iteration 525
+2023-09-04 09:34:24,510 INFO     Iteration 525 finished in 42.412293434143066s
+2023-09-04 09:34:24,516 INFO     Training iteration 526
+2023-09-04 09:35:06,935 INFO     Iteration 526 finished in 42.41861152648926s
+2023-09-04 09:35:06,942 INFO     Training iteration 527
+2023-09-04 09:35:49,357 INFO     Iteration 527 finished in 42.41479706764221s
+2023-09-04 09:35:49,380 INFO     Training iteration 528
+2023-09-04 09:36:31,797 INFO     Iteration 528 finished in 42.41539931297302s
+2023-09-04 09:36:31,805 INFO     Training iteration 529
+2023-09-04 09:37:14,195 INFO     Iteration 529 finished in 42.389952182769775s
+2023-09-04 09:37:14,201 INFO     Training iteration 530
+2023-09-04 09:37:56,619 INFO     Iteration 530 finished in 42.41737508773804s
+2023-09-04 09:37:56,635 INFO     Checkpoint after iteration 530 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000530
+2023-09-04 09:37:56,635 INFO     Training iteration 531
+2023-09-04 09:38:39,005 INFO     Iteration 531 finished in 42.369967460632324s
+2023-09-04 09:38:39,011 INFO     Training iteration 532
+2023-09-04 09:39:21,369 INFO     Iteration 532 finished in 42.35774803161621s
+2023-09-04 09:39:21,375 INFO     Training iteration 533
+2023-09-04 09:40:03,726 INFO     Iteration 533 finished in 42.351473569869995s
+2023-09-04 09:40:03,733 INFO     Training iteration 534
+2023-09-04 09:40:46,121 INFO     Iteration 534 finished in 42.387752294540405s
+2023-09-04 09:40:46,128 INFO     Training iteration 535
+2023-09-04 09:41:28,532 INFO     Iteration 535 finished in 42.4032769203186s
+2023-09-04 09:41:28,538 INFO     Training iteration 536
+2023-09-04 09:42:10,909 INFO     Iteration 536 finished in 42.36947154998779s
+2023-09-04 09:42:10,915 INFO     Training iteration 537
+2023-09-04 09:42:53,296 INFO     Iteration 537 finished in 42.3808913230896s
+2023-09-04 09:42:53,302 INFO     Training iteration 538
+2023-09-04 09:43:35,676 INFO     Iteration 538 finished in 42.37353229522705s
+2023-09-04 09:43:35,682 INFO     Training iteration 539
+2023-09-04 09:44:18,071 INFO     Iteration 539 finished in 42.387908697128296s
+2023-09-04 09:44:18,077 INFO     Training iteration 540
+2023-09-04 09:45:00,437 INFO     Iteration 540 finished in 42.36041569709778s
+2023-09-04 09:45:00,452 INFO     Checkpoint after iteration 540 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000540
+2023-09-04 09:45:00,453 INFO     Training iteration 541
+2023-09-04 09:45:42,826 INFO     Iteration 541 finished in 42.372780084609985s
+2023-09-04 09:45:42,833 INFO     Training iteration 542
+2023-09-04 09:46:25,219 INFO     Iteration 542 finished in 42.38612365722656s
+2023-09-04 09:46:25,225 INFO     Training iteration 543
+2023-09-04 09:47:07,608 INFO     Iteration 543 finished in 42.38246560096741s
+2023-09-04 09:47:07,615 INFO     Training iteration 544
+2023-09-04 09:47:49,992 INFO     Iteration 544 finished in 42.37636089324951s
+2023-09-04 09:47:49,998 INFO     Training iteration 545
+2023-09-04 09:48:32,379 INFO     Iteration 545 finished in 42.38048315048218s
+2023-09-04 09:48:32,385 INFO     Training iteration 546
+2023-09-04 09:49:14,781 INFO     Iteration 546 finished in 42.39584159851074s
+2023-09-04 09:49:14,788 INFO     Training iteration 547
+2023-09-04 09:49:57,169 INFO     Iteration 547 finished in 42.38093423843384s
+2023-09-04 09:49:57,175 INFO     Training iteration 548
+2023-09-04 09:50:39,521 INFO     Iteration 548 finished in 42.34622526168823s
+2023-09-04 09:50:39,527 INFO     Training iteration 549
+2023-09-04 09:51:21,892 INFO     Iteration 549 finished in 42.36335515975952s
+2023-09-04 09:51:21,898 INFO     Training iteration 550
+2023-09-04 09:52:04,259 INFO     Iteration 550 finished in 42.36148452758789s
+2023-09-04 09:52:04,276 INFO     Checkpoint after iteration 550 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000550
+2023-09-04 09:52:04,276 INFO     Training iteration 551
+2023-09-04 09:52:46,658 INFO     Iteration 551 finished in 42.38228893280029s
+2023-09-04 09:52:46,664 INFO     Training iteration 552
+2023-09-04 09:53:29,053 INFO     Iteration 552 finished in 42.387441873550415s
+2023-09-04 09:53:29,058 INFO     Training iteration 553
+2023-09-04 09:54:11,452 INFO     Iteration 553 finished in 42.393126010894775s
+2023-09-04 09:54:11,458 INFO     Training iteration 554
+2023-09-04 09:54:53,855 INFO     Iteration 554 finished in 42.397409439086914s
+2023-09-04 09:54:53,862 INFO     Training iteration 555
+2023-09-04 09:55:36,247 INFO     Iteration 555 finished in 42.38418483734131s
+2023-09-04 09:55:36,252 INFO     Training iteration 556
+2023-09-04 09:56:18,697 INFO     Iteration 556 finished in 42.44467043876648s
+2023-09-04 09:56:18,702 INFO     Training iteration 557
+2023-09-04 09:57:01,121 INFO     Iteration 557 finished in 42.41713809967041s
+2023-09-04 09:57:01,126 INFO     Training iteration 558
+2023-09-04 09:57:43,551 INFO     Iteration 558 finished in 42.42376971244812s
+2023-09-04 09:57:43,557 INFO     Training iteration 559
+2023-09-04 09:58:26,022 INFO     Iteration 559 finished in 42.46509027481079s
+2023-09-04 09:58:26,027 INFO     Training iteration 560
+2023-09-04 09:59:08,488 INFO     Iteration 560 finished in 42.460423946380615s
+2023-09-04 09:59:08,503 INFO     Checkpoint after iteration 560 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000560
+2023-09-04 09:59:08,503 INFO     Training iteration 561
+2023-09-04 09:59:50,931 INFO     Iteration 561 finished in 42.4269859790802s
+2023-09-04 09:59:50,937 INFO     Training iteration 562
+2023-09-04 10:00:33,327 INFO     Iteration 562 finished in 42.39021706581116s
+2023-09-04 10:00:33,334 INFO     Training iteration 563
+2023-09-04 10:01:15,729 INFO     Iteration 563 finished in 42.395331621170044s
+2023-09-04 10:01:15,736 INFO     Training iteration 564
+2023-09-04 10:01:58,177 INFO     Iteration 564 finished in 42.441596269607544s
+2023-09-04 10:01:58,184 INFO     Training iteration 565
+2023-09-04 10:02:40,597 INFO     Iteration 565 finished in 42.412803411483765s
+2023-09-04 10:02:40,603 INFO     Training iteration 566
+2023-09-04 10:03:23,019 INFO     Iteration 566 finished in 42.41562008857727s
+2023-09-04 10:03:23,025 INFO     Training iteration 567
+2023-09-04 10:04:05,449 INFO     Iteration 567 finished in 42.424267530441284s
+2023-09-04 10:04:05,459 INFO     Training iteration 568
+2023-09-04 10:04:47,857 INFO     Iteration 568 finished in 42.39883780479431s
+2023-09-04 10:04:47,863 INFO     Training iteration 569
+2023-09-04 10:05:30,301 INFO     Iteration 569 finished in 42.438040018081665s
+2023-09-04 10:05:30,307 INFO     Training iteration 570
+2023-09-04 10:06:12,725 INFO     Iteration 570 finished in 42.416988372802734s
+2023-09-04 10:06:12,741 INFO     Checkpoint after iteration 570 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000570
+2023-09-04 10:06:12,741 INFO     Training iteration 571
+2023-09-04 10:06:55,243 INFO     Iteration 571 finished in 42.501811504364014s
+2023-09-04 10:06:55,249 INFO     Training iteration 572
+2023-09-04 10:07:37,678 INFO     Iteration 572 finished in 42.42944526672363s
+2023-09-04 10:07:37,685 INFO     Training iteration 573
+2023-09-04 10:08:20,130 INFO     Iteration 573 finished in 42.44506883621216s
+2023-09-04 10:08:20,136 INFO     Training iteration 574
+2023-09-04 10:09:02,659 INFO     Iteration 574 finished in 42.52337193489075s
+2023-09-04 10:09:02,666 INFO     Training iteration 575
+2023-09-04 10:09:45,116 INFO     Iteration 575 finished in 42.450079917907715s
+2023-09-04 10:09:45,122 INFO     Training iteration 576
+2023-09-04 10:10:27,598 INFO     Iteration 576 finished in 42.4754912853241s
+2023-09-04 10:10:27,604 INFO     Training iteration 577
+2023-09-04 10:11:10,202 INFO     Iteration 577 finished in 42.598509788513184s
+2023-09-04 10:11:10,208 INFO     Training iteration 578
+2023-09-04 10:11:52,669 INFO     Iteration 578 finished in 42.46021914482117s
+2023-09-04 10:11:52,675 INFO     Training iteration 579
+2023-09-04 10:12:35,152 INFO     Iteration 579 finished in 42.476813554763794s
+2023-09-04 10:12:35,158 INFO     Training iteration 580
+2023-09-04 10:13:17,584 INFO     Iteration 580 finished in 42.425318241119385s
+2023-09-04 10:13:17,601 INFO     Checkpoint after iteration 580 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000580
+2023-09-04 10:13:17,601 INFO     Training iteration 581
+2023-09-04 10:14:00,024 INFO     Iteration 581 finished in 42.423312187194824s
+2023-09-04 10:14:00,031 INFO     Training iteration 582
+2023-09-04 10:14:42,454 INFO     Iteration 582 finished in 42.423561811447144s
+2023-09-04 10:14:42,462 INFO     Training iteration 583
+2023-09-04 10:15:24,906 INFO     Iteration 583 finished in 42.44324994087219s
+2023-09-04 10:15:24,911 INFO     Training iteration 584
+2023-09-04 10:16:07,374 INFO     Iteration 584 finished in 42.46268558502197s
+2023-09-04 10:16:07,382 INFO     Training iteration 585
+2023-09-04 10:16:49,837 INFO     Iteration 585 finished in 42.45527982711792s
+2023-09-04 10:16:49,844 INFO     Training iteration 586
+2023-09-04 10:17:32,285 INFO     Iteration 586 finished in 42.44071674346924s
+2023-09-04 10:17:32,291 INFO     Training iteration 587
+2023-09-04 10:18:14,730 INFO     Iteration 587 finished in 42.43944835662842s
+2023-09-04 10:18:14,737 INFO     Training iteration 588
+2023-09-04 10:18:57,154 INFO     Iteration 588 finished in 42.41732382774353s
+2023-09-04 10:18:57,160 INFO     Training iteration 589
+2023-09-04 10:19:39,597 INFO     Iteration 589 finished in 42.437161445617676s
+2023-09-04 10:19:39,604 INFO     Training iteration 590
+2023-09-04 10:20:22,036 INFO     Iteration 590 finished in 42.432432889938354s
+2023-09-04 10:20:22,052 INFO     Checkpoint after iteration 590 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000590
+2023-09-04 10:20:22,052 INFO     Training iteration 591
+2023-09-04 10:21:04,513 INFO     Iteration 591 finished in 42.460954427719116s
+2023-09-04 10:21:04,521 INFO     Training iteration 592
+2023-09-04 10:21:46,949 INFO     Iteration 592 finished in 42.42674136161804s
+2023-09-04 10:21:46,955 INFO     Training iteration 593
+2023-09-04 10:22:29,366 INFO     Iteration 593 finished in 42.40982174873352s
+2023-09-04 10:22:29,371 INFO     Training iteration 594
+2023-09-04 10:23:11,795 INFO     Iteration 594 finished in 42.42451047897339s
+2023-09-04 10:23:11,802 INFO     Training iteration 595
+2023-09-04 10:23:54,308 INFO     Iteration 595 finished in 42.50630974769592s
+2023-09-04 10:23:54,314 INFO     Training iteration 596
+2023-09-04 10:24:36,688 INFO     Iteration 596 finished in 42.373613595962524s
+2023-09-04 10:24:36,712 INFO     Training iteration 597
+2023-09-04 10:25:19,098 INFO     Iteration 597 finished in 42.38537096977234s
+2023-09-04 10:25:19,104 INFO     Training iteration 598
+2023-09-04 10:26:01,492 INFO     Iteration 598 finished in 42.38790512084961s
+2023-09-04 10:26:01,498 INFO     Training iteration 599
+2023-09-04 10:26:43,876 INFO     Iteration 599 finished in 42.37666869163513s
+2023-09-04 10:26:43,882 INFO     Training iteration 600
+2023-09-04 10:27:26,284 INFO     Iteration 600 finished in 42.401649713516235s
+2023-09-04 10:27:26,300 INFO     Checkpoint after iteration 600 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000600
+2023-09-04 10:27:26,300 INFO     Training iteration 601
+2023-09-04 10:28:08,682 INFO     Iteration 601 finished in 42.382428884506226s
+2023-09-04 10:28:08,690 INFO     Training iteration 602
+2023-09-04 10:28:51,083 INFO     Iteration 602 finished in 42.39303779602051s
+2023-09-04 10:28:51,089 INFO     Training iteration 603
+2023-09-04 10:29:33,851 INFO     Iteration 603 finished in 42.76164627075195s
+2023-09-04 10:29:33,856 INFO     Training iteration 604
+2023-09-04 10:30:16,240 INFO     Iteration 604 finished in 42.383827686309814s
+2023-09-04 10:30:16,247 INFO     Training iteration 605
+2023-09-04 10:30:58,635 INFO     Iteration 605 finished in 42.38726854324341s
+2023-09-04 10:30:58,641 INFO     Training iteration 606
+2023-09-04 10:31:41,013 INFO     Iteration 606 finished in 42.37084245681763s
+2023-09-04 10:31:41,019 INFO     Training iteration 607
+2023-09-04 10:32:23,394 INFO     Iteration 607 finished in 42.37521743774414s
+2023-09-04 10:32:23,401 INFO     Training iteration 608
+2023-09-04 10:33:05,761 INFO     Iteration 608 finished in 42.36006760597229s
+2023-09-04 10:33:05,769 INFO     Training iteration 609
+2023-09-04 10:33:48,130 INFO     Iteration 609 finished in 42.35909175872803s
+2023-09-04 10:33:48,139 INFO     Training iteration 610
+2023-09-04 10:34:30,574 INFO     Iteration 610 finished in 42.434120893478394s
+2023-09-04 10:34:30,594 INFO     Checkpoint after iteration 610 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000610
+2023-09-04 10:34:30,594 INFO     Training iteration 611
+2023-09-04 10:35:12,977 INFO     Iteration 611 finished in 42.38134694099426s
+2023-09-04 10:35:12,983 INFO     Training iteration 612
+2023-09-04 10:35:55,351 INFO     Iteration 612 finished in 42.36865210533142s
+2023-09-04 10:35:55,358 INFO     Training iteration 613
+2023-09-04 10:36:37,728 INFO     Iteration 613 finished in 42.370033740997314s
+2023-09-04 10:36:37,734 INFO     Training iteration 614
+2023-09-04 10:37:20,079 INFO     Iteration 614 finished in 42.34396052360535s
+2023-09-04 10:37:20,084 INFO     Training iteration 615
+2023-09-04 10:38:02,480 INFO     Iteration 615 finished in 42.39431405067444s
+2023-09-04 10:38:02,486 INFO     Training iteration 616
+2023-09-04 10:38:44,864 INFO     Iteration 616 finished in 42.37735366821289s
+2023-09-04 10:38:44,870 INFO     Training iteration 617
+2023-09-04 10:39:27,320 INFO     Iteration 617 finished in 42.44976091384888s
+2023-09-04 10:39:27,326 INFO     Training iteration 618
+2023-09-04 10:40:09,711 INFO     Iteration 618 finished in 42.3852105140686s
+2023-09-04 10:40:09,718 INFO     Training iteration 619
+2023-09-04 10:40:52,078 INFO     Iteration 619 finished in 42.36021089553833s
+2023-09-04 10:40:52,085 INFO     Training iteration 620
+2023-09-04 10:41:34,512 INFO     Iteration 620 finished in 42.42774176597595s
+2023-09-04 10:41:34,528 INFO     Checkpoint after iteration 620 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000620
+2023-09-04 10:41:34,528 INFO     Training iteration 621
+2023-09-04 10:42:16,945 INFO     Iteration 621 finished in 42.416144609451294s
+2023-09-04 10:42:16,952 INFO     Training iteration 622
+2023-09-04 10:42:59,377 INFO     Iteration 622 finished in 42.425806760787964s
+2023-09-04 10:42:59,383 INFO     Training iteration 623
+2023-09-04 10:43:41,785 INFO     Iteration 623 finished in 42.401161909103394s
+2023-09-04 10:43:41,791 INFO     Training iteration 624
+2023-09-04 10:44:24,231 INFO     Iteration 624 finished in 42.43987464904785s
+2023-09-04 10:44:24,238 INFO     Training iteration 625
+2023-09-04 10:45:06,601 INFO     Iteration 625 finished in 42.36313319206238s
+2023-09-04 10:45:06,608 INFO     Training iteration 626
+2023-09-04 10:45:48,968 INFO     Iteration 626 finished in 42.35927867889404s
+2023-09-04 10:45:48,973 INFO     Training iteration 627
+2023-09-04 10:46:31,340 INFO     Iteration 627 finished in 42.366827726364136s
+2023-09-04 10:46:31,346 INFO     Training iteration 628
+2023-09-04 10:47:13,717 INFO     Iteration 628 finished in 42.37112092971802s
+2023-09-04 10:47:13,724 INFO     Training iteration 629
+2023-09-04 10:47:56,089 INFO     Iteration 629 finished in 42.36501693725586s
+2023-09-04 10:47:56,095 INFO     Training iteration 630
+2023-09-04 10:48:38,468 INFO     Iteration 630 finished in 42.37201380729675s
+2023-09-04 10:48:38,483 INFO     Checkpoint after iteration 630 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000630
+2023-09-04 10:48:38,483 INFO     Training iteration 631
+2023-09-04 10:49:20,883 INFO     Iteration 631 finished in 42.399728536605835s
+2023-09-04 10:49:20,890 INFO     Training iteration 632
+2023-09-04 10:50:03,268 INFO     Iteration 632 finished in 42.37643814086914s
+2023-09-04 10:50:03,274 INFO     Training iteration 633
+2023-09-04 10:50:45,644 INFO     Iteration 633 finished in 42.36921763420105s
+2023-09-04 10:50:45,649 INFO     Training iteration 634
+2023-09-04 10:51:28,021 INFO     Iteration 634 finished in 42.37109184265137s
+2023-09-04 10:51:28,028 INFO     Training iteration 635
+2023-09-04 10:52:10,435 INFO     Iteration 635 finished in 42.407472133636475s
+2023-09-04 10:52:10,443 INFO     Training iteration 636
+2023-09-04 10:52:52,841 INFO     Iteration 636 finished in 42.39779806137085s
+2023-09-04 10:52:52,846 INFO     Training iteration 637
+2023-09-04 10:53:35,259 INFO     Iteration 637 finished in 42.412837982177734s
+2023-09-04 10:53:35,266 INFO     Training iteration 638
+2023-09-04 10:54:17,660 INFO     Iteration 638 finished in 42.394044637680054s
+2023-09-04 10:54:17,665 INFO     Training iteration 639
+2023-09-04 10:55:00,080 INFO     Iteration 639 finished in 42.41524958610535s
+2023-09-04 10:55:00,088 INFO     Training iteration 640
+2023-09-04 10:55:42,517 INFO     Iteration 640 finished in 42.42824459075928s
+2023-09-04 10:55:42,534 INFO     Checkpoint after iteration 640 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000640
+2023-09-04 10:55:42,534 INFO     Training iteration 641
+2023-09-04 10:56:24,926 INFO     Iteration 641 finished in 42.390944480895996s
+2023-09-04 10:56:24,933 INFO     Training iteration 642
+2023-09-04 10:57:07,360 INFO     Iteration 642 finished in 42.42753481864929s
+2023-09-04 10:57:07,366 INFO     Training iteration 643
+2023-09-04 10:57:49,796 INFO     Iteration 643 finished in 42.42900896072388s
+2023-09-04 10:57:49,802 INFO     Training iteration 644
+2023-09-04 10:58:32,211 INFO     Iteration 644 finished in 42.40887665748596s
+2023-09-04 10:58:32,216 INFO     Training iteration 645
+2023-09-04 10:59:14,639 INFO     Iteration 645 finished in 42.42204284667969s
+2023-09-04 10:59:14,646 INFO     Training iteration 646
+2023-09-04 10:59:57,033 INFO     Iteration 646 finished in 42.38748025894165s
+2023-09-04 10:59:57,039 INFO     Training iteration 647
+2023-09-04 11:00:39,409 INFO     Iteration 647 finished in 42.36952495574951s
+2023-09-04 11:00:39,415 INFO     Training iteration 648
+2023-09-04 11:01:21,792 INFO     Iteration 648 finished in 42.37621450424194s
+2023-09-04 11:01:21,798 INFO     Training iteration 649
+2023-09-04 11:02:04,168 INFO     Iteration 649 finished in 42.370112657547s
+2023-09-04 11:02:04,174 INFO     Training iteration 650
+2023-09-04 11:02:46,553 INFO     Iteration 650 finished in 42.37864303588867s
+2023-09-04 11:02:46,568 INFO     Checkpoint after iteration 650 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000650
+2023-09-04 11:02:46,568 INFO     Training iteration 651
+2023-09-04 11:03:28,941 INFO     Iteration 651 finished in 42.37152671813965s
+2023-09-04 11:03:28,947 INFO     Training iteration 652
+2023-09-04 11:04:11,348 INFO     Iteration 652 finished in 42.40049386024475s
+2023-09-04 11:04:11,354 INFO     Training iteration 653
+2023-09-04 11:04:53,737 INFO     Iteration 653 finished in 42.38268756866455s
+2023-09-04 11:04:53,742 INFO     Training iteration 654
+2023-09-04 11:05:36,138 INFO     Iteration 654 finished in 42.39391589164734s
+2023-09-04 11:05:36,144 INFO     Training iteration 655
+2023-09-04 11:06:18,580 INFO     Iteration 655 finished in 42.43638634681702s
+2023-09-04 11:06:18,587 INFO     Training iteration 656
+2023-09-04 11:07:01,006 INFO     Iteration 656 finished in 42.41914486885071s
+2023-09-04 11:07:01,012 INFO     Training iteration 657
+2023-09-04 11:07:43,412 INFO     Iteration 657 finished in 42.399476528167725s
+2023-09-04 11:07:43,418 INFO     Training iteration 658
+2023-09-04 11:08:25,843 INFO     Iteration 658 finished in 42.424893379211426s
+2023-09-04 11:08:25,850 INFO     Training iteration 659
+2023-09-04 11:09:08,242 INFO     Iteration 659 finished in 42.39141798019409s
+2023-09-04 11:09:08,249 INFO     Training iteration 660
+2023-09-04 11:09:50,644 INFO     Iteration 660 finished in 42.39490509033203s
+2023-09-04 11:09:50,660 INFO     Checkpoint after iteration 660 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000660
+2023-09-04 11:09:50,660 INFO     Training iteration 661
+2023-09-04 11:10:33,086 INFO     Iteration 661 finished in 42.42621970176697s
+2023-09-04 11:10:33,101 INFO     Training iteration 662
+2023-09-04 11:11:15,493 INFO     Iteration 662 finished in 42.39181566238403s
+2023-09-04 11:11:15,499 INFO     Training iteration 663
+2023-09-04 11:11:57,886 INFO     Iteration 663 finished in 42.38690257072449s
+2023-09-04 11:11:57,892 INFO     Training iteration 664
+2023-09-04 11:12:40,565 INFO     Iteration 664 finished in 42.67165207862854s
+2023-09-04 11:12:40,571 INFO     Training iteration 665
+2023-09-04 11:13:22,930 INFO     Iteration 665 finished in 42.359275817871094s
+2023-09-04 11:13:22,937 INFO     Training iteration 666
+2023-09-04 11:14:05,325 INFO     Iteration 666 finished in 42.38661861419678s
+2023-09-04 11:14:05,330 INFO     Training iteration 667
+2023-09-04 11:14:47,712 INFO     Iteration 667 finished in 42.380695104599s
+2023-09-04 11:14:47,717 INFO     Training iteration 668
+2023-09-04 11:15:30,075 INFO     Iteration 668 finished in 42.3569974899292s
+2023-09-04 11:15:30,081 INFO     Training iteration 669
+2023-09-04 11:16:12,472 INFO     Iteration 669 finished in 42.39138746261597s
+2023-09-04 11:16:12,478 INFO     Training iteration 670
+2023-09-04 11:16:54,845 INFO     Iteration 670 finished in 42.366393089294434s
+2023-09-04 11:16:54,862 INFO     Checkpoint after iteration 670 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000670
+2023-09-04 11:16:54,862 INFO     Training iteration 671
+2023-09-04 11:17:37,249 INFO     Iteration 671 finished in 42.38688826560974s
+2023-09-04 11:17:37,254 INFO     Training iteration 672
+2023-09-04 11:18:19,625 INFO     Iteration 672 finished in 42.37035775184631s
+2023-09-04 11:18:19,631 INFO     Training iteration 673
+2023-09-04 11:19:02,001 INFO     Iteration 673 finished in 42.36937379837036s
+2023-09-04 11:19:02,013 INFO     Training iteration 674
+2023-09-04 11:19:44,392 INFO     Iteration 674 finished in 42.37928318977356s
+2023-09-04 11:19:44,398 INFO     Training iteration 675
+2023-09-04 11:20:26,767 INFO     Iteration 675 finished in 42.368393898010254s
+2023-09-04 11:20:26,773 INFO     Training iteration 676
+2023-09-04 11:21:09,159 INFO     Iteration 676 finished in 42.38471269607544s
+2023-09-04 11:21:09,166 INFO     Training iteration 677
+2023-09-04 11:21:51,554 INFO     Iteration 677 finished in 42.388378620147705s
+2023-09-04 11:21:51,562 INFO     Training iteration 678
+2023-09-04 11:22:33,933 INFO     Iteration 678 finished in 42.371346950531006s
+2023-09-04 11:22:33,939 INFO     Training iteration 679
+2023-09-04 11:23:16,318 INFO     Iteration 679 finished in 42.37921500205994s
+2023-09-04 11:23:16,325 INFO     Training iteration 680
+2023-09-04 11:23:58,694 INFO     Iteration 680 finished in 42.36958146095276s
+2023-09-04 11:23:58,710 INFO     Checkpoint after iteration 680 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000680
+2023-09-04 11:23:58,710 INFO     Training iteration 681
+2023-09-04 11:24:41,154 INFO     Iteration 681 finished in 42.44268345832825s
+2023-09-04 11:24:41,159 INFO     Training iteration 682
+2023-09-04 11:25:23,579 INFO     Iteration 682 finished in 42.418569564819336s
+2023-09-04 11:25:23,586 INFO     Training iteration 683
+2023-09-04 11:26:05,978 INFO     Iteration 683 finished in 42.39287996292114s
+2023-09-04 11:26:05,984 INFO     Training iteration 684
+2023-09-04 11:26:48,399 INFO     Iteration 684 finished in 42.415053367614746s
+2023-09-04 11:26:48,405 INFO     Training iteration 685
+2023-09-04 11:27:30,852 INFO     Iteration 685 finished in 42.44545030593872s
+2023-09-04 11:27:30,858 INFO     Training iteration 686
+2023-09-04 11:28:13,284 INFO     Iteration 686 finished in 42.42629289627075s
+2023-09-04 11:28:13,290 INFO     Training iteration 687
+2023-09-04 11:28:55,714 INFO     Iteration 687 finished in 42.423951148986816s
+2023-09-04 11:28:55,720 INFO     Training iteration 688
+2023-09-04 11:29:38,239 INFO     Iteration 688 finished in 42.518166065216064s
+2023-09-04 11:29:38,245 INFO     Training iteration 689
+2023-09-04 11:30:20,637 INFO     Iteration 689 finished in 42.391427755355835s
+2023-09-04 11:30:20,643 INFO     Training iteration 690
+2023-09-04 11:31:03,025 INFO     Iteration 690 finished in 42.38126182556152s
+2023-09-04 11:31:03,040 INFO     Checkpoint after iteration 690 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000690
+2023-09-04 11:31:03,040 INFO     Training iteration 691
+2023-09-04 11:31:45,407 INFO     Iteration 691 finished in 42.36676549911499s
+2023-09-04 11:31:45,414 INFO     Training iteration 692
+2023-09-04 11:32:27,797 INFO     Iteration 692 finished in 42.38187384605408s
+2023-09-04 11:32:27,814 INFO     Training iteration 693
+2023-09-04 11:33:10,191 INFO     Iteration 693 finished in 42.37703323364258s
+2023-09-04 11:33:10,198 INFO     Training iteration 694
+2023-09-04 11:33:52,557 INFO     Iteration 694 finished in 42.358936071395874s
+2023-09-04 11:33:52,567 INFO     Training iteration 695
+2023-09-04 11:34:34,949 INFO     Iteration 695 finished in 42.38209795951843s
+2023-09-04 11:34:34,956 INFO     Training iteration 696
+2023-09-04 11:35:17,305 INFO     Iteration 696 finished in 42.348907470703125s
+2023-09-04 11:35:17,311 INFO     Training iteration 697
+2023-09-04 11:35:59,688 INFO     Iteration 697 finished in 42.37635540962219s
+2023-09-04 11:35:59,694 INFO     Training iteration 698
+2023-09-04 11:36:42,039 INFO     Iteration 698 finished in 42.344348430633545s
+2023-09-04 11:36:42,044 INFO     Training iteration 699
+2023-09-04 11:37:24,415 INFO     Iteration 699 finished in 42.369078397750854s
+2023-09-04 11:37:24,421 INFO     Training iteration 700
+2023-09-04 11:38:06,813 INFO     Iteration 700 finished in 42.39260673522949s
+2023-09-04 11:38:06,829 INFO     Checkpoint after iteration 700 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000700
+2023-09-04 11:38:06,829 INFO     Training iteration 701
+2023-09-04 11:38:49,204 INFO     Iteration 701 finished in 42.37498617172241s
+2023-09-04 11:38:49,211 INFO     Training iteration 702
+2023-09-04 11:39:31,599 INFO     Iteration 702 finished in 42.38837504386902s
+2023-09-04 11:39:31,605 INFO     Training iteration 703
+2023-09-04 11:40:13,973 INFO     Iteration 703 finished in 42.368767499923706s
+2023-09-04 11:40:13,979 INFO     Training iteration 704
+2023-09-04 11:40:56,353 INFO     Iteration 704 finished in 42.3728301525116s
+2023-09-04 11:40:56,358 INFO     Training iteration 705
+2023-09-04 11:41:38,749 INFO     Iteration 705 finished in 42.3902907371521s
+2023-09-04 11:41:38,755 INFO     Training iteration 706
+2023-09-04 11:42:21,127 INFO     Iteration 706 finished in 42.37241840362549s
+2023-09-04 11:42:21,138 INFO     Training iteration 707
+2023-09-04 11:43:03,523 INFO     Iteration 707 finished in 42.385000467300415s
+2023-09-04 11:43:03,529 INFO     Training iteration 708
+2023-09-04 11:43:45,915 INFO     Iteration 708 finished in 42.384740114212036s
+2023-09-04 11:43:45,921 INFO     Training iteration 709
+2023-09-04 11:44:28,319 INFO     Iteration 709 finished in 42.397172689437866s
+2023-09-04 11:44:28,324 INFO     Training iteration 710
+2023-09-04 11:45:10,724 INFO     Iteration 710 finished in 42.39846587181091s
+2023-09-04 11:45:10,739 INFO     Checkpoint after iteration 710 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000710
+2023-09-04 11:45:10,739 INFO     Training iteration 711
+2023-09-04 11:45:53,112 INFO     Iteration 711 finished in 42.373507261276245s
+2023-09-04 11:45:53,119 INFO     Training iteration 712
+2023-09-04 11:46:35,494 INFO     Iteration 712 finished in 42.37555694580078s
+2023-09-04 11:46:35,500 INFO     Training iteration 713
+2023-09-04 11:47:17,857 INFO     Iteration 713 finished in 42.35473704338074s
+2023-09-04 11:47:17,863 INFO     Training iteration 714
+2023-09-04 11:48:00,246 INFO     Iteration 714 finished in 42.38174271583557s
+2023-09-04 11:48:00,251 INFO     Training iteration 715
+2023-09-04 11:48:42,627 INFO     Iteration 715 finished in 42.37368631362915s
+2023-09-04 11:48:42,634 INFO     Training iteration 716
+2023-09-04 11:49:25,044 INFO     Iteration 716 finished in 42.41020846366882s
+2023-09-04 11:49:25,050 INFO     Training iteration 717
+2023-09-04 11:50:07,426 INFO     Iteration 717 finished in 42.37597990036011s
+2023-09-04 11:50:07,432 INFO     Training iteration 718
+2023-09-04 11:50:49,830 INFO     Iteration 718 finished in 42.39634847640991s
+2023-09-04 11:50:49,836 INFO     Training iteration 719
+2023-09-04 11:51:32,221 INFO     Iteration 719 finished in 42.384509801864624s
+2023-09-04 11:51:32,227 INFO     Training iteration 720
+2023-09-04 11:52:14,884 INFO     Iteration 720 finished in 42.656578063964844s
+2023-09-04 11:52:14,899 INFO     Checkpoint after iteration 720 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000720
+2023-09-04 11:52:14,899 INFO     Training iteration 721
+2023-09-04 11:52:57,307 INFO     Iteration 721 finished in 42.40784454345703s
+2023-09-04 11:52:57,313 INFO     Training iteration 722
+2023-09-04 11:53:39,695 INFO     Iteration 722 finished in 42.381187438964844s
+2023-09-04 11:53:39,701 INFO     Training iteration 723
+2023-09-04 11:54:22,082 INFO     Iteration 723 finished in 42.38078188896179s
+2023-09-04 11:54:22,088 INFO     Training iteration 724
+2023-09-04 11:55:04,447 INFO     Iteration 724 finished in 42.35895586013794s
+2023-09-04 11:55:04,454 INFO     Training iteration 725
+2023-09-04 11:55:46,832 INFO     Iteration 725 finished in 42.37669658660889s
+2023-09-04 11:55:46,846 INFO     Training iteration 726
+2023-09-04 11:56:29,224 INFO     Iteration 726 finished in 42.37874126434326s
+2023-09-04 11:56:29,230 INFO     Training iteration 727
+2023-09-04 11:57:11,608 INFO     Iteration 727 finished in 42.37701082229614s
+2023-09-04 11:57:11,614 INFO     Training iteration 728
+2023-09-04 11:57:53,958 INFO     Iteration 728 finished in 42.34262466430664s
+2023-09-04 11:57:53,963 INFO     Training iteration 729
+2023-09-04 11:58:36,330 INFO     Iteration 729 finished in 42.36688280105591s
+2023-09-04 11:58:36,337 INFO     Training iteration 730
+2023-09-04 11:59:18,707 INFO     Iteration 730 finished in 42.37003970146179s
+2023-09-04 11:59:18,724 INFO     Checkpoint after iteration 730 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000730
+2023-09-04 11:59:18,724 INFO     Training iteration 731
+2023-09-04 12:00:01,114 INFO     Iteration 731 finished in 42.38992238044739s
+2023-09-04 12:00:01,120 INFO     Training iteration 732
+2023-09-04 12:00:43,492 INFO     Iteration 732 finished in 42.372843742370605s
+2023-09-04 12:00:43,498 INFO     Training iteration 733
+2023-09-04 12:01:25,885 INFO     Iteration 733 finished in 42.38684582710266s
+2023-09-04 12:01:25,891 INFO     Training iteration 734
+2023-09-04 12:02:08,248 INFO     Iteration 734 finished in 42.35762429237366s
+2023-09-04 12:02:08,255 INFO     Training iteration 735
+2023-09-04 12:02:50,634 INFO     Iteration 735 finished in 42.378756046295166s
+2023-09-04 12:02:50,639 INFO     Training iteration 736
+2023-09-04 12:03:33,014 INFO     Iteration 736 finished in 42.37399458885193s
+2023-09-04 12:03:33,020 INFO     Training iteration 737
+2023-09-04 12:04:15,399 INFO     Iteration 737 finished in 42.37792253494263s
+2023-09-04 12:04:15,404 INFO     Training iteration 738
+2023-09-04 12:04:57,779 INFO     Iteration 738 finished in 42.37514877319336s
+2023-09-04 12:04:57,788 INFO     Training iteration 739
+2023-09-04 12:05:40,168 INFO     Iteration 739 finished in 42.37987041473389s
+2023-09-04 12:05:40,173 INFO     Training iteration 740
+2023-09-04 12:06:22,547 INFO     Iteration 740 finished in 42.37403464317322s
+2023-09-04 12:06:22,564 INFO     Checkpoint after iteration 740 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000740
+2023-09-04 12:06:22,564 INFO     Training iteration 741
+2023-09-04 12:07:04,915 INFO     Iteration 741 finished in 42.35029625892639s
+2023-09-04 12:07:04,921 INFO     Training iteration 742
+2023-09-04 12:07:47,292 INFO     Iteration 742 finished in 42.370198488235474s
+2023-09-04 12:07:47,298 INFO     Training iteration 743
+2023-09-04 12:08:29,652 INFO     Iteration 743 finished in 42.353946924209595s
+2023-09-04 12:08:29,659 INFO     Training iteration 744
+2023-09-04 12:09:12,016 INFO     Iteration 744 finished in 42.357381105422974s
+2023-09-04 12:09:12,022 INFO     Training iteration 745
+2023-09-04 12:09:54,401 INFO     Iteration 745 finished in 42.378583908081055s
+2023-09-04 12:09:54,406 INFO     Training iteration 746
+2023-09-04 12:10:36,778 INFO     Iteration 746 finished in 42.372408390045166s
+2023-09-04 12:10:36,783 INFO     Training iteration 747
+2023-09-04 12:11:19,211 INFO     Iteration 747 finished in 42.42796492576599s
+2023-09-04 12:11:19,218 INFO     Training iteration 748
+2023-09-04 12:12:01,627 INFO     Iteration 748 finished in 42.40940570831299s
+2023-09-04 12:12:01,632 INFO     Training iteration 749
+2023-09-04 12:12:43,997 INFO     Iteration 749 finished in 42.36496162414551s
+2023-09-04 12:12:44,002 INFO     Training iteration 750
+2023-09-04 12:13:26,382 INFO     Iteration 750 finished in 42.37943077087402s
+2023-09-04 12:13:26,400 INFO     Checkpoint after iteration 750 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000750
+2023-09-04 12:13:26,400 INFO     Training iteration 751
+2023-09-04 12:14:08,770 INFO     Iteration 751 finished in 42.36919140815735s
+2023-09-04 12:14:08,776 INFO     Training iteration 752
+2023-09-04 12:14:51,164 INFO     Iteration 752 finished in 42.3867506980896s
+2023-09-04 12:14:51,169 INFO     Training iteration 753
+2023-09-04 12:15:33,579 INFO     Iteration 753 finished in 42.40969371795654s
+2023-09-04 12:15:33,584 INFO     Training iteration 754
+2023-09-04 12:16:15,936 INFO     Iteration 754 finished in 42.351332902908325s
+2023-09-04 12:16:15,942 INFO     Training iteration 755
+2023-09-04 12:16:58,315 INFO     Iteration 755 finished in 42.37195181846619s
+2023-09-04 12:16:58,321 INFO     Training iteration 756
+2023-09-04 12:17:44,491 INFO     Iteration 756 finished in 46.16996908187866s
+2023-09-04 12:17:44,497 INFO     Training iteration 757
+2023-09-04 12:18:26,875 INFO     Iteration 757 finished in 42.37738275527954s
+2023-09-04 12:18:26,880 INFO     Training iteration 758
+2023-09-04 12:19:09,228 INFO     Iteration 758 finished in 42.34690976142883s
+2023-09-04 12:19:09,233 INFO     Training iteration 759
+2023-09-04 12:19:51,586 INFO     Iteration 759 finished in 42.353156328201294s
+2023-09-04 12:19:51,593 INFO     Training iteration 760
+2023-09-04 12:20:33,974 INFO     Iteration 760 finished in 42.38161087036133s
+2023-09-04 12:20:33,990 INFO     Checkpoint after iteration 760 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000760
+2023-09-04 12:20:33,990 INFO     Training iteration 761
+2023-09-04 12:21:16,378 INFO     Iteration 761 finished in 42.3878390789032s
+2023-09-04 12:21:16,387 INFO     Training iteration 762
+2023-09-04 12:21:58,740 INFO     Iteration 762 finished in 42.35278272628784s
+2023-09-04 12:21:58,746 INFO     Training iteration 763
+2023-09-04 12:22:41,120 INFO     Iteration 763 finished in 42.37357258796692s
+2023-09-04 12:22:41,126 INFO     Training iteration 764
+2023-09-04 12:23:23,498 INFO     Iteration 764 finished in 42.37212634086609s
+2023-09-04 12:23:23,504 INFO     Training iteration 765
+2023-09-04 12:24:05,873 INFO     Iteration 765 finished in 42.36765098571777s
+2023-09-04 12:24:05,879 INFO     Training iteration 766
+2023-09-04 12:24:48,266 INFO     Iteration 766 finished in 42.38614296913147s
+2023-09-04 12:24:48,272 INFO     Training iteration 767
+2023-09-04 12:25:30,645 INFO     Iteration 767 finished in 42.37171649932861s
+2023-09-04 12:25:30,650 INFO     Training iteration 768
+2023-09-04 12:26:13,043 INFO     Iteration 768 finished in 42.39305853843689s
+2023-09-04 12:26:13,052 INFO     Training iteration 769
+2023-09-04 12:26:55,429 INFO     Iteration 769 finished in 42.3773992061615s
+2023-09-04 12:26:55,435 INFO     Training iteration 770
+2023-09-04 12:27:37,808 INFO     Iteration 770 finished in 42.37188363075256s
+2023-09-04 12:27:37,825 INFO     Checkpoint after iteration 770 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000770
+2023-09-04 12:27:37,826 INFO     Training iteration 771
+2023-09-04 12:28:20,192 INFO     Iteration 771 finished in 42.36446166038513s
+2023-09-04 12:28:20,198 INFO     Training iteration 772
+2023-09-04 12:29:02,673 INFO     Iteration 772 finished in 42.47357892990112s
+2023-09-04 12:29:02,678 INFO     Training iteration 773
+2023-09-04 12:29:45,040 INFO     Iteration 773 finished in 42.36126208305359s
+2023-09-04 12:29:45,046 INFO     Training iteration 774
+2023-09-04 12:30:27,454 INFO     Iteration 774 finished in 42.40715527534485s
+2023-09-04 12:30:27,461 INFO     Training iteration 775
+2023-09-04 12:31:09,850 INFO     Iteration 775 finished in 42.389819383621216s
+2023-09-04 12:31:09,856 INFO     Training iteration 776
+2023-09-04 12:31:52,240 INFO     Iteration 776 finished in 42.38354253768921s
+2023-09-04 12:31:52,246 INFO     Training iteration 777
+2023-09-04 12:32:34,663 INFO     Iteration 777 finished in 42.41684556007385s
+2023-09-04 12:32:34,669 INFO     Training iteration 778
+2023-09-04 12:33:17,050 INFO     Iteration 778 finished in 42.38039422035217s
+2023-09-04 12:33:17,056 INFO     Training iteration 779
+2023-09-04 12:33:59,447 INFO     Iteration 779 finished in 42.39107298851013s
+2023-09-04 12:33:59,454 INFO     Training iteration 780
+2023-09-04 12:34:41,842 INFO     Iteration 780 finished in 42.387590169906616s
+2023-09-04 12:34:41,857 INFO     Checkpoint after iteration 780 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000780
+2023-09-04 12:34:41,857 INFO     Training iteration 781
+2023-09-04 12:35:24,247 INFO     Iteration 781 finished in 42.38986945152283s
+2023-09-04 12:35:24,254 INFO     Training iteration 782
+2023-09-04 12:36:06,650 INFO     Iteration 782 finished in 42.39518690109253s
+2023-09-04 12:36:06,655 INFO     Training iteration 783
+2023-09-04 12:36:49,041 INFO     Iteration 783 finished in 42.3850998878479s
+2023-09-04 12:36:49,048 INFO     Training iteration 784
+2023-09-04 12:37:31,414 INFO     Iteration 784 finished in 42.365668296813965s
+2023-09-04 12:37:31,420 INFO     Training iteration 785
+2023-09-04 12:38:13,801 INFO     Iteration 785 finished in 42.37946629524231s
+2023-09-04 12:38:13,807 INFO     Training iteration 786
+2023-09-04 12:38:56,209 INFO     Iteration 786 finished in 42.402339458465576s
+2023-09-04 12:38:56,216 INFO     Training iteration 787
+2023-09-04 12:39:38,606 INFO     Iteration 787 finished in 42.39020276069641s
+2023-09-04 12:39:38,612 INFO     Training iteration 788
+2023-09-04 12:40:20,979 INFO     Iteration 788 finished in 42.36539912223816s
+2023-09-04 12:40:20,995 INFO     Training iteration 789
+2023-09-04 12:41:03,367 INFO     Iteration 789 finished in 42.37268424034119s
+2023-09-04 12:41:03,373 INFO     Training iteration 790
+2023-09-04 12:41:45,790 INFO     Iteration 790 finished in 42.41715860366821s
+2023-09-04 12:41:45,806 INFO     Checkpoint after iteration 790 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000790
+2023-09-04 12:41:45,806 INFO     Training iteration 791
+2023-09-04 12:42:28,199 INFO     Iteration 791 finished in 42.39346528053284s
+2023-09-04 12:42:28,206 INFO     Training iteration 792
+2023-09-04 12:43:10,589 INFO     Iteration 792 finished in 42.382641077041626s
+2023-09-04 12:43:10,596 INFO     Training iteration 793
+2023-09-04 12:43:52,973 INFO     Iteration 793 finished in 42.37602877616882s
+2023-09-04 12:43:52,979 INFO     Training iteration 794
+2023-09-04 12:44:35,350 INFO     Iteration 794 finished in 42.3708553314209s
+2023-09-04 12:44:35,356 INFO     Training iteration 795
+2023-09-04 12:45:17,752 INFO     Iteration 795 finished in 42.394633293151855s
+2023-09-04 12:45:17,758 INFO     Training iteration 796
+2023-09-04 12:46:00,147 INFO     Iteration 796 finished in 42.388365030288696s
+2023-09-04 12:46:00,153 INFO     Training iteration 797
+2023-09-04 12:46:42,506 INFO     Iteration 797 finished in 42.35260057449341s
+2023-09-04 12:46:42,512 INFO     Training iteration 798
+2023-09-04 12:47:24,901 INFO     Iteration 798 finished in 42.38934659957886s
+2023-09-04 12:47:24,908 INFO     Training iteration 799
+2023-09-04 12:48:07,305 INFO     Iteration 799 finished in 42.39600491523743s
+2023-09-04 12:48:07,309 INFO     Training iteration 800
+2023-09-04 12:48:49,688 INFO     Iteration 800 finished in 42.37862300872803s
+2023-09-04 12:48:49,703 INFO     Checkpoint after iteration 800 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000800
+2023-09-04 12:48:49,703 INFO     Training iteration 801
+2023-09-04 12:49:32,102 INFO     Iteration 801 finished in 42.39904713630676s
+2023-09-04 12:49:32,109 INFO     Training iteration 802
+2023-09-04 12:50:14,461 INFO     Iteration 802 finished in 42.351874113082886s
+2023-09-04 12:50:14,467 INFO     Training iteration 803
+2023-09-04 12:50:56,851 INFO     Iteration 803 finished in 42.383846282958984s
+2023-09-04 12:50:56,858 INFO     Training iteration 804
+2023-09-04 12:51:39,247 INFO     Iteration 804 finished in 42.388612270355225s
+2023-09-04 12:51:39,254 INFO     Training iteration 805
+2023-09-04 12:52:21,622 INFO     Iteration 805 finished in 42.367457151412964s
+2023-09-04 12:52:21,628 INFO     Training iteration 806
+2023-09-04 12:53:04,018 INFO     Iteration 806 finished in 42.39058709144592s
+2023-09-04 12:53:04,025 INFO     Training iteration 807
+2023-09-04 12:53:46,420 INFO     Iteration 807 finished in 42.39554405212402s
+2023-09-04 12:53:46,428 INFO     Training iteration 808
+2023-09-04 12:54:28,817 INFO     Iteration 808 finished in 42.389238119125366s
+2023-09-04 12:54:28,832 INFO     Training iteration 809
+2023-09-04 12:55:11,217 INFO     Iteration 809 finished in 42.38494348526001s
+2023-09-04 12:55:11,222 INFO     Training iteration 810
+2023-09-04 12:55:53,619 INFO     Iteration 810 finished in 42.396326303482056s
+2023-09-04 12:55:53,634 INFO     Checkpoint after iteration 810 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000810
+2023-09-04 12:55:53,634 INFO     Training iteration 811
+2023-09-04 12:56:36,010 INFO     Iteration 811 finished in 42.37504434585571s
+2023-09-04 12:56:36,015 INFO     Training iteration 812
+2023-09-04 12:57:18,414 INFO     Iteration 812 finished in 42.39856290817261s
+2023-09-04 12:57:18,420 INFO     Training iteration 813
+2023-09-04 12:58:00,807 INFO     Iteration 813 finished in 42.38682150840759s
+2023-09-04 12:58:00,813 INFO     Training iteration 814
+2023-09-04 12:58:43,199 INFO     Iteration 814 finished in 42.38605499267578s
+2023-09-04 12:58:43,204 INFO     Training iteration 815
+2023-09-04 12:59:25,576 INFO     Iteration 815 finished in 42.37172293663025s
+2023-09-04 12:59:25,583 INFO     Training iteration 816
+2023-09-04 13:00:07,967 INFO     Iteration 816 finished in 42.383676052093506s
+2023-09-04 13:00:07,975 INFO     Training iteration 817
+2023-09-04 13:00:50,375 INFO     Iteration 817 finished in 42.400026082992554s
+2023-09-04 13:00:50,381 INFO     Training iteration 818
+2023-09-04 13:01:32,743 INFO     Iteration 818 finished in 42.362040281295776s
+2023-09-04 13:01:32,750 INFO     Training iteration 819
+2023-09-04 13:02:15,424 INFO     Iteration 819 finished in 42.67454695701599s
+2023-09-04 13:02:15,430 INFO     Training iteration 820
+2023-09-04 13:02:57,819 INFO     Iteration 820 finished in 42.38891339302063s
+2023-09-04 13:02:57,835 INFO     Checkpoint after iteration 820 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000820
+2023-09-04 13:02:57,835 INFO     Training iteration 821
+2023-09-04 13:03:40,238 INFO     Iteration 821 finished in 42.401718616485596s
+2023-09-04 13:03:40,244 INFO     Training iteration 822
+2023-09-04 13:04:22,633 INFO     Iteration 822 finished in 42.38846445083618s
+2023-09-04 13:04:22,639 INFO     Training iteration 823
+2023-09-04 13:05:05,016 INFO     Iteration 823 finished in 42.37649393081665s
+2023-09-04 13:05:05,022 INFO     Training iteration 824
+2023-09-04 13:05:47,400 INFO     Iteration 824 finished in 42.378222703933716s
+2023-09-04 13:05:47,407 INFO     Training iteration 825
+2023-09-04 13:06:29,785 INFO     Iteration 825 finished in 42.377116203308105s
+2023-09-04 13:06:29,791 INFO     Training iteration 826
+2023-09-04 13:07:12,182 INFO     Iteration 826 finished in 42.390780448913574s
+2023-09-04 13:07:12,189 INFO     Training iteration 827
+2023-09-04 13:07:54,599 INFO     Iteration 827 finished in 42.41028690338135s
+2023-09-04 13:07:54,605 INFO     Training iteration 828
+2023-09-04 13:08:36,983 INFO     Iteration 828 finished in 42.3772554397583s
+2023-09-04 13:08:36,989 INFO     Training iteration 829
+2023-09-04 13:09:19,395 INFO     Iteration 829 finished in 42.40571165084839s
+2023-09-04 13:09:19,401 INFO     Training iteration 830
+2023-09-04 13:10:01,772 INFO     Iteration 830 finished in 42.3710081577301s
+2023-09-04 13:10:01,788 INFO     Checkpoint after iteration 830 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000830
+2023-09-04 13:10:01,788 INFO     Training iteration 831
+2023-09-04 13:10:44,192 INFO     Iteration 831 finished in 42.402878761291504s
+2023-09-04 13:10:44,197 INFO     Training iteration 832
+2023-09-04 13:11:26,576 INFO     Iteration 832 finished in 42.37888145446777s
+2023-09-04 13:11:26,582 INFO     Training iteration 833
+2023-09-04 13:12:08,927 INFO     Iteration 833 finished in 42.34335994720459s
+2023-09-04 13:12:08,933 INFO     Training iteration 834
+2023-09-04 13:12:51,319 INFO     Iteration 834 finished in 42.384501218795776s
+2023-09-04 13:12:51,325 INFO     Training iteration 835
+2023-09-04 13:13:33,695 INFO     Iteration 835 finished in 42.36898422241211s
+2023-09-04 13:13:33,700 INFO     Training iteration 836
+2023-09-04 13:14:16,102 INFO     Iteration 836 finished in 42.40178179740906s
+2023-09-04 13:14:16,112 INFO     Training iteration 837
+2023-09-04 13:14:58,510 INFO     Iteration 837 finished in 42.39721894264221s
+2023-09-04 13:14:58,516 INFO     Training iteration 838
+2023-09-04 13:15:40,914 INFO     Iteration 838 finished in 42.396629333496094s
+2023-09-04 13:15:40,920 INFO     Training iteration 839
+2023-09-04 13:16:23,297 INFO     Iteration 839 finished in 42.37691950798035s
+2023-09-04 13:16:23,302 INFO     Training iteration 840
+2023-09-04 13:17:05,682 INFO     Iteration 840 finished in 42.379905700683594s
+2023-09-04 13:17:05,698 INFO     Checkpoint after iteration 840 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000840
+2023-09-04 13:17:05,698 INFO     Training iteration 841
+2023-09-04 13:17:48,062 INFO     Iteration 841 finished in 42.36484384536743s
+2023-09-04 13:17:48,068 INFO     Training iteration 842
+2023-09-04 13:18:30,450 INFO     Iteration 842 finished in 42.381343364715576s
+2023-09-04 13:18:30,457 INFO     Training iteration 843
+2023-09-04 13:19:12,845 INFO     Iteration 843 finished in 42.388105630874634s
+2023-09-04 13:19:12,851 INFO     Training iteration 844
+2023-09-04 13:19:55,216 INFO     Iteration 844 finished in 42.363457441329956s
+2023-09-04 13:19:55,227 INFO     Training iteration 845
+2023-09-04 13:20:37,614 INFO     Iteration 845 finished in 42.385658740997314s
+2023-09-04 13:20:37,619 INFO     Training iteration 846
+2023-09-04 13:21:19,990 INFO     Iteration 846 finished in 42.370168924331665s
+2023-09-04 13:21:19,996 INFO     Training iteration 847
+2023-09-04 13:22:02,364 INFO     Iteration 847 finished in 42.36654734611511s
+2023-09-04 13:22:02,369 INFO     Training iteration 848
+2023-09-04 13:22:44,723 INFO     Iteration 848 finished in 42.35393571853638s
+2023-09-04 13:22:44,729 INFO     Training iteration 849
+2023-09-04 13:23:27,105 INFO     Iteration 849 finished in 42.37639021873474s
+2023-09-04 13:23:27,112 INFO     Training iteration 850
+2023-09-04 13:24:09,491 INFO     Iteration 850 finished in 42.37952160835266s
+2023-09-04 13:24:09,507 INFO     Checkpoint after iteration 850 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000850
+2023-09-04 13:24:09,507 INFO     Training iteration 851
+2023-09-04 13:24:51,893 INFO     Iteration 851 finished in 42.38555073738098s
+2023-09-04 13:24:51,899 INFO     Training iteration 852
+2023-09-04 13:25:34,269 INFO     Iteration 852 finished in 42.36865234375s
+2023-09-04 13:25:34,274 INFO     Training iteration 853
+2023-09-04 13:26:16,675 INFO     Iteration 853 finished in 42.40144753456116s
+2023-09-04 13:26:16,680 INFO     Training iteration 854
+2023-09-04 13:26:59,072 INFO     Iteration 854 finished in 42.391931772232056s
+2023-09-04 13:26:59,078 INFO     Training iteration 855
+2023-09-04 13:27:41,469 INFO     Iteration 855 finished in 42.391226291656494s
+2023-09-04 13:27:41,475 INFO     Training iteration 856
+2023-09-04 13:28:23,867 INFO     Iteration 856 finished in 42.39160084724426s
+2023-09-04 13:28:23,872 INFO     Training iteration 857
+2023-09-04 13:29:06,259 INFO     Iteration 857 finished in 42.38619303703308s
+2023-09-04 13:29:06,265 INFO     Training iteration 858
+2023-09-04 13:29:48,638 INFO     Iteration 858 finished in 42.37273645401001s
+2023-09-04 13:29:48,644 INFO     Training iteration 859
+2023-09-04 13:30:31,042 INFO     Iteration 859 finished in 42.39690160751343s
+2023-09-04 13:30:31,048 INFO     Training iteration 860
+2023-09-04 13:31:13,407 INFO     Iteration 860 finished in 42.358362674713135s
+2023-09-04 13:31:13,424 INFO     Checkpoint after iteration 860 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000860
+2023-09-04 13:31:13,424 INFO     Training iteration 861
+2023-09-04 13:31:55,823 INFO     Iteration 861 finished in 42.39858818054199s
+2023-09-04 13:31:55,830 INFO     Training iteration 862
+2023-09-04 13:32:38,215 INFO     Iteration 862 finished in 42.3838677406311s
+2023-09-04 13:32:38,221 INFO     Training iteration 863
+2023-09-04 13:33:20,559 INFO     Iteration 863 finished in 42.33858346939087s
+2023-09-04 13:33:20,565 INFO     Training iteration 864
+2023-09-04 13:34:02,947 INFO     Iteration 864 finished in 42.38244962692261s
+2023-09-04 13:34:02,954 INFO     Training iteration 865
+2023-09-04 13:34:45,318 INFO     Iteration 865 finished in 42.363285541534424s
+2023-09-04 13:34:45,324 INFO     Training iteration 866
+2023-09-04 13:35:27,706 INFO     Iteration 866 finished in 42.38181972503662s
+2023-09-04 13:35:27,712 INFO     Training iteration 867
+2023-09-04 13:36:10,107 INFO     Iteration 867 finished in 42.393651723861694s
+2023-09-04 13:36:10,112 INFO     Training iteration 868
+2023-09-04 13:36:52,479 INFO     Iteration 868 finished in 42.36644458770752s
+2023-09-04 13:36:52,484 INFO     Training iteration 869
+2023-09-04 13:37:34,882 INFO     Iteration 869 finished in 42.39803767204285s
+2023-09-04 13:37:34,888 INFO     Training iteration 870
+2023-09-04 13:38:17,275 INFO     Iteration 870 finished in 42.38726305961609s
+2023-09-04 13:38:17,290 INFO     Checkpoint after iteration 870 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000870
+2023-09-04 13:38:17,290 INFO     Training iteration 871
+2023-09-04 13:38:59,668 INFO     Iteration 871 finished in 42.3773033618927s
+2023-09-04 13:38:59,673 INFO     Training iteration 872
+2023-09-04 13:39:42,075 INFO     Iteration 872 finished in 42.402193546295166s
+2023-09-04 13:39:42,084 INFO     Training iteration 873
+2023-09-04 13:40:24,474 INFO     Iteration 873 finished in 42.39041495323181s
+2023-09-04 13:40:24,480 INFO     Training iteration 874
+2023-09-04 13:41:06,877 INFO     Iteration 874 finished in 42.396615505218506s
+2023-09-04 13:41:06,882 INFO     Training iteration 875
+2023-09-04 13:41:49,264 INFO     Iteration 875 finished in 42.380690813064575s
+2023-09-04 13:41:49,272 INFO     Training iteration 876
+2023-09-04 13:42:31,650 INFO     Iteration 876 finished in 42.37742209434509s
+2023-09-04 13:42:31,657 INFO     Training iteration 877
+2023-09-04 13:43:14,037 INFO     Iteration 877 finished in 42.37968850135803s
+2023-09-04 13:43:14,042 INFO     Training iteration 878
+2023-09-04 13:43:56,390 INFO     Iteration 878 finished in 42.346311807632446s
+2023-09-04 13:43:56,396 INFO     Training iteration 879
+2023-09-04 13:44:38,768 INFO     Iteration 879 finished in 42.37147903442383s
+2023-09-04 13:44:38,774 INFO     Training iteration 880
+2023-09-04 13:45:21,165 INFO     Iteration 880 finished in 42.39033770561218s
+2023-09-04 13:45:21,181 INFO     Checkpoint after iteration 880 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000880
+2023-09-04 13:45:21,181 INFO     Training iteration 881
+2023-09-04 13:46:03,560 INFO     Iteration 881 finished in 42.37831091880798s
+2023-09-04 13:46:03,566 INFO     Training iteration 882
+2023-09-04 13:46:45,950 INFO     Iteration 882 finished in 42.38355803489685s
+2023-09-04 13:46:45,956 INFO     Training iteration 883
+2023-09-04 13:47:28,353 INFO     Iteration 883 finished in 42.39567971229553s
+2023-09-04 13:47:28,358 INFO     Training iteration 884
+2023-09-04 13:48:10,726 INFO     Iteration 884 finished in 42.36668300628662s
+2023-09-04 13:48:10,731 INFO     Training iteration 885
+2023-09-04 13:48:53,114 INFO     Iteration 885 finished in 42.382184743881226s
+2023-09-04 13:48:53,120 INFO     Training iteration 886
+2023-09-04 13:49:35,493 INFO     Iteration 886 finished in 42.373040437698364s
+2023-09-04 13:49:35,500 INFO     Training iteration 887
+2023-09-04 13:50:17,868 INFO     Iteration 887 finished in 42.36753797531128s
+2023-09-04 13:50:17,873 INFO     Training iteration 888
+2023-09-04 13:51:00,256 INFO     Iteration 888 finished in 42.38344049453735s
+2023-09-04 13:51:00,262 INFO     Training iteration 889
+2023-09-04 13:51:42,616 INFO     Iteration 889 finished in 42.35273003578186s
+2023-09-04 13:51:42,624 INFO     Training iteration 890
+2023-09-04 13:52:24,994 INFO     Iteration 890 finished in 42.368990659713745s
+2023-09-04 13:52:25,010 INFO     Checkpoint after iteration 890 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000890
+2023-09-04 13:52:25,010 INFO     Training iteration 891
+2023-09-04 13:53:07,392 INFO     Iteration 891 finished in 42.38182282447815s
+2023-09-04 13:53:07,398 INFO     Training iteration 892
+2023-09-04 13:53:49,772 INFO     Iteration 892 finished in 42.37368392944336s
+2023-09-04 13:53:49,778 INFO     Training iteration 893
+2023-09-04 13:54:32,143 INFO     Iteration 893 finished in 42.363823652267456s
+2023-09-04 13:54:32,149 INFO     Training iteration 894
+2023-09-04 13:55:14,528 INFO     Iteration 894 finished in 42.378084897994995s
+2023-09-04 13:55:14,533 INFO     Training iteration 895
+2023-09-04 13:55:56,908 INFO     Iteration 895 finished in 42.37403702735901s
+2023-09-04 13:55:56,915 INFO     Training iteration 896
+2023-09-04 13:56:39,305 INFO     Iteration 896 finished in 42.390503883361816s
+2023-09-04 13:56:39,313 INFO     Training iteration 897
+2023-09-04 13:57:21,677 INFO     Iteration 897 finished in 42.363317012786865s
+2023-09-04 13:57:21,683 INFO     Training iteration 898
+2023-09-04 13:58:04,088 INFO     Iteration 898 finished in 42.40497803688049s
+2023-09-04 13:58:04,093 INFO     Training iteration 899
+2023-09-04 13:58:46,481 INFO     Iteration 899 finished in 42.38820457458496s
+2023-09-04 13:58:46,487 INFO     Training iteration 900
+2023-09-04 13:59:28,859 INFO     Iteration 900 finished in 42.371663093566895s
+2023-09-04 13:59:28,876 INFO     Checkpoint after iteration 900 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000900
+2023-09-04 13:59:28,876 INFO     Training iteration 901
+2023-09-04 14:00:11,376 INFO     Iteration 901 finished in 42.499807834625244s
+2023-09-04 14:00:11,384 INFO     Training iteration 902
+2023-09-04 14:00:53,742 INFO     Iteration 902 finished in 42.357035636901855s
+2023-09-04 14:00:53,747 INFO     Training iteration 903
+2023-09-04 14:01:36,105 INFO     Iteration 903 finished in 42.35757899284363s
+2023-09-04 14:01:36,111 INFO     Training iteration 904
+2023-09-04 14:02:18,480 INFO     Iteration 904 finished in 42.36903238296509s
+2023-09-04 14:02:18,487 INFO     Training iteration 905
+2023-09-04 14:03:00,863 INFO     Iteration 905 finished in 42.374680519104004s
+2023-09-04 14:03:00,868 INFO     Training iteration 906
+2023-09-04 14:03:43,246 INFO     Iteration 906 finished in 42.37816786766052s
+2023-09-04 14:03:43,252 INFO     Training iteration 907
+2023-09-04 14:04:25,633 INFO     Iteration 907 finished in 42.380393981933594s
+2023-09-04 14:04:25,638 INFO     Training iteration 908
+2023-09-04 14:05:08,000 INFO     Iteration 908 finished in 42.36146593093872s
+2023-09-04 14:05:08,005 INFO     Training iteration 909
+2023-09-04 14:05:50,391 INFO     Iteration 909 finished in 42.384363651275635s
+2023-09-04 14:05:50,397 INFO     Training iteration 910
+2023-09-04 14:06:32,757 INFO     Iteration 910 finished in 42.35851287841797s
+2023-09-04 14:06:32,778 INFO     Checkpoint after iteration 910 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000910
+2023-09-04 14:06:32,778 INFO     Training iteration 911
+2023-09-04 14:07:15,166 INFO     Iteration 911 finished in 42.38761043548584s
+2023-09-04 14:07:15,172 INFO     Training iteration 912
+2023-09-04 14:07:57,542 INFO     Iteration 912 finished in 42.36948490142822s
+2023-09-04 14:07:57,549 INFO     Training iteration 913
+2023-09-04 14:08:39,963 INFO     Iteration 913 finished in 42.4140510559082s
+2023-09-04 14:08:39,969 INFO     Training iteration 914
+2023-09-04 14:09:22,340 INFO     Iteration 914 finished in 42.371010065078735s
+2023-09-04 14:09:22,346 INFO     Training iteration 915
+2023-09-04 14:10:04,732 INFO     Iteration 915 finished in 42.385661363601685s
+2023-09-04 14:10:04,738 INFO     Training iteration 916
+2023-09-04 14:10:47,109 INFO     Iteration 916 finished in 42.37039875984192s
+2023-09-04 14:10:47,115 INFO     Training iteration 917
+2023-09-04 14:11:29,518 INFO     Iteration 917 finished in 42.40191960334778s
+2023-09-04 14:11:29,524 INFO     Training iteration 918
+2023-09-04 14:12:11,901 INFO     Iteration 918 finished in 42.376187801361084s
+2023-09-04 14:12:11,932 INFO     Training iteration 919
+2023-09-04 14:12:54,322 INFO     Iteration 919 finished in 42.388612270355225s
+2023-09-04 14:12:54,327 INFO     Training iteration 920
+2023-09-04 14:13:36,705 INFO     Iteration 920 finished in 42.37709188461304s
+2023-09-04 14:13:36,721 INFO     Checkpoint after iteration 920 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000920
+2023-09-04 14:13:36,721 INFO     Training iteration 921
+2023-09-04 14:14:19,107 INFO     Iteration 921 finished in 42.38625907897949s
+2023-09-04 14:14:19,112 INFO     Training iteration 922
+2023-09-04 14:15:01,520 INFO     Iteration 922 finished in 42.40801191329956s
+2023-09-04 14:15:01,526 INFO     Training iteration 923
+2023-09-04 14:15:43,869 INFO     Iteration 923 finished in 42.3410804271698s
+2023-09-04 14:15:43,876 INFO     Training iteration 924
+2023-09-04 14:16:26,250 INFO     Iteration 924 finished in 42.373199224472046s
+2023-09-04 14:16:26,256 INFO     Training iteration 925
+2023-09-04 14:17:08,635 INFO     Iteration 925 finished in 42.378199338912964s
+2023-09-04 14:17:08,641 INFO     Training iteration 926
+2023-09-04 14:17:51,009 INFO     Iteration 926 finished in 42.36735963821411s
+2023-09-04 14:17:51,015 INFO     Training iteration 927
+2023-09-04 14:18:33,387 INFO     Iteration 927 finished in 42.37185740470886s
+2023-09-04 14:18:33,394 INFO     Training iteration 928
+2023-09-04 14:19:15,758 INFO     Iteration 928 finished in 42.36330509185791s
+2023-09-04 14:19:15,764 INFO     Training iteration 929
+2023-09-04 14:19:58,147 INFO     Iteration 929 finished in 42.38178753852844s
+2023-09-04 14:19:58,156 INFO     Training iteration 930
+2023-09-04 14:20:40,533 INFO     Iteration 930 finished in 42.377543926239014s
+2023-09-04 14:20:40,549 INFO     Checkpoint after iteration 930 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000930
+2023-09-04 14:20:40,549 INFO     Training iteration 931
+2023-09-04 14:21:22,921 INFO     Iteration 931 finished in 42.37133765220642s
+2023-09-04 14:21:22,926 INFO     Training iteration 932
+2023-09-04 14:22:05,279 INFO     Iteration 932 finished in 42.35302543640137s
+2023-09-04 14:22:05,286 INFO     Training iteration 933
+2023-09-04 14:22:47,676 INFO     Iteration 933 finished in 42.38967561721802s
+2023-09-04 14:22:47,681 INFO     Training iteration 934
+2023-09-04 14:23:30,052 INFO     Iteration 934 finished in 42.36865162849426s
+2023-09-04 14:23:30,058 INFO     Training iteration 935
+2023-09-04 14:24:12,442 INFO     Iteration 935 finished in 42.38475775718689s
+2023-09-04 14:24:12,449 INFO     Training iteration 936
+2023-09-04 14:24:54,892 INFO     Iteration 936 finished in 42.44311857223511s
+2023-09-04 14:24:54,898 INFO     Training iteration 937
+2023-09-04 14:25:37,332 INFO     Iteration 937 finished in 42.43311667442322s
+2023-09-04 14:25:37,337 INFO     Training iteration 938
+2023-09-04 14:26:19,741 INFO     Iteration 938 finished in 42.4035325050354s
+2023-09-04 14:26:19,746 INFO     Training iteration 939
+2023-09-04 14:27:02,185 INFO     Iteration 939 finished in 42.439268350601196s
+2023-09-04 14:27:02,193 INFO     Training iteration 940
+2023-09-04 14:27:44,592 INFO     Iteration 940 finished in 42.39869451522827s
+2023-09-04 14:27:44,607 INFO     Checkpoint after iteration 940 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000940
+2023-09-04 14:27:44,607 INFO     Training iteration 941
+2023-09-04 14:28:26,975 INFO     Iteration 941 finished in 42.367127418518066s
+2023-09-04 14:28:26,981 INFO     Training iteration 942
+2023-09-04 14:29:09,373 INFO     Iteration 942 finished in 42.392547607421875s
+2023-09-04 14:29:09,379 INFO     Training iteration 943
+2023-09-04 14:29:51,734 INFO     Iteration 943 finished in 42.353235960006714s
+2023-09-04 14:29:51,739 INFO     Training iteration 944
+2023-09-04 14:30:34,124 INFO     Iteration 944 finished in 42.3842408657074s
+2023-09-04 14:30:34,131 INFO     Training iteration 945
+2023-09-04 14:31:16,514 INFO     Iteration 945 finished in 42.3817777633667s
+2023-09-04 14:31:16,520 INFO     Training iteration 946
+2023-09-04 14:31:58,885 INFO     Iteration 946 finished in 42.36359000205994s
+2023-09-04 14:31:58,891 INFO     Training iteration 947
+2023-09-04 14:32:41,266 INFO     Iteration 947 finished in 42.374417543411255s
+2023-09-04 14:32:41,272 INFO     Training iteration 948
+2023-09-04 14:33:23,641 INFO     Iteration 948 finished in 42.36865425109863s
+2023-09-04 14:33:23,646 INFO     Training iteration 949
+2023-09-04 14:34:06,039 INFO     Iteration 949 finished in 42.39206862449646s
+2023-09-04 14:34:06,047 INFO     Training iteration 950
+2023-09-04 14:34:48,437 INFO     Iteration 950 finished in 42.389875173568726s
+2023-09-04 14:34:48,453 INFO     Checkpoint after iteration 950 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000950
+2023-09-04 14:34:48,453 INFO     Training iteration 951
+2023-09-04 14:35:30,825 INFO     Iteration 951 finished in 42.372382402420044s
+2023-09-04 14:35:30,832 INFO     Training iteration 952
+2023-09-04 14:36:13,215 INFO     Iteration 952 finished in 42.38377928733826s
+2023-09-04 14:36:13,222 INFO     Training iteration 953
+2023-09-04 14:36:55,551 INFO     Iteration 953 finished in 42.329365253448486s
+2023-09-04 14:36:55,556 INFO     Training iteration 954
+2023-09-04 14:37:37,935 INFO     Iteration 954 finished in 42.377585887908936s
+2023-09-04 14:37:37,940 INFO     Training iteration 955
+2023-09-04 14:38:20,321 INFO     Iteration 955 finished in 42.38036012649536s
+2023-09-04 14:38:20,327 INFO     Training iteration 956
+2023-09-04 14:39:02,678 INFO     Iteration 956 finished in 42.35034513473511s
+2023-09-04 14:39:02,683 INFO     Training iteration 957
+2023-09-04 14:39:45,079 INFO     Iteration 957 finished in 42.39655923843384s
+2023-09-04 14:39:45,085 INFO     Training iteration 958
+2023-09-04 14:40:27,505 INFO     Iteration 958 finished in 42.41961073875427s
+2023-09-04 14:40:27,513 INFO     Training iteration 959
+2023-09-04 14:41:09,933 INFO     Iteration 959 finished in 42.41926312446594s
+2023-09-04 14:41:09,939 INFO     Training iteration 960
+2023-09-04 14:41:52,369 INFO     Iteration 960 finished in 42.429789781570435s
+2023-09-04 14:41:52,384 INFO     Checkpoint after iteration 960 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000960
+2023-09-04 14:41:52,384 INFO     Training iteration 961
+2023-09-04 14:42:34,808 INFO     Iteration 961 finished in 42.42383909225464s
+2023-09-04 14:42:34,816 INFO     Training iteration 962
+2023-09-04 14:43:17,238 INFO     Iteration 962 finished in 42.42194175720215s
+2023-09-04 14:43:17,244 INFO     Training iteration 963
+2023-09-04 14:43:59,670 INFO     Iteration 963 finished in 42.42668271064758s
+2023-09-04 14:43:59,677 INFO     Training iteration 964
+2023-09-04 14:44:42,098 INFO     Iteration 964 finished in 42.420992612838745s
+2023-09-04 14:44:42,104 INFO     Training iteration 965
+2023-09-04 14:45:24,491 INFO     Iteration 965 finished in 42.38566613197327s
+2023-09-04 14:45:24,504 INFO     Training iteration 966
+2023-09-04 14:46:06,905 INFO     Iteration 966 finished in 42.39960336685181s
+2023-09-04 14:46:06,911 INFO     Training iteration 967
+2023-09-04 14:46:49,291 INFO     Iteration 967 finished in 42.37892460823059s
+2023-09-04 14:46:49,296 INFO     Training iteration 968
+2023-09-04 14:47:31,636 INFO     Iteration 968 finished in 42.33912134170532s
+2023-09-04 14:47:31,647 INFO     Training iteration 969
+2023-09-04 14:48:14,025 INFO     Iteration 969 finished in 42.376988649368286s
+2023-09-04 14:48:14,031 INFO     Training iteration 970
+2023-09-04 14:48:56,404 INFO     Iteration 970 finished in 42.373445987701416s
+2023-09-04 14:48:56,419 INFO     Checkpoint after iteration 970 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000970
+2023-09-04 14:48:56,419 INFO     Training iteration 971
+2023-09-04 14:49:38,784 INFO     Iteration 971 finished in 42.364503383636475s
+2023-09-04 14:49:38,790 INFO     Training iteration 972
+2023-09-04 14:50:21,163 INFO     Iteration 972 finished in 42.37225842475891s
+2023-09-04 14:50:21,169 INFO     Training iteration 973
+2023-09-04 14:51:03,544 INFO     Iteration 973 finished in 42.37493014335632s
+2023-09-04 14:51:03,551 INFO     Training iteration 974
+2023-09-04 14:51:45,927 INFO     Iteration 974 finished in 42.37567901611328s
+2023-09-04 14:51:45,933 INFO     Training iteration 975
+2023-09-04 14:52:28,322 INFO     Iteration 975 finished in 42.38805890083313s
+2023-09-04 14:52:28,327 INFO     Training iteration 976
+2023-09-04 14:53:10,694 INFO     Iteration 976 finished in 42.36539816856384s
+2023-09-04 14:53:10,700 INFO     Training iteration 977
+2023-09-04 14:53:53,061 INFO     Iteration 977 finished in 42.36023736000061s
+2023-09-04 14:53:53,066 INFO     Training iteration 978
+2023-09-04 14:54:35,453 INFO     Iteration 978 finished in 42.38538599014282s
+2023-09-04 14:54:35,460 INFO     Training iteration 979
+2023-09-04 14:55:17,823 INFO     Iteration 979 finished in 42.36275839805603s
+2023-09-04 14:55:17,828 INFO     Training iteration 980
+2023-09-04 14:56:00,206 INFO     Iteration 980 finished in 42.37572383880615s
+2023-09-04 14:56:00,221 INFO     Checkpoint after iteration 980 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000980
+2023-09-04 14:56:00,222 INFO     Training iteration 981
+2023-09-04 14:56:42,607 INFO     Iteration 981 finished in 42.38515114784241s
+2023-09-04 14:56:42,613 INFO     Training iteration 982
+2023-09-04 14:57:24,977 INFO     Iteration 982 finished in 42.363829135894775s
+2023-09-04 14:57:24,983 INFO     Training iteration 983
+2023-09-04 14:58:07,335 INFO     Iteration 983 finished in 42.35063362121582s
+2023-09-04 14:58:07,342 INFO     Training iteration 984
+2023-09-04 14:58:49,807 INFO     Iteration 984 finished in 42.46417713165283s
+2023-09-04 14:58:49,813 INFO     Training iteration 985
+2023-09-04 14:59:32,227 INFO     Iteration 985 finished in 42.413920879364014s
+2023-09-04 14:59:32,233 INFO     Training iteration 986
+2023-09-04 15:00:14,655 INFO     Iteration 986 finished in 42.42179203033447s
+2023-09-04 15:00:14,661 INFO     Training iteration 987
+2023-09-04 15:00:57,024 INFO     Iteration 987 finished in 42.361576080322266s
+2023-09-04 15:00:57,029 INFO     Training iteration 988
+2023-09-04 15:01:39,402 INFO     Iteration 988 finished in 42.37296199798584s
+2023-09-04 15:01:39,409 INFO     Training iteration 989
+2023-09-04 15:02:21,780 INFO     Iteration 989 finished in 42.370633602142334s
+2023-09-04 15:02:21,786 INFO     Training iteration 990
+2023-09-04 15:03:04,140 INFO     Iteration 990 finished in 42.35275340080261s
+2023-09-04 15:03:04,155 INFO     Checkpoint after iteration 990 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_000990
+2023-09-04 15:03:04,155 INFO     Training iteration 991
+2023-09-04 15:03:46,545 INFO     Iteration 991 finished in 42.39068126678467s
+2023-09-04 15:03:46,556 INFO     Training iteration 992
+2023-09-04 15:04:28,936 INFO     Iteration 992 finished in 42.37931561470032s
+2023-09-04 15:04:28,941 INFO     Training iteration 993
+2023-09-04 15:05:11,317 INFO     Iteration 993 finished in 42.37590193748474s
+2023-09-04 15:05:11,323 INFO     Training iteration 994
+2023-09-04 15:05:53,711 INFO     Iteration 994 finished in 42.38745856285095s
+2023-09-04 15:05:53,716 INFO     Training iteration 995
+2023-09-04 15:06:36,087 INFO     Iteration 995 finished in 42.37079119682312s
+2023-09-04 15:06:36,094 INFO     Training iteration 996
+2023-09-04 15:07:18,463 INFO     Iteration 996 finished in 42.36768364906311s
+2023-09-04 15:07:18,468 INFO     Training iteration 997
+2023-09-04 15:08:00,832 INFO     Iteration 997 finished in 42.36256670951843s
+2023-09-04 15:08:00,840 INFO     Training iteration 998
+2023-09-04 15:08:43,189 INFO     Iteration 998 finished in 42.348448753356934s
+2023-09-04 15:08:43,195 INFO     Training iteration 999
+2023-09-04 15:09:25,581 INFO     Iteration 999 finished in 42.38424277305603s
+2023-09-04 15:09:25,586 INFO     Training iteration 1000
+2023-09-04 15:10:07,976 INFO     Iteration 1000 finished in 42.38943672180176s
+2023-09-04 15:10:07,991 INFO     Checkpoint after iteration 1000 saved in directory C:\Users\sky/ray_results\PPO_SoccerTwosRR-SA_2023-09-04_03-22-08255xhcif\checkpoint_001000
+2023-09-04 15:10:07,992 INFO     Shutting down ray

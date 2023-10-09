@@ -1,4 +1,4 @@
-import json, random, ray, time, wandb, sys, logging, tensorflow as tf
+import json, random, ray, time, wandb, sys, logging
 from ray.rllib.algorithms.ppo import PPO as PPOTrainer
 from ray.rllib.policy.policy import Policy
 from ray import tune
@@ -6,18 +6,19 @@ from datetime import datetime
 from src.utils.unity3d_env_wrapper import Unity3DEnv
 from src.utils.custom_side_channel import CustomSideChannel
 from definitions import ROOT_DIR
+import tensorflow as tf
 
-logging.basicConfig(level=logging.DEBUG, filename=datetime.now().strftime(__file__ + "_%d_%m_%Y_%H_%M_%S.log"), filemode="w+", format="%(asctime)-15s %(levelname)-8s %(message)s")
-
+tf.compat.v1.disable_eager_execution()
 curr_os = sys.argv[1]
 algo_config = sys.argv[2]
 asset_name = sys.argv[3]
-# stage 0 = non-CL run, default
-stage_of_run = int(sys.argv[4]) if len(sys.argv) > 4 else 0
+stage_of_run = int(sys.argv[4])
 checkpoint_path = sys.argv[5] if stage_of_run > 1 else ""
 
+logging.basicConfig(level=logging.DEBUG, filename=datetime.now().strftime(__file__ + "_stage" + str(stage_of_run) + "_%d_%m_%Y_%H_%M_%S.log"), filemode="w+", format="%(asctime)-15s %(levelname)-8s %(message)s")
+
 asset_file_name = str(ROOT_DIR) + "/src/assets/" + asset_name + "/UnityEnvironment.exe"
-NO_GRAPHICS_MODE = False
+NO_GRAPHICS_MODE = True
 if curr_os == 'linux':
     asset_file_name = str(ROOT_DIR) + "/src/assets/" + asset_name + "-linux/UnityEnvironment.x86_64"
     gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
@@ -26,7 +27,7 @@ if curr_os == 'linux':
     NO_GRAPHICS_MODE = True
 
 logging.info("Building assets from: " + asset_name)
-#wandb.init(project="ufcm3")
+wandb.init(project="tfm-cm3")
 
 random_filename_appender = random.randint(100000, 999999)
 stats_filename = "ppo_stage" + str(stage_of_run) + "_" + str(random_filename_appender)
@@ -37,8 +38,7 @@ config_file = open(str(ROOT_DIR) + "/src/configs/" + algo_config + ".json")
 run_config = json.load(config_file)
 config_file.close()
 
-# og 2v2 version without random roles, i.e. without goals as an input to policy network
-env_name = "SoccerTwos"
+env_name = ""
 if stage_of_run == 1:
     # RR = with random roles added as goals to policy network, SA = single agent version
     env_name = "SoccerTwosRR-SA"
@@ -64,7 +64,7 @@ config = {
                 "episode_horizon": 3000,
     },
     "disable_env_checking": True,
-    "framework": "tf2",
+    "framework": "tf",
     "model": {
         "fcnet_hiddens": run_config['fcnet_hiddens']
     },
@@ -82,6 +82,8 @@ config = {
     "num_cpus_per_worker": int(run_config['num_cpus_per_worker'])
 }
 
+# below only for running in GCP instances
+# ray.init(num_cpus=1)
 trainer = PPOTrainer(config=config)
 
 if stage_of_run > 1:
@@ -89,6 +91,9 @@ if stage_of_run > 1:
     logging.info("Updating BluePlayer policy weights from path: " + checkpoint_path)
     pre_trained_policy = Policy.from_checkpoint(checkpoint_path)
     trainer.set_weights({"BluePlayer": pre_trained_policy.get_weights()})
+    local_weights = trainer.workers.local_worker().get_weights()
+    trainer.workers.foreach_worker(lambda worker: worker.set_weights(local_weights))
+    logging.info("Weights updated for all workers")
 
 iter = 0
 
@@ -112,16 +117,16 @@ while iter < int(run_config['run_iter_count']):
                          + (str(result['policy_reward_mean']['BluePlayer']) if result['policy_reward_min'] else "")
                          + "\n")
         stats_file.close()
-    # wandb.log({"episode_reward_mean": result['episode_reward_mean'],
-    #            "episode_reward_max": result['episode_reward_max'],
-    #            "episode_reward_min": result['episode_reward_min'],
-    #            "policy_loss_blue": result['info']['learner']['BluePlayer']['learner_stats']['policy_loss'],
-    #            "policy_entropy_blue": result['info']['learner']['BluePlayer']['learner_stats']['entropy'],
-    #            "vf_loss_blue": result['info']['learner']['BluePlayer']['learner_stats']['vf_loss'],
-    #            "policy_reward_min_blue": result['policy_reward_min']['BluePlayer'] if result['policy_reward_min'] else None,
-    #            "policy_reward_max_blue": result['policy_reward_max']['BluePlayer'] if result['policy_reward_min'] else None,
-    #            "policy_reward_mean_blue": result['policy_reward_mean']['BluePlayer'] if result['policy_reward_min'] else None
-    #            })
+    wandb.log({"episode_reward_mean": result['episode_reward_mean'],
+               "episode_reward_max": result['episode_reward_max'],
+               "episode_reward_min": result['episode_reward_min'],
+               "policy_loss_blue": result['info']['learner']['BluePlayer']['learner_stats']['policy_loss'],
+               "policy_entropy_blue": result['info']['learner']['BluePlayer']['learner_stats']['entropy'],
+               "vf_loss_blue": result['info']['learner']['BluePlayer']['learner_stats']['vf_loss'],
+               "policy_reward_min_blue": result['policy_reward_min']['BluePlayer'] if result['policy_reward_min'] else None,
+               "policy_reward_max_blue": result['policy_reward_max']['BluePlayer'] if result['policy_reward_min'] else None,
+               "policy_reward_mean_blue": result['policy_reward_mean']['BluePlayer'] if result['policy_reward_min'] else None
+               })
     if iter % 10 == 0:
         checkpoint_dir = trainer.save()
         logging.info('Checkpoint after iteration ' + str(iter) + ' saved in directory ' + str(checkpoint_dir))
